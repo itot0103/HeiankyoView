@@ -1,0 +1,202 @@
+package org.heiankyoview2.datagen.csv2tree;
+
+import org.heiankyoview2.core.tree.Tree;
+import org.heiankyoview2.core.tree.Node;
+import org.heiankyoview2.core.table.TreeTable;
+import org.heiankyoview2.core.table.NodeTablePointer;
+import org.heiankyoview2.core.table.Table;
+import org.heiankyoview2.core.fileio.TreeFileWriter;
+
+import java.io.*;
+import java.util.*;
+
+/**
+ * CSVファイルを読み込んでTreeを構築する
+ * @author itot
+ */
+public class CsvFileReader2 {
+
+	Csv2Tree c2n = null;
+	static final int TABLE_STRING = 1;
+	static final int TABLE_DOUBLE = 2;
+	int MAX_TABLESIZE = 10000;
+	int numValues[] = null;
+	int counter = 0;
+
+	/**
+	 * Constructor
+	 * @param c2n Csv2Tree
+	 */
+	public CsvFileReader2(Csv2Tree c2n) {
+		this.c2n = c2n;
+		numValues = new int[c2n.getNumAttributes()];
+	}
+
+	/**
+	 * 値を指定して、その値が格納されているTable中の位置を返す
+	 * @param table Table
+	 * @param size Tableのサイズ
+	 * @param value 値
+	 * @return 値が格納されているTable中の位置を表すID
+	 */
+	int getAttributeId(Table table, int size, double value) {
+		for (int i = 1; i <= size; i++) {
+			double v = table.getDouble(i);
+			if (Math.abs(v - value) < -1)
+				return i;
+		}
+		double newv[] = new double[1];
+		newv[0] = value;
+		table.set(++size, newv);
+		return size;
+	}
+
+	/**
+	 * Nodeを1個追加する
+	 * @param tree
+	 * @param values
+	 */
+	public void addOneNode(Tree tree, double values[]) {
+		Node node1;
+		TreeTable tg = (TreeTable) tree.getAttribute();
+		Table table;
+
+		//
+		// Allocate the node
+		//
+		node1 = new Node();
+		NodeTablePointer tn1 = new NodeTablePointer();
+		node1.setAttribute(tn1);
+		tree.addNode(node1);
+		node1.setId(tree.getNumNode());
+		tn1.setNumId(c2n.getNumAttributes() + 1);
+		tn1.setId(1, ++counter);
+
+		table = tg.getTable(1);
+		table.set(counter, "node" + Integer.toString(counter));
+		
+		//
+		// Record the data into tables
+		//
+		for (int i = 0; i < c2n.getNumAttributes(); i++) {
+			int valueId;
+
+			table = tg.getTable(i + 2);
+			valueId = getAttributeId(table, numValues[i], values[i]);
+			if (numValues[i] < valueId)
+				numValues[i] = valueId;
+
+			tn1.setId((i + 2), valueId);
+		}
+	}
+
+	/**
+	 * Tableを初期化する
+	 * @param tree Tree
+	 */
+	public void initializeTable(Tree tree) {
+		Table table;
+		TreeTable tg = (TreeTable) tree.getAttribute();
+
+		//
+		// Allocate tables
+		// 
+		tg.setNumTable(c2n.getNumAttributes() + 1);
+
+		table = new Table();
+		tg.setTable(1, table);
+		table.setName("table 1");
+		table.setType(TABLE_STRING);
+		table.setSize(MAX_TABLESIZE);
+
+		for (int i = 1; i <= c2n.getNumAttributes(); i++) {
+			table = new Table();
+			tg.setTable(i + 1, table);
+			table.setName("table " + Integer.toString(i + 1));
+			table.setType(TABLE_DOUBLE);
+			table.setSize(MAX_TABLESIZE);
+		}
+
+	}
+
+	/**
+	 * CSVファイルを開く
+	 * @param csvFilename 入力CSVファイル名
+	 * @return 生成されたTree
+	 */
+	public Tree csvFileOpen(String csvFilename) {
+		File csvFile = new File(csvFilename);
+		BufferedReader reader;
+		double values[] = new double[c2n.getNumAttributes()];
+
+		//
+		// Allocate a tree
+		//
+		Tree tree = new Tree();
+		tree.setAttributeType(tree.ATTRIBUTE_TABLE);
+		TreeTable tg = new TreeTable(tree);
+		tree.setAttribute(tg);
+
+		// Initialize table data structure
+		initializeTable(tree);
+
+		// Open file 
+		try {
+			reader = new BufferedReader(new FileReader(csvFile));
+		} catch (FileNotFoundException e) {
+			System.err.println(e);
+			return tree;
+		}
+
+		// Read file to construct data
+		try {
+			reader.ready();
+			while (true) {
+				String line = reader.readLine();
+				if (line == null || line.length() <= 0)
+					break;
+				StringTokenizer tokenBuffer = new StringTokenizer(line, ",");
+
+				// for each attribute
+				for (int i = 0; i < c2n.getNumAttributes(); i++) {
+					String v = tokenBuffer.nextToken();
+					values[i] = Double.parseDouble(v);
+				}
+
+				addOneNode(tree, values);
+			}
+			reader.close();
+
+		} catch (IOException e) {
+			System.err.println(e);
+			return tree;
+		}
+
+		// set sizes of tables again
+		Table table;
+		for (int i = 0; i < c2n.getNumAttributes(); i++) {
+			table = tg.getTable(i + 1);
+			table.setSize(numValues[i]);
+		}
+
+		return tree;
+	}
+
+	/**
+	 * main関数
+	 * @param args 引数
+	 */
+	public static void main(String[] args) {
+		Csv2Tree csv2tree = new Csv2Tree();
+		CsvFileReader2 fcfile = new CsvFileReader2(csv2tree);
+
+		String csvFilename = args[0];
+		String netFilename = args[1];
+
+		Tree tree = fcfile.csvFileOpen(csvFilename);
+		csv2tree.formHierarchy(tree);
+
+		TreeFileWriter netOutput = new TreeFileWriter(new File(netFilename), tree);
+		netOutput.writeData();
+	}
+}

@@ -1,0 +1,141 @@
+package org.heiankyoview2.datagen.csv2tree;
+
+import org.heiankyoview2.core.tree.Tree;
+import org.heiankyoview2.core.tree.Node;
+import org.heiankyoview2.core.table.TreeTable;
+import org.heiankyoview2.core.table.NodeTablePointer;
+import org.heiankyoview2.core.table.Table;
+
+
+/**
+ * CSVファイルと同等のデータをAPI入力し、Treeを構築する
+ * @author itot
+ */
+public class CsvMethodsReader {
+
+	Tree tree = null;
+	TreeTable tg;
+	Csv2Tree c2n = null;
+	int TABLE_DOUBLE = 2;
+	int MAX_TABLESIZE = 10000;
+	int numValues[] = null;
+
+	/**
+	 * Constructor
+	 * @param c2n Csv2Tree
+	 */
+	public CsvMethodsReader(Csv2Tree c2n) {
+		this.c2n = c2n;
+		numValues = new int[c2n.getNumAttributes()];
+	}
+
+	/**
+	 * 値を指定して、その値が格納されているTable中の位置を返す
+	 * @param table Table
+	 * @param size Tableのサイズ
+	 * @param value 値
+	 * @return 値が格納されているTable中の位置を表すID
+	 */
+	int getAttributeId(Table table, int size, double value) {
+		for (int i = 1; i <= size; i++) {
+			double v = table.getDouble(i);
+			if (Math.abs(v - value) < 0.0001)
+				return i;
+		}
+		double newv[] = new double[1];
+		newv[0] = value;
+		table.set(++size, newv);
+		return size;
+	}
+
+
+	/**
+	 * CSVファイル1行に相当するデータを追加する
+	 * @param values CSVファイル1行に相当するデータの配列
+	 */
+	public void addOneLine(double values[]) {
+		Node node1;
+
+		//
+		// Allocate the node
+		//
+		node1 = new Node();
+		NodeTablePointer tn1 = new NodeTablePointer();
+		node1.setAttribute(tn1);
+		node1.setId(tree.getNumNode());
+		tree.addNode(node1);
+		tn1.setNumId(c2n.getNumAttributes());
+
+		//
+		// Record the data into tables
+		//
+		for (int i = 0; i < c2n.getNumAttributes(); i++) {
+			Table table;
+			int valueId;
+
+			table = tg.getTable(i + 1);
+			valueId = getAttributeId(table, numValues[i], values[i]);
+			if (numValues[i] < valueId)
+				numValues[i] = valueId;
+
+			tn1.setId((i + 1), valueId);
+		}
+	}
+
+	/**
+	 * Tableを初期化する
+	 * @param tree Tree
+	 */
+	public void initializeTable(Tree tree) {
+		Table table;
+
+		//
+		// Allocate tables
+		// 
+		tg.setNumTable(c2n.getNumAttributes());
+
+		for (int i = 1; i <= c2n.getNumAttributes(); i++) {
+			table = new Table();
+			tg.setTable(i, table);
+			table.setName("");
+			table.setType(TABLE_DOUBLE);
+			table.setSize(MAX_TABLESIZE);
+		}
+
+	}
+
+	/**
+	 * データ入力を開始する
+	 */
+	public void csvInputStart() {
+
+		//
+		// Allocate a tree
+		//
+		Tree tree = new Tree();
+		tree.setAttributeType(tree.ATTRIBUTE_TABLE);
+		tg = new TreeTable(tree);
+		tree.setAttribute(tg);
+
+		// Initialize table data structure
+		initializeTable(tree);
+	}
+
+
+	/**
+	 * データ入力を終了する
+	 * @return 生成されたTree
+	 */
+	public Tree csvInputFinish() {
+
+		// set sizes of tables again
+		Table table;
+		for (int i = 0; i < c2n.getNumAttributes(); i++) {
+			table = tg.getTable(i + 1);
+			table.setSize(numValues[i]);
+		}
+
+		return tree;
+	}
+
+}

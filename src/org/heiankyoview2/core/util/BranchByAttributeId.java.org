@@ -1,0 +1,289 @@
+package org.heiankyoview2.core.util;
+
+import java.util.*;
+import org.heiankyoview2.core.tree.Tree;
+import org.heiankyoview2.core.tree.Branch;
+import org.heiankyoview2.core.tree.Node;
+import org.heiankyoview2.core.table.TreeTable;
+
+
+/**
+ * Tableに書かれた属性を参照してNodeをグループに分類する
+ * @author itot
+ */
+public class BranchByAttributeId {
+	Tree tree;
+	TreeTable tg;
+
+	/**
+	 * Constructor
+	 * @param tree Tree
+	 */
+	public BranchByAttributeId(Tree tree) {
+		this.tree = tree;
+		tg = (TreeTable) tree.getAttribute();
+	}
+
+	/**
+	 * 1個の親Branchに属するNodeを複数の子Branchに分類する
+	 * @param parentBranch 親Branch
+	 * @param branchType 参照するTableのID
+	 */
+	public void divideOneBranch(Branch parentBranch, int branchType) {
+
+		int attId, i, j;
+		Vector newBranchList = new Vector();
+		Vector parentNodeList, childNodeList;
+		Branch childBranch;
+		Node node;
+
+		IdComparator ic = new IdComparator();
+		TreeMap treeMap = new TreeMap(ic);
+		Integer AttId;
+
+		//
+		// for each node in parentBranch
+		//
+		parentNodeList = parentBranch.getNodeList();
+		for (i = 1; i <= parentNodeList.size(); i++) {
+			node = parentBranch.getNodeAt(i);
+			if (node.getChildBranch() != null)
+				continue;
+			attId = tg.getNodeAttributeId(node, branchType);
+			AttId = new Integer(attId);
+			childBranch = (Branch) treeMap.get((Object) AttId);
+
+			//
+			// if the branch for the current node
+			//    has been already inserted to treeMap
+			//
+			if (childBranch != null) {
+				childBranch.addOneNode(node);
+				childNodeList = childBranch.getNodeList();
+				node.setId(childNodeList.size());
+				parentBranch.deleteOneNode(node);
+				node.setCurrentBranch(childBranch);
+				i--;
+			}
+
+			//
+			// allocate a new branch
+			//
+			else {
+				childBranch = tree.getOneNewBranch();
+				newBranchList.add((Object) childBranch);
+				childBranch.addOneNode(node);
+				childNodeList = childBranch.getNodeList();
+				node.setId(childNodeList.size());
+				parentBranch.deleteOneNode(node);
+				node.setCurrentBranch(childBranch);
+				i--;
+
+				String name = tg.getNodeAttributeName(node, branchType);
+				childBranch.setName(name);
+
+				AttId = new Integer(attId);
+				treeMap.put((Object) AttId, (Object) childBranch);
+			}
+		}
+
+		//
+		// Attach new branches into parentBranch
+		//
+		for (i = 0; i < newBranchList.size(); i++) {
+			childBranch = (Branch) newBranchList.elementAt(i);
+			node = parentBranch.getOneNewNode();
+			childBranch.setLevel(parentBranch.getLevel() + 1);
+			node.setChildBranch(childBranch);
+			childBranch.setParentNode(node);
+		}
+
+		//
+		// Sort branches
+		//
+		sortChildBranches(parentBranch, branchType);
+
+	}
+
+	/**
+	 * 子Branchへの分類の後処理として、子Branchをソートする
+	 * @param parentBranch 親Branch
+	 * @param branchType 参照するTableのID
+	 */
+	void sortChildBranches(Branch parentBranch, int branchType) {
+
+		int sortType = -1;
+		int i;
+
+		Branch branch;
+		Node node;
+
+		sortType = 1;
+
+		//
+		// Re-define IDs of branches (for sorting)
+		//
+		for (i = 0; i < tree.getBranchList().size(); i++) {
+			branch = (Branch) tree.getBranchList().elementAt(i);
+			branch.setId(i);
+		}
+
+		//
+		// Sort branches
+		//
+		BranchComparator grpCptr = new BranchComparator();
+		grpCptr.setSortType(sortType);
+		grpCptr.setBranchType(branchType);
+		TreeSet treeSet = new TreeSet((Comparator) grpCptr);
+
+		int numBranch = parentBranch.getNodeList().size();
+		for (i = 1; i <= numBranch; i++) {
+			node = parentBranch.getNodeAt(i);
+			branch = node.getChildBranch();
+			treeSet.add((Object) branch);
+		}
+
+		//
+		// Re-insert child branches in the sorted order
+		//
+		for (i = 0; i < numBranch; i++) {
+			parentBranch.getNodeList().remove(0);
+		}
+		for (i = 0; i < numBranch; i++) {
+			Object obj = treeSet.first();
+			treeSet.remove(obj);
+
+			branch = (Branch) obj;
+			node = branch.getParentNode();
+			parentBranch.getNodeList().insertElementAt((Object) node, i);
+			node.setId(i + 1);
+		}
+	}
+
+
+	/**
+	 * IDの大小関係を管理するクラス
+	 * @author itot
+	 */
+	class IdComparator implements Comparator {
+
+		/**
+		 * Constructor
+		 */
+		public IdComparator() {
+		}
+
+		/**
+		 * IDの大小を比較した結果を返す
+		 */
+		public int compare(Object obj1, Object obj2) {
+
+			Integer id1 = (Integer) obj1;
+			Integer id2 = (Integer) obj2;
+			int value1 = id1.intValue();
+			int value2 = id2.intValue();
+
+			if (value1 > value2)
+				return 1;
+			if (value1 < value2)
+				return -1;
+
+			return 0;
+		}
+	}
+
+
+	/**
+	 * Branchの前後関係を管理するクラス
+	 * @author itot
+	 */
+	class BranchComparator implements Comparator {
+		int sortType = 1;
+		int branchType = 0;
+
+		int monthAdd[] =
+			{ 0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334 };
+
+		/**
+		 * Constructor
+		 */
+		public BranchComparator() {
+		}
+
+		//
+		public void setSortType(int type) {
+			sortType = type;
+		}
+
+		public void setBranchType(int type) {
+			branchType = type;
+		}
+
+		// Compare
+		public int compare(Object obj1, Object obj2) {
+
+			Branch branch1 = (Branch) obj1;
+			Branch branch2 = (Branch) obj2;
+
+			int value1 = calcSortValue(branch1);
+			int value2 = calcSortValue(branch2);
+
+			if (value1 > value2)
+				return 1;
+			if (value1 < value2)
+				return -1;
+
+			if (branch1.getId() > branch2.getId())
+				return 1;
+			if (branch1.getId() < branch2.getId())
+				return -1;
+
+			return 0;
+		}
+
+		/*
+		 * Calculate the value for sorting
+		 * @param heian.tree.Branch branch
+		 * @return int value 
+		 */
+		int calcSortValue(Branch branch) {
+
+			if (sortType == 1) {
+				return -1 * branch.getNodeList().size();
+			}
+			if (sortType == 2) {
+				Node node = branch.getNodeAt(1);
+				if (node == null)
+					return 0;
+				String name = tg.getNodeAttributeName(node, branchType);
+				if (name == null)
+					return 1000;
+				StringTokenizer tokenBuffer = new StringTokenizer(name);
+				if (tokenBuffer.hasMoreTokens() == false)
+					return 1000;
+				int index = Integer.parseInt(tokenBuffer.nextToken());
+
+				return index;
+			}
+
+			if (sortType == 3) {
+				Node node = branch.getNodeAt(1);
+				if (node == null)
+					return 0;
+				String name = tg.getNodeAttributeName(node, branchType);
+				if (name == null)
+					return 0;
+				StringTokenizer tokenBuffer = new StringTokenizer(name, "-");
+				int y = Integer.parseInt(tokenBuffer.nextToken());
+				int m = Integer.parseInt(tokenBuffer.nextToken());
+				int d = Integer.parseInt(tokenBuffer.nextToken());
+
+				int value = y * 365 + monthAdd[m - 1] + d;
+				return value;
+			}
+
+			return 0;
+		}
+	}
+
+}

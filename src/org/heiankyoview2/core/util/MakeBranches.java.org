@@ -1,0 +1,134 @@
+package org.heiankyoview2.core.util;
+
+import java.util.*;
+import org.heiankyoview2.core.tree.Tree;
+import org.heiankyoview2.core.tree.Branch;
+import org.heiankyoview2.core.tree.Node;
+import org.heiankyoview2.core.table.TreeTable;
+
+
+
+/**
+ * BranchをもたないTreeのNodeをBranchに分類する
+ * @author itot
+ */
+public class MakeBranches {
+	Tree tree;
+	TreeTable tg;
+
+	/**
+	 * Constructor
+	 * @param tree Tree
+	 */
+	public MakeBranches(Tree tree) {
+		this.tree = tree;
+		tg = (TreeTable)tree.getAttribute();
+	}
+
+	/**
+	 * 子Branchをすべて削除し、すべての葉ノードを根Branchの直下に移動する
+	 */
+	public void clearBranches() {
+		Branch rootBranch = tree.getRootBranch();
+
+		clearOneBranch(rootBranch);
+
+	}
+
+	/**
+	 * 1個の親Branchの下にある子Branchをすべて削除し、すべての葉ノードを根Branchの直下に移動する
+     * @param currentBranch 親Branch
+	 */
+	void clearOneBranch(Branch currentBranch) {
+
+		Node node;
+		Branch childBranch;
+		Branch rootBranch = tree.getRootBranch();
+		int i;
+
+		//
+		// recursive call for child branches
+		//    or
+		// move nodes into the root branch
+		//
+		for (i = 1; i <= currentBranch.getNodeList().size(); i++) {
+			node = currentBranch.getNodeAt(i);
+			childBranch = node.getChildBranch();
+			if (childBranch != null) {
+				clearOneBranch(childBranch);
+				node.setChildBranch(null);
+				if (currentBranch == rootBranch) {
+					currentBranch.getNodeList().remove(node);
+					i--;
+				}
+			} else if (currentBranch != rootBranch) {
+				rootBranch.addOneNode(node);
+				node.setCurrentBranch(rootBranch);
+			}
+
+		}
+
+		//
+		// delete the current branch
+		//
+		if (rootBranch != currentBranch) {
+			tree.deleteOneBranch(currentBranch);
+		}
+
+	}
+
+	
+	/**
+	 * Branchを再構築する
+	 * @param mergeNumber (現在使ってない)
+	 */
+	public void makeAllBranches(int mergeNumber) {
+		int type;
+
+		clearBranches();
+
+		type = tg.getBranchType1();
+		if (type < 0)
+			return;
+		makeOneLayerBranches(type, 0, mergeNumber);
+
+		type = tg.getBranchType2();
+		if (type < 0)
+			return;
+		makeOneLayerBranches(type, 1, mergeNumber);
+
+		type = tg.getBranchType3();
+		if (type < 0)
+			return;
+		makeOneLayerBranches(type, 2, mergeNumber);
+
+	}
+
+
+	/**
+	 * Branchの再構築処理を1階層について実行する
+	 * @param type 参照するTableのID
+	 * @param depth 階層の深さ
+	 * @param mergeNumber (現在使ってない)
+	 */
+	void makeOneLayerBranches(int type, int depth, int mergeNumber) {
+
+		Branch branch;
+
+		if (depth == 0) {
+			branch = tree.getRootBranch();
+			tg.divideOneBranch(branch, type);
+			return;
+		} else {
+			Vector branchList = tree.getBranchList();
+			for (int i = 0; i < branchList.size(); i++) {
+				branch = (Branch) branchList.elementAt(i);
+				if (depth != branch.getLevel())
+					continue;
+				tg.divideOneBranch(branch, type);
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,272 @@
+package org.heiankyoview2.datagen.csv2tree;
+
+import org.heiankyoview2.core.tree.Tree;
+import org.heiankyoview2.core.tree.Branch;
+import org.heiankyoview2.core.tree.Node;
+import org.heiankyoview2.core.table.TreeTable;
+import org.heiankyoview2.core.table.NodeTablePointer;
+import org.heiankyoview2.core.table.Table;
+import org.heiankyoview2.core.fileio.TreeFileWriter;
+
+import java.io.*;
+import java.util.*;
+
+
+/**
+ * CSVファイルを読み込んでTreeを構築する
+ * @author itot
+ */
+public class ArtistCsvFileReader {
+	
+	// 楽曲のパラメータ数（CSVファイルの2列目以降の数値の個数）
+	static final int NUM_PARAMETERS = 2;
+	// 階層の深さの最大値（空行の最大連続数と同値）
+	static final int MAX_DEPTH = 2;
+	
+	// Branchのスタック
+	static Branch branchstack[] = new Branch[MAX_DEPTH];
+	static Branch rootbranch = null;
+	
+
+	/**
+	 * Nodeを1個追加する
+	 * @param tree
+	 * @param values
+	 */
+	public void addOneNode(Tree tree, double values[]) {
+		Node node1;
+		TreeTable tg = (TreeTable)tree.getAttribute();
+		
+		//
+		// Allocate the node
+		//
+		node1 = new Node();
+
+	}
+
+	/**
+	 * Treeを初期化する
+	 */
+	public Tree initializeTree() {
+		
+		// Treeの確保
+		Tree tree = new Tree();
+		tree.setAttributeType(tree.ATTRIBUTE_TABLE);
+		TreeTable tg = new TreeTable(tree);
+		tree.setAttribute(tg);
+
+		// rootBranchの確保
+		Node rootnode = tree.getRootNode();
+		tree.setNumBranch(1);
+		rootbranch = tree.getBranchAt(1);
+		tree.setRootBranch(rootbranch);
+		rootnode.setChildBranch(rootbranch);
+		rootbranch.setParentNode(rootnode);
+		rootbranch.setLevel(1);
+		
+		// Tableの確保 
+		tg.setNumTable(NUM_PARAMETERS + 1);
+		Table table = new Table();
+		tg.setTable(1, table);
+		table.setName("Name");
+		table.setType(table.TABLE_STRING);
+		for (int i = 2; i <= (NUM_PARAMETERS + 1); i++) {
+			table = new Table();
+			tg.setTable(i, table);
+			table.setName("Variable" + Integer.toString(i - 1));
+			table.setType(table.TABLE_DOUBLE);
+		}
+
+		return tree;
+	}
+
+	/**
+	 * CSVファイルを開く(1回目)
+	 * @param csvFilename 入力CSVファイル名
+	 * @return 生成されたTree
+	 */
+	public Tree readCsv1(String csvFilename) {
+		BufferedReader reader = null;
+		int nodeCounter = 1;
+		
+		// Treeクラスの初期化
+		Tree tree = initializeTree();
+		TreeTable tg = (TreeTable)tree.getAttribute();
+
+		// ファイルを開く 
+		try {
+			reader = new BufferedReader(new FileReader(new File(csvFilename)));
+		} catch (FileNotFoundException e) {
+			System.err.println(e);
+			return tree;
+		}
+
+		// ファイルを1行ずつ読む
+		try {
+			int countEmptyLine = 0;
+			reader.ready();
+			while (true) {
+				String line = reader.readLine();
+				if (line == null) break;
+				
+				// 空行をカウントする
+				if (line.length() == 0 || line.startsWith(",")) {
+					countEmptyLine++;
+					if(countEmptyLine > MAX_DEPTH) {
+						System.out.println("Invalid CSV file");  System.exit(0);
+					}
+					continue;
+				}
+	
+				// 葉Nodeを生成する場合
+				if(countEmptyLine == 0) nodeCounter++;
+				countEmptyLine = 0;
+				
+			}
+			reader.close();
+
+		} catch (IOException e) {
+			System.err.println(e);
+			return tree;
+		}
+
+		// ファイルを閉じる
+		try {
+			reader.close();
+		} catch (Exception e) {
+			System.err.println(e);
+			return tree;
+		}
+
+		// Tableのサイズを決定する
+		for(int i = 1; i <= tg.getNumTable(); i++) {
+			Table table = tg.getTable(i);
+			table.setSize(nodeCounter);
+		}
+		
+		return tree;
+	}
+
+	/**
+	 * CSVファイルを開く(2回目)
+	 * @param csvFilename 入力CSVファイル名
+	 * @param 生成されたTree
+	 */
+	public void readCsv2(Tree tree, String csvFilename) {
+		BufferedReader reader = null;
+	
+		// Treeクラスの初期化
+		TreeTable tg = (TreeTable)tree.getAttribute();
+
+		// ファイルを開く 
+		try {
+			reader = new BufferedReader(new FileReader(new File(csvFilename)));
+		} catch (FileNotFoundException e) {
+			System.err.println(e);
+			return;
+		}
+
+		// ファイルを1行ずつ読む
+		try {
+			int countEmptyLine = 0;
+			int nodeCounter = 1;
+			reader.ready();
+			while (true) {
+				String line = reader.readLine();
+				if (line == null) break;
+				
+	
+				// 空行をカウントする
+				if (line.length() == 0 || line.startsWith(",")) {
+					countEmptyLine++;
+					if(countEmptyLine > MAX_DEPTH) {
+						System.out.println("Invalid CSV file");  System.exit(0);
+					}
+					continue;
+				}
+
+				// 行をカンマで分割する
+				StringTokenizer tokenBuffer = new StringTokenizer(line, ",");
+				
+				
+				// 親Branchを特定する
+				Branch pbranch = rootbranch;
+				if(countEmptyLine < MAX_DEPTH)
+					pbranch = branchstack[MAX_DEPTH - countEmptyLine - 1];
+				Node node = pbranch.getOneNewNode();
+
+				// 子Branchを生成する場合
+				if(countEmptyLine > 0) {
+					Branch cbranch = tree.getOneNewBranch();
+					node.setChildBranch(cbranch);
+					cbranch.setParentNode(node);
+					cbranch.setName(tokenBuffer.nextToken());
+					branchstack[MAX_DEPTH - countEmptyLine] = cbranch;
+				}
+				
+				// 葉Nodeを生成する場合
+				else {
+					NodeTablePointer tn1 = new NodeTablePointer();
+					node.setAttribute(tn1);
+					tn1.setNumId(NUM_PARAMETERS + 1);
+
+					//
+					// Record the data into tables
+					//
+					for (int i = 1; i <= (NUM_PARAMETERS + 1); i++) {
+						Table table = tg.getTable(i);
+						String word = tokenBuffer.nextToken();
+						if(i == 1) {
+							table.set(nodeCounter, word);
+						}
+						else {
+							double value[] = new double[1];
+							value[0] = Double.parseDouble(word);
+							table.set(nodeCounter, value);
+						}
+						tn1.setId(i, nodeCounter);
+					}
+					nodeCounter++;
+				}
+				countEmptyLine = 0;
+				
+			}
+			reader.close();
+
+		} catch (IOException e) {
+			System.err.println(e);
+			return;
+		}
+
+		// ファイルを閉じる
+		try {
+			reader.close();
+		} catch (Exception e) {
+			System.err.println(e);
+			return;
+		}
+
+	}
+
+	
+	
+	/**
+	 * main関数
+	 * @param args 引数
+	 */
+	public static void main(String[] args) {
+		ArtistCsvFileReader fcfile = new ArtistCsvFileReader();
+
+		String csvFilename = "playlist-sample1.csv";
+		String netFilename = "playlist-sample1.net";
+
+		if(args.length > 0) csvFilename = args[0];
+		if(args.length > 1) netFilename = args[1];
+		
+		Tree tree = fcfile.readCsv1(csvFilename);
+		fcfile.readCsv2(tree, csvFilename);
+
+		TreeFileWriter netOutput = new TreeFileWriter(new File(netFilename), tree);
+		netOutput.writeData();
+	}
+}

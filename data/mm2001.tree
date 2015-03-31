@@ -1,0 +1,8886 @@
+numtable  3
+
+tablename 1 path
+tabletype 1 string
+tablenumelement 1 1067
+tl 1 ./
+tl 2 ./address.ppt
+tl 3 ./trb-itot.gif
+tl 4 ./index.html~
+tl 5 ./mm2001-tips.ppt
+tl 6 ./index.html
+tl 7 ./try/
+tl 8 ./setup/
+tl 9 ./setup/subject.html
+tl 10 ./setup/formats.html
+tl 11 ./setup/mm1.gif
+tl 12 ./setup/mm2.gif
+tl 13 ./setup/jacket1-1s.jpg
+tl 14 ./setup/jacket1-2s.jpg
+tl 15 ./setup/itot1.mid
+tl 16 ./setup/codint.wrl
+tl 17 ./setup/boot.html~
+tl 18 ./setup/mm.html~
+tl 19 ./setup/mm.html
+tl 20 ./setup/boot.html
+tl 21 ./setup/upload.html
+tl 22 ./setup/index.html
+tl 23 ./setup/foption.html
+tl 24 ./MIDI/
+tl 25 ./MIDI/index.html~
+tl 26 ./MIDI/whats.html~
+tl 27 ./MIDI/midiform.html~
+tl 28 ./MIDI/compose1.html~
+tl 29 ./MIDI/gomi1a.mid
+tl 30 ./MIDI/gomi1b.mid
+tl 31 ./MIDI/gomi1c.mid
+tl 32 ./MIDI/gomi1d.mid
+tl 33 ./MIDI/compose1.html
+tl 34 ./MIDI/compose1f.mid
+tl 35 ./MIDI/index.html
+tl 36 ./MIDI/download.html
+tl 37 ./MIDI/whats.html
+tl 38 ./MIDI/parts.html
+tl 39 ./MIDI/compose1e.mid
+tl 40 ./MIDI/compose1d.mid
+tl 41 ./MIDI/contents.html
+tl 42 ./MIDI/midiform.html
+tl 43 ./MIDI/midiform1.gif
+tl 44 ./MIDI/midiform2.gif
+tl 45 ./MIDI/midiform3.gif
+tl 46 ./MIDI/compose1a.mid
+tl 47 ./MIDI/compose1c.mid
+tl 48 ./MIDI/compose1b.mid
+tl 49 ./MIDI/otama/
+tl 50 ./MIDI/otama/HELP.CHM
+tl 51 ./MIDI/otama/OTAMA.EXE
+tl 52 ./MIDI/otama/README.TXT
+tl 53 ./MIDI/otama/_BACKUP.MID
+tl 54 ./MIDI/otama/OTAMA/
+tl 55 ./MIDI/otama/OTAMA/_SETUP.MID
+tl 56 ./MIDI/otama/OTAMA/DRUMMAP.DAT
+tl 57 ./MIDI/otama/OTAMA/CONTROL.TXT
+tl 58 ./MIDI/otama/OTAMA/DYNCTRL.TXT
+tl 59 ./MIDI/otama/OTAMA/LINE.TXT
+tl 60 ./MIDI/otama/OTAMA/META.TXT
+tl 61 ./MIDI/otama/OTAMA/RPN.TXT
+tl 62 ./MIDI/otama/OTAMA/SYSEX.TXT
+tl 63 ./MIDI/otama/OTAMA/OTAMA.INI
+tl 64 ./MIDI/otama/OTAMA/FILEINFO.INI
+tl 65 ./MIDI/otama/OTAMA/INST/
+tl 66 ./MIDI/otama/OTAMA/INST/GM.DRM
+tl 67 ./MIDI/otama/OTAMA/INST/GM.INS
+tl 68 ./HTML/
+tl 69 ./HTML/index.html~
+tl 70 ./HTML/index.html
+tl 71 ./HTML/basic/
+tl 72 ./HTML/basic/basic2.html~
+tl 73 ./HTML/basic/basic3.html~
+tl 74 ./HTML/basic/basic4.html~
+tl 75 ./HTML/basic/basic5.html~
+tl 76 ./HTML/basic/basic1.html~
+tl 77 ./HTML/basic/basic2.html
+tl 78 ./HTML/basic/test3ans.html
+tl 79 ./HTML/basic/test1.jpg
+tl 80 ./HTML/basic/basic3.html
+tl 81 ./HTML/basic/basic4.html
+tl 82 ./HTML/basic/test5.html
+tl 83 ./HTML/basic/test5ans.html
+tl 84 ./HTML/basic/test2.jpg
+tl 85 ./HTML/basic/test3.jpg
+tl 86 ./HTML/basic/test4.jpg
+tl 87 ./HTML/basic/test2.html
+tl 88 ./HTML/basic/test4.gif
+tl 89 ./HTML/basic/test2.txt
+tl 90 ./HTML/basic/test3.txt
+tl 91 ./HTML/basic/test4.txt
+tl 92 ./HTML/basic/test2ans.html
+tl 93 ./HTML/basic/basic5.html
+tl 94 ./HTML/basic/test4ans.html
+tl 95 ./HTML/basic/test1.html
+tl 96 ./HTML/basic/basic1.html
+tl 97 ./HTML/contents/
+tl 98 ./HTML/contents/Dibas32.exe
+tl 99 ./HTML/contents/gifanim.exe
+tl 100 ./HTML/contents/contents5.html~
+tl 101 ./HTML/contents/contents2.html~
+tl 102 ./HTML/contents/contents3.html~
+tl 103 ./HTML/contents/contents4.html~
+tl 104 ./HTML/contents/CosmoInstaller.exe
+tl 105 ./HTML/contents/contents2.html
+tl 106 ./HTML/contents/test2a.gif
+tl 107 ./HTML/contents/test2b.gif
+tl 108 ./HTML/contents/test2c.gif
+tl 109 ./HTML/contents/onpu.gif
+tl 110 ./HTML/contents/test1a.gif
+tl 111 ./HTML/contents/test2.html
+tl 112 ./HTML/contents/transparent.gif
+tl 113 ./HTML/contents/contents3.html
+tl 114 ./HTML/contents/contents1.html
+tl 115 ./HTML/contents/test1.html
+tl 116 ./HTML/contents/animgif-ihc.gif
+tl 117 ./HTML/contents/contents5.html
+tl 118 ./HTML/contents/contents4.html
+tl 119 ./HTML/form/
+tl 120 ./HTML/form/test1.html~
+tl 121 ./HTML/form/test2.html~
+tl 122 ./HTML/form/test2c.html~
+tl 123 ./HTML/form/form3.html~
+tl 124 ./HTML/form/d.gif
+tl 125 ./HTML/form/c.gif
+tl 126 ./HTML/form/test2c.html
+tl 127 ./HTML/form/form2c.gif
+tl 128 ./HTML/form/form2.html
+tl 129 ./HTML/form/frame.html
+tl 130 ./HTML/form/toc.html
+tl 131 ./HTML/form/page1.html
+tl 132 ./HTML/form/page2.html
+tl 133 ./HTML/form/form1.html
+tl 134 ./HTML/form/test1.html
+tl 135 ./HTML/form/form1a.gif
+tl 136 ./HTML/form/form1b.gif
+tl 137 ./HTML/form/test2.html
+tl 138 ./HTML/form/form2a.gif
+tl 139 ./HTML/form/form2b.gif
+tl 140 ./HTML/form/b.gif
+tl 141 ./HTML/form/a.gif
+tl 142 ./HTML/form/form3.html
+tl 143 ./HTML/advanced/
+tl 144 ./HTML/advanced/advanced3.html~
+tl 145 ./HTML/advanced/advanced3.html
+tl 146 ./HTML/advanced/advanced1.html
+tl 147 ./HTML/advanced/advanced2.html
+tl 148 ./HTML/advanced/Thumbs.db
+tl 149 ./HTML/advanced/test2a.html
+tl 150 ./HTML/advanced/test2b.html
+tl 151 ./HTML/advanced/server.gif
+tl 152 ./HTML/advanced/test3a.html
+tl 153 ./VRML/
+tl 154 ./VRML/index.html~
+tl 155 ./VRML/index.html
+tl 156 ./VRML/try/
+tl 157 ./VRML/try/example1c.txt
+tl 158 ./VRML/try/example1a.txt
+tl 159 ./VRML/try/howto.html
+tl 160 ./VRML/try/example1.html
+tl 161 ./VRML/try/submit.html
+tl 162 ./VRML/try/example1a.jpg
+tl 163 ./VRML/try/example1a.wrl
+tl 164 ./VRML/try/example1b.wrl
+tl 165 ./VRML/try/example1b.jpg
+tl 166 ./VRML/try/example1b.txt
+tl 167 ./VRML/try/example1c.wrl
+tl 168 ./VRML/try/example1c.jpg
+tl 169 ./VRML/timer/
+tl 170 ./VRML/timer/posint.wrl
+tl 171 ./VRML/timer/codint.wrl
+tl 172 ./VRML/timer/oriint.wrl
+tl 173 ./VRML/timer/swtint.wrl
+tl 174 ./VRML/timer/timer.html
+tl 175 ./VRML/timer/posint.html
+tl 176 ./VRML/timer/codint.html
+tl 177 ./VRML/timer/oriint.html
+tl 178 ./VRML/timer/swtint.html
+tl 179 ./VRML/timer/posint.gif
+tl 180 ./VRML/timer/codint.gif
+tl 181 ./VRML/timer/oriint.gif
+tl 182 ./VRML/timer/posint2.wrl~
+tl 183 ./VRML/timer/posint2.wrl
+tl 184 ./VRML/transform/
+tl 185 ./VRML/transform/translation.wrl
+tl 186 ./VRML/transform/rotation.wrl
+tl 187 ./VRML/transform/scale.wrl
+tl 188 ./VRML/transform/transform.html
+tl 189 ./VRML/transform/translation.html
+tl 190 ./VRML/transform/rotation.html
+tl 191 ./VRML/transform/scale.html
+tl 192 ./VRML/transform/translation.gif
+tl 193 ./VRML/transform/rotation.gif
+tl 194 ./VRML/transform/scale.gif
+tl 195 ./VRML/appearance/
+tl 196 ./VRML/appearance/diffuse.wrl
+tl 197 ./VRML/appearance/specular.wrl
+tl 198 ./VRML/appearance/emissive.wrl
+tl 199 ./VRML/appearance/transparency.wrl
+tl 200 ./VRML/appearance/material.html
+tl 201 ./VRML/appearance/diffuse.html
+tl 202 ./VRML/appearance/specular.html
+tl 203 ./VRML/appearance/emissive.html
+tl 204 ./VRML/appearance/transparency.html
+tl 205 ./VRML/appearance/colors.gif
+tl 206 ./VRML/setup/
+tl 207 ./VRML/setup/CosmoInstaller.exe
+tl 208 ./VRML/setup/prim.gif
+tl 209 ./VRML/setup/prim.wrl
+tl 210 ./VRML/setup/cosmo1.jpg
+tl 211 ./VRML/setup/cosmo2.jpg
+tl 212 ./VRML/setup/sample1.html
+tl 213 ./VRML/setup/sample2.html
+tl 214 ./VRML/setup/sample3.html
+tl 215 ./VRML/setup/cosmo.html
+tl 216 ./VRML/setup/makevrml.html
+tl 217 ./VRML/setup/intro.html
+tl 218 ./VRML/shapes/
+tl 219 ./VRML/shapes/cylinder.html~
+tl 220 ./VRML/shapes/cylinder.html
+tl 221 ./VRML/shapes/lineset.wrl
+tl 222 ./VRML/shapes/faceset.wrl
+tl 223 ./VRML/shapes/box.wrl
+tl 224 ./VRML/shapes/cone.wrl
+tl 225 ./VRML/shapes/cylinder.wrl
+tl 226 ./VRML/shapes/sphere.wrl
+tl 227 ./VRML/shapes/text.wrl
+tl 228 ./VRML/shapes/box.html
+tl 229 ./VRML/shapes/geometry.html
+tl 230 ./VRML/shapes/cone.html
+tl 231 ./VRML/shapes/sphere.html
+tl 232 ./VRML/shapes/text.html
+tl 233 ./VRML/shapes/lineset.html
+tl 234 ./VRML/shapes/faceset.html
+tl 235 ./VRML/shapes/box.gif
+tl 236 ./VRML/shapes/cone.gif
+tl 237 ./VRML/shapes/cylinder.gif
+tl 238 ./VRML/shapes/sphere.gif
+tl 239 ./VRML/etc/
+tl 240 ./VRML/etc/viewpoint.html~
+tl 241 ./VRML/etc/background.html~
+tl 242 ./VRML/etc/background.wrl~
+tl 243 ./VRML/etc/anchor.html~
+tl 244 ./VRML/etc/background.html
+tl 245 ./VRML/etc/background.wrl
+tl 246 ./VRML/etc/background.gif
+tl 247 ./VRML/etc/anchor.html
+tl 248 ./VRML/etc/inline.html~
+tl 249 ./VRML/etc/anchor.wrl
+tl 250 ./VRML/etc/anchor.gif
+tl 251 ./VRML/etc/viewpoint.gif
+tl 252 ./VRML/etc/viewpoint.html
+tl 253 ./VRML/etc/pointlight.gif
+tl 254 ./VRML/etc/light.html~
+tl 255 ./VRML/etc/dirlight.gif
+tl 256 ./VRML/etc/tuid-logo.gif
+tl 257 ./VRML/etc/light.html
+tl 258 ./VRML/etc/inline.html
+tl 259 ./VRML/etc/texture.html~
+tl 260 ./VRML/etc/texture.html
+tl 261 ./VRML/etc/texture.wrl~
+tl 262 ./VRML/etc/texture.wrl
+tl 263 ./VRML/etc/box-logo.gif
+tl 264 ./works/
+tl 265 ./works/H13MM0517_4.zip
+tl 266 ./works/H13MM0517_2.zip
+tl 267 ./works/H13MM0517_3.zip
+tl 268 ./works/H13MM0517_1.zip
+tl 269 ./works/010531.html~
+tl 270 ./works/index.html~
+tl 271 ./works/010607.html~
+tl 272 ./works/010510.html
+tl 273 ./works/010524.html
+tl 274 ./works/010531.html
+tl 275 ./works/index.html
+tl 276 ./works/010607.html
+tl 277 ./works/good.gif
+tl 278 ./works/010614.html
+tl 279 ./works/010621.html~
+tl 280 ./works/010621.html
+tl 281 ./works/010628.html~
+tl 282 ./works/010628.html
+tl 283 ./works/98622/
+tl 284 ./works/98622/index.html
+tl 285 ./works/98622/WS_FTP.LOG
+tl 286 ./works/98622/onaka.wrl
+tl 287 ./works/98631/
+tl 288 ./works/98631/index.html
+tl 289 ./works/98631/cafe.JPG
+tl 290 ./works/98631/index.JPG
+tl 291 ./works/98631/usi3.jpg
+tl 292 ./works/98631/back.JPG
+tl 293 ./works/98631/link.html
+tl 294 ./works/98631/new.gif
+tl 295 ./works/98631/robo.gif
+tl 296 ./works/98631/tes.wrl
+tl 297 ./works/98631/WS_FTP.LOG
+tl 298 ./works/98631/tes2.wrl
+tl 299 ./works/98631/color.html
+tl 300 ./works/98631/naho2.jpg
+tl 301 ./works/98631/himawari2.jpg
+tl 302 ./works/98631/hosei1.jpg
+tl 303 ./works/98631/hosei2.jpg
+tl 304 ./works/98631/jichan1.jpg
+tl 305 ./works/98631/jichan2.jpg
+tl 306 ./works/98631/jizou1.jpg
+tl 307 ./works/98631/jizou2.jpg
+tl 308 ./works/98631/kawara1.jpg
+tl 309 ./works/98631/kawara2.jpg
+tl 310 ./works/98631/lamp1.jpg
+tl 311 ./works/98631/lamp2.jpg
+tl 312 ./works/98631/naho1.jpg
+tl 313 ./works/98631/himawari1.jpg
+tl 314 ./works/98631/red1.jpg
+tl 315 ./works/98631/red2.jpg
+tl 316 ./works/98631/sky1.jpg
+tl 317 ./works/98631/sky2.jpg
+tl 318 ./works/98631/sora1.jpg
+tl 319 ./works/98631/sora2.jpg
+tl 320 ./works/98631/sun1.jpg
+tl 321 ./works/98631/sun2.jpg
+tl 322 ./works/98631/sunset1.jpg
+tl 323 ./works/98631/sunset2.jpg
+tl 324 ./works/98631/tomomi1.jpg
+tl 325 ./works/98631/tomomi2.jpg
+tl 326 ./works/98631/4windows1.jpg
+tl 327 ./works/98631/4windows2.jpg
+tl 328 ./works/98631/blue1.jpg
+tl 329 ./works/98631/blue2.jpg
+tl 330 ./works/98631/forest1.jpg
+tl 331 ./works/98631/forest2.jpg
+tl 332 ./works/98631/blue21.jpg
+tl 333 ./works/98631/happy.htm
+tl 334 ./works/98631/kaisi.gif
+tl 335 ./works/98631/link.htm
+tl 336 ./works/98631/photo.gif
+tl 337 ./works/98631/photo.htm
+tl 338 ./works/98631/ppp.gif
+tl 339 ./works/98631/start.html
+tl 340 ./works/98631/8beat1.mid
+tl 341 ./works/98631/band1.mid
+tl 342 ./works/98631/3minutes.html
+tl 343 ./works/98631/bmx.jpg
+tl 344 ./works/98631/meiro.gif
+tl 345 ./works/98631/butasan.jpg
+tl 346 ./works/98631/gaitou.jpg
+tl 347 ./works/98631/gaitou160.jpg
+tl 348 ./works/98631/hinode.jpg
+tl 349 ./works/98631/hinode160.jpg
+tl 350 ./works/98631/nagare160.jpg
+tl 351 ./works/98631/senbou.jpg
+tl 352 ./works/98631/senbou160.jpg
+tl 353 ./works/98631/sinme.jpg
+tl 354 ./works/98631/sinme160.jpg
+tl 355 ./works/98631/spain.jpg
+tl 356 ./works/98631/spain160.jpg
+tl 357 ./works/98631/happy.html
+tl 358 ./works/98631/cab.jpg
+tl 359 ./works/98631/last.html
+tl 360 ./works/98631/photo2.html
+tl 361 ./works/98631/photo.html
+tl 362 ./works/98631/missing.html
+tl 363 ./works/98631/meiro.html
+tl 364 ./works/98631/dog.jpg
+tl 365 ./works/98631/jihan.jpg
+tl 366 ./works/98631/masaki.jpg
+tl 367 ./works/98631/nagare.jpg
+tl 368 ./works/98631/senaka.jpg
+tl 369 ./works/98631/singou.jpg
+tl 370 ./works/98631/tokoya.jpg
+tl 371 ./works/98631/yukinohi.jpg
+tl 372 ./works/98641/
+tl 373 ./works/98641/index.html
+tl 374 ./works/98641/test1.html
+tl 375 ./works/98641/WS_FTP.LOG
+tl 376 ./works/98641/test.wrl
+tl 377 ./works/98661/
+tl 378 ./works/98661/kkf008l.gif
+tl 379 ./works/98661/64ka126.gif
+tl 380 ./works/98661/go_shiki.gif
+tl 381 ./works/98661/linel-16.gif
+tl 382 ./works/98661/onpu04wm-.gif
+tl 383 ./works/98661/usa01(1).gif
+tl 384 ./works/98661/test2.html
+tl 385 ./works/98661/test01.gif
+tl 386 ./works/98661/usa_p04.gif
+tl 387 ./works/98661/WS_FTP.LOG
+tl 388 ./works/98661/n-to-14.gif
+tl 389 ./works/98661/index.html
+tl 390 ./works/98661/test1.html
+tl 391 ./works/98661/hidari7.gif
+tl 392 ./works/98661/VRML1.wrl
+tl 393 ./works/98661/bump_title.class
+tl 394 ./works/98661/bg2.jpg
+tl 395 ./works/98661/bg21.jpg
+tl 396 ./works/98661/VRML2.wrl
+tl 397 ./works/98661/P1010001.JPG
+tl 398 ./works/98661/64ka122.gif
+tl 399 ./works/98661/64ka124.gif
+tl 400 ./works/98661/64ka127.gif
+tl 401 ./works/98661/ani_d1.gif
+tl 402 ./works/98661/back.gif
+tl 403 ./works/98661/base129.jpg
+tl 404 ./works/98661/bg212.JPG
+tl 405 ./works/98661/Bz-I1.art
+tl 406 ./works/98661/Bztitle.gif
+tl 407 ./works/98661/do7.art
+tl 408 ./works/98661/gazeru.gif
+tl 409 ./works/98661/harikata.zip
+tl 410 ./works/98661/i-rock23.gif
+tl 411 ./works/98661/kirin-b.gif
+tl 412 ./works/98661/kirin-c.gif
+tl 413 ./works/98661/koto-33.gif
+tl 414 ./works/98661/kusa-line.gif
+tl 415 ./works/98661/line12.gif
+tl 416 ./works/98661/line13.gif
+tl 417 ./works/98661/link.GIF
+tl 418 ./works/98661/lion01.gif
+tl 419 ./works/98661/P1010004.JPG
+tl 420 ./works/98661/P1010005.JPG
+tl 421 ./works/98661/P1010007.JPG
+tl 422 ./works/98661/P1010008.JPG
+tl 423 ./works/98661/P1010010.JPG
+tl 424 ./works/98661/P1010013.JPG
+tl 425 ./works/98661/punba-0.gif
+tl 426 ./works/98661/respect1.art
+tl 427 ./works/98661/shiki.JPG
+tl 428 ./works/98661/sinba-0.gif
+tl 429 ./works/98661/sinbawall.gif
+tl 430 ./works/98661/suka-0.gif
+tl 431 ./works/98661/ta22w.art
+tl 432 ./works/98661/test3.html
+tl 433 ./works/98661/test4.html
+tl 434 ./works/98661/test5.html
+tl 435 ./works/98661/test6.html
+tl 436 ./works/98661/timon-0.gif
+tl 437 ./works/98661/tori.gif
+tl 438 ./works/98661/Usa.GIF
+tl 439 ./works/98661/yaji130.gif
+tl 440 ./works/98661/zazu.gif
+tl 441 ./works/98661/shikititle.GIF
+tl 442 ./works/98663/
+tl 443 ./works/98663/test1torisu.html
+tl 444 ./works/98663/test1torisu.2
+tl 445 ./works/98663/test1torisu.2.html
+tl 446 ./works/98663/WS_FTP.LOG
+tl 447 ./works/98663/torisu2.wrl
+tl 448 ./works/98663/torisu3.wrl
+tl 449 ./works/98663/torisu2.html
+tl 450 ./works/98663/index.html
+tl 451 ./works/98663/WINE.html
+tl 452 ./works/98663/WHISKY.html
+tl 453 ./works/98673/
+tl 454 ./works/98673/Thumbs.db
+tl 455 ./works/98673/index.html
+tl 456 ./works/98673/\330\335\270\217W.html
+tl 457 ./works/98673/WS_FTP.LOG
+tl 458 ./works/98673/ensui.wrl
+tl 459 ./works/98673/onpu.wrl
+tl 460 ./works/98673/\314\337\333\314\250\260\331.html
+tl 461 ./works/98613/
+tl 462 ./works/98613/logo(1).gif
+tl 463 ./works/98613/imgmaga.gif
+tl 464 ./works/98613/link.html
+tl 465 ./works/98613/ikkibanner.gif
+tl 466 ./works/98613/index.html
+tl 467 ./works/98613/taitoru.gif
+tl 468 ./works/98613/young(1).gif
+tl 469 ./works/98613/wyj_logo1.gif
+tl 470 ./works/98613/WS_FTP.LOG
+tl 471 ./works/98613/test2\202\326\202\314\274\256\260\304\266\257\304.lnk
+tl 472 ./works/98613/dousyu.JPG
+tl 473 ./works/98613/ginsyou.html
+tl 474 ./works/98613/ginsyou.JPG
+tl 475 ./works/98613/index.html.txt
+tl 476 ./works/98613/kanrinin.html
+tl 477 ./works/98613/kinsyou.html
+tl 478 ./works/98613/kinsyou.JPG
+tl 479 ./works/98613/rebyu.html
+tl 480 ./works/98613/Taitol~1.gif
+tl 481 ./works/98613/taitolgrogo.eps
+tl 482 ./works/98613/test2.wrl
+tl 483 ./works/98613/dousyou.html
+tl 484 ./works/98613/test3.wrl
+tl 485 ./works/98613/test.wrl
+tl 486 ./works/98608/
+tl 487 ./works/98608/index.html
+tl 488 ./works/98608/WS_FTP.LOG
+tl 489 ./works/98608/98608vrml.wrl
+tl 490 ./works/98608/98608vrm.wrl
+tl 491 ./works/98608/98608.wrl
+tl 492 ./works/98676/
+tl 493 ./works/98676/\202\350\202\361\202\255\202\301\202\255.html
+tl 494 ./works/98676/\217\254\211\256.html
+tl 495 ./works/98676/WS_FTP.LOG
+tl 496 ./works/98676/index.html
+tl 497 ./works/98676/house.html
+tl 498 ./works/98676/link.html
+tl 499 ./works/98676/98676.wrl
+tl 500 ./works/98676/\202\277\202\345\202\244.wrl
+tl 501 ./works/98676/ageha.wrl
+tl 502 ./works/98682/
+tl 503 ./works/98682/link.html
+tl 504 ./works/98682/inde.html
+tl 505 ./works/98682/index.html
+tl 506 ./works/98682/web.html
+tl 507 ./works/98682/toc.html
+tl 508 ./works/98682/WS_FTP.LOG
+tl 509 ./works/98682/test.html
+tl 510 ./works/98682/home.html
+tl 511 ./works/98682/page1.html
+tl 512 ./works/98682/page2.html
+tl 513 ./works/98682/09-2.gif
+tl 514 ./works/98682/kp-basic.bmp
+tl 515 ./works/98682/kp-swing.bmp
+tl 516 ./works/98682/profile.html
+tl 517 ./works/98682/room.html
+tl 518 ./works/98682/a.wrl
+tl 519 ./works/98682/b.wrl
+tl 520 ./works/98682/all.wrl
+tl 521 ./works/98682/kp-tennis.gif
+tl 522 ./works/98682/kp-swing2mini.gif
+tl 523 ./works/98682/kp-pose1mini.gif
+tl 524 ./works/98682/kp-portrait.gif
+tl 525 ./works/98682/bar26-500.gif
+tl 526 ./works/98682/kp-basicdark.gif
+tl 527 ./works/98682/kp-home.gif
+tl 528 ./works/98682/kp-courtmini.gif
+tl 529 ./works/98682/backg170.gif
+tl 530 ./works/98682/C.wrl
+tl 531 ./works/98682/kp-basic.gif
+tl 532 ./works/98686/
+tl 533 ./works/98686/link.html
+tl 534 ./works/98686/test1.html
+tl 535 ./works/98686/img4703.gif
+tl 536 ./works/98686/img7649.gif
+tl 537 ./works/98686/index.html
+tl 538 ./works/98686/WS_FTP.LOG
+tl 539 ./works/98686/GACHAPIN.gif
+tl 540 ./works/98686/GACHAPIN.bmp
+tl 541 ./works/98686/gachapin2.gif
+tl 542 ./works/98686/motor
+tl 543 ./works/98691/
+tl 544 ./works/98691/link.html
+tl 545 ./works/98691/button.bmp
+tl 546 ./works/98691/button2.bmp
+tl 547 ./works/98691/tajuk.jpg
+tl 548 ./works/98691/2.jpg
+tl 549 ./works/98691/index.html
+tl 550 ./works/98691/WS_FTP.LOG
+tl 551 ./works/98691/button.JPG
+tl 552 ./works/98691/button2.JPG
+tl 553 ./works/98691/index1.html
+tl 554 ./works/98691/test1.wrl
+tl 555 ./works/98691/try.wrl
+tl 556 ./works/98691/lagi.wrl
+tl 557 ./works/98691/ForElise.mid
+tl 558 ./works/98691/flyme2moon.mid
+tl 559 ./works/98691/Nothing.mid
+tl 560 ./works/98691/heyjude-beatles.mid
+tl 561 ./works/98691/botol.jpg
+tl 562 ./works/98691/index.swf
+tl 563 ./works/98691/spice_2become1.mid
+tl 564 ./works/98691/botol2.jpg
+tl 565 ./works/98691/submit
+tl 566 ./works/98691/submit.JPG
+tl 567 ./works/98691/dango.wrl
+tl 568 ./works/98620/
+tl 569 ./works/98620/hiro.html
+tl 570 ./works/98620/bando.html
+tl 571 ./works/98620/h.jpg
+tl 572 ./works/98620/WS_FTP.LOG
+tl 573 ./works/98620/yoshi.wrl
+tl 574 ./works/98620/index.html
+tl 575 ./works/98620/bas.html
+tl 576 ./works/98618/
+tl 577 ./works/98618/tairen.html
+tl 578 ./works/98618/nani.html
+tl 579 ./works/98618/kensyo.html
+tl 580 ./works/98618/gyouji.html
+tl 581 ./works/98618/WS_FTP.LOG
+tl 582 ./works/98618/index.html
+tl 583 ./works/98618/tairenpic.html
+tl 584 ./works/98618/t-syatu.html
+tl 585 ./works/98618/tai.1.wrl
+tl 586 ./works/98618/kakutyuu.1.wrl
+tl 587 ./works/98618/kasyuu.html
+tl 588 ./works/98617/
+tl 589 ./works/98617/index.html
+tl 590 ./works/98617/elephant.jpg
+tl 591 ./works/98617/recommend.html
+tl 592 ./works/98617/WS_FTP.LOG
+tl 593 ./works/98617/\203\215\203S.txt
+tl 594 ./works/98617/\203\215\203S3.wrl
+tl 595 ./works/98617/\203\215\203S\202S.wrl
+tl 596 ./works/98617/logo45.txt
+tl 597 ./works/98617/logo\202S.wrl
+tl 598 ./works/98617/logo4.wrl
+tl 599 ./works/10861/
+tl 600 ./works/10861/tabi.html
+tl 601 ./works/10861/inu.html
+tl 602 ./works/10861/\202\251\202\325\202\277\202\341\202\361.gif
+tl 603 ./works/10861/h.html
+tl 604 ./works/10861/WS_FTP.LOG
+tl 605 ./works/10861/ginpei.JPG
+tl 606 ./works/10861/index.html
+tl 607 ./works/10861/a.wrl
+tl 608 ./works/10861/b.wrl
+tl 609 ./works/10861/c.wrl
+tl 610 ./works/10861/e.wrl
+tl 611 ./works/10861/p.wrl
+tl 612 ./works/98603/
+tl 613 ./works/98603/Thumbs.db
+tl 614 ./works/98603/zinc2001_51619923_gif.gif
+tl 615 ./works/98603/test1.html
+tl 616 ./works/98603/WS_FTP.LOG
+tl 617 ./works/98603/isu.jpg
+tl 618 ./works/98603/abe.index.html.html
+tl 619 ./works/98603/isu01.jpg
+tl 620 ./works/98603/map.html
+tl 621 ./works/98603/top.index.html
+tl 622 ./works/98603/2index.html
+tl 623 ./works/98603/index.html
+tl 624 ./works/98603/9863.html
+tl 625 ./works/98603/01.wrl
+tl 626 ./works/98603/200105kodanshabanner_468x60.gif
+tl 627 ./works/98603/02index.html
+tl 628 ./works/98603/03index.html
+tl 629 ./works/98603/cfs_gif.gif
+tl 630 ./works/98603/trap.gif
+tl 631 ./works/98603/rogo(1).gif
+tl 632 ./works/98603/icon2.GIF
+tl 633 ./works/98603/02.wrl
+tl 634 ./works/98603/asagaya.jpg
+tl 635 ./works/98603/cfs.gif
+tl 636 ./works/98603/JIDA_banner4.jpg
+tl 637 ./works/98601/
+tl 638 ./works/98601/test4.html
+tl 639 ./works/98601/okinawa3.html
+tl 640 ./works/98601/WS_FTP.LOG
+tl 641 ./works/98601/mss12.gif
+tl 642 ./works/98601/04_2.jpg
+tl 643 ./works/98601/index.html
+tl 644 ./works/98601/page.html
+tl 645 ./works/98601/aaa.wrl
+tl 646 ./works/88675/
+tl 647 ./works/88675/wvline.gif
+tl 648 ./works/88675/test1.html
+tl 649 ./works/88675/link1.html
+tl 650 ./works/88675/onpu.gif
+tl 651 ./works/88675/index.txt
+tl 652 ./works/88675/test2.html
+tl 653 ./works/88675/test3.html
+tl 654 ./works/88675/WS_FTP.LOG
+tl 655 ./works/88675/dekabool.wrl
+tl 656 ./works/88675/hat.wrl
+tl 657 ./works/88675/moji.wrl
+tl 658 ./works/88675/\202\334\202\276.html
+tl 659 ./works/88675/dosei.wrl
+tl 660 ./works/88675/\215\241\214\343\202\314\223W\212J.txt
+tl 661 ./works/88675/dosei2.wrl
+tl 662 ./works/88648/
+tl 663 ./works/88648/index.html
+tl 664 ./works/88648/test1.html
+tl 665 ./works/88648/bike.txt
+tl 666 ./works/88648/WS_FTP.LOG
+tl 667 ./works/88648/members.html
+tl 668 ./works/88648/results.html
+tl 669 ./works/88648/schedule.html
+tl 670 ./works/88648/vrml/
+tl 671 ./works/88648/vrml/DNA.txt
+tl 672 ./works/88648/vrml/DNA.wrl
+tl 673 ./works/88648/vrml/WS_FTP.LOG
+tl 674 ./works/88648/vrml/DNA3.wrl
+tl 675 ./works/88648/vrml/DNA1.wrl
+tl 676 ./works/88648/vrml/DNA4.wrl
+tl 677 ./works/88648/vrml/DNA5.wrl
+tl 678 ./works/88648/vrml/DNA6.wrl
+tl 679 ./works/88648/img/
+tl 680 ./works/88648/img/title000.gif
+tl 681 ./works/88648/img/yahoo.gif
+tl 682 ./works/88648/img/infoseek.gif
+tl 683 ./works/88648/img/goo.gif
+tl 684 ./works/88648/img/bg-2sepia.jpg
+tl 685 ./works/88648/img/a1.JPG
+tl 686 ./works/88648/img/WS_FTP.LOG
+tl 687 ./works/98607/
+tl 688 ./works/98607/link.html
+tl 689 ./works/98607/index.html
+tl 690 ./works/98607/kurabu.gif
+tl 691 ./works/98607/WS_FTP.LOG
+tl 692 ./works/98607/2.5.wrl
+tl 693 ./works/98607/link2.html
+tl 694 ./works/98607/tsplash.jpg
+tl 695 ./works/98678/
+tl 696 ./works/98678/test1.html
+tl 697 ./works/98678/test2.html
+tl 698 ./works/98678/test3.html
+tl 699 ./works/98678/test4.html
+tl 700 ./works/98678/link.html
+tl 701 ./works/98678/WS_FTP.LOG
+tl 702 ./works/98678/muccu.gif
+tl 703 ./works/98678/test9.wrl
+tl 704 ./works/98678/test11.wrl
+tl 705 ./works/98678/test12.wrl
+tl 706 ./works/98678/test6.wrl
+tl 707 ./works/98678/test7.wrl
+tl 708 ./works/98678/test8.wrl
+tl 709 ./works/98678/test10.wrl
+tl 710 ./works/98678/test5.wrl
+tl 711 ./works/98678/index.html
+tl 712 ./works/98678/link3.html
+tl 713 ./works/98678/link2.html
+tl 714 ./works/98678/1.wrl
+tl 715 ./works/98678/2.wrl
+tl 716 ./works/98651/
+tl 717 ./works/98651/\202\350\202\361\202\255\217W.html
+tl 718 ./works/98651/webpage.html
+tl 719 ./works/98651/webpage2.html
+tl 720 ./works/98651/image9-.gif
+tl 721 ./works/98651/line90.gif
+tl 722 ./works/98651/WS_FTP.LOG
+tl 723 ./works/98651/index.html
+tl 724 ./works/98651/man.gif
+tl 725 ./works/98651/magokoro.html
+tl 726 ./works/98651/baseball.html
+tl 727 ./works/98651/3d.wrl
+tl 728 ./works/98651/onpu.gif
+tl 729 ./works/98651/mikoshi.gif
+tl 730 ./works/98651/new.gif
+tl 731 ./works/98651/stagium.wrl
+tl 732 ./works/98651/ya.wrl
+tl 733 ./works/98649/
+tl 734 ./works/98649/f40.jpg
+tl 735 ./works/98649/frame.html
+tl 736 ./works/98649/frame2.html
+tl 737 ./works/98649/jamiroquai.gif
+tl 738 ./works/98649/just
+tl 739 ./works/98649/page1.html
+tl 740 ./works/98649/page2.html
+tl 741 ./works/98649/socsp.gif
+tl 742 ./works/98649/test1.htm
+tl 743 ./works/98649/toc.html
+tl 744 ./works/98649/desccya.jpg
+tl 745 ./works/98649/link1.html
+tl 746 ./works/98649/homepage.html
+tl 747 ./works/98649/WS_FTP.LOG
+tl 748 ./works/98649/index.html
+tl 749 ./works/98649/link2.html
+tl 750 ./works/98649/engine.jpg
+tl 751 ./works/98649/descya.jpg
+tl 752 ./works/98649/DSC00007.JPG
+tl 753 ./works/98649/DSC00008.JPG
+tl 754 ./works/98649/DSC00009.JPG
+tl 755 ./works/98649/DSC00010.JPG
+tl 756 ./works/98649/DSC00014.JPG
+tl 757 ./works/98649/DSC00015.JPG
+tl 758 ./works/98649/DSC00019.JPG
+tl 759 ./works/98649/DSC00023.JPG
+tl 760 ./works/98649/DSC00025.JPG
+tl 761 ./works/98649/mufler.jpg
+tl 762 ./works/98649/supraback.jpg
+tl 763 ./works/98649/supraface.jpg
+tl 764 ./works/98649/suprawink.jpg
+tl 765 ./works/98649/link4.html
+tl 766 ./works/98649/link5.html
+tl 767 ./works/98649/link3.html
+tl 768 ./works/98649/link6.html
+tl 769 ./works/98649/1.wrl
+tl 770 ./works/98643/
+tl 771 ./works/98643/eiichiro.html
+tl 772 ./works/98643/bac_002.jpg
+tl 773 ./works/98643/test1.html
+tl 774 ./works/98643/shioya.html
+tl 775 ./works/98643/eiichiro.txt
+tl 776 ./works/98643/kabe.gif
+tl 777 ./works/98643/WS_FTP.LOG
+tl 778 ./works/98643/shioya2.html
+tl 779 ./works/98643/inoki(1).jpg
+tl 780 ./works/98643/index.html
+tl 781 ./works/98643/shioya.wrl
+tl 782 ./works/98643/shioya1.html
+tl 783 ./works/98637/
+tl 784 ./works/98637/\203\212\203\223\203N\203y\201[\203W.html
+tl 785 ./works/98637/test1.html
+tl 786 ./works/98637/title.bmp
+tl 787 ./works/98637/\202\335\202\342\201i\220\324\203p\203s\201j.html
+tl 788 ./works/98637/WS_FTP.LOG
+tl 789 ./works/98637/title.JPG
+tl 790 ./works/98637/bg81.gif
+tl 791 ./works/98637/link.html
+tl 792 ./works/98637/index.html
+tl 793 ./works/98637/vrml.wrl
+tl 794 ./works/98637/vrml.txt
+tl 795 ./works/98637/hu_003.gif
+tl 796 ./works/98637/sheep2.gif
+tl 797 ./works/98637/sheep1.gif
+tl 798 ./works/98637/fanimikosi.gif
+tl 799 ./works/98637/inu.gif
+tl 800 ./works/98637/index.txt
+tl 801 ./works/98637/line-6.gif
+tl 802 ./works/98637/profile.html
+tl 803 ./works/98637/backg01.jpg
+tl 804 ./works/98637/img294.gif
+tl 805 ./works/98637/profile.txt
+tl 806 ./works/98637/img6359.gif
+tl 807 ./works/98637/BB-1-36.gif
+tl 808 ./works/98637/backg03.jpg
+tl 809 ./works/98637/papiphoto.htm
+tl 810 ./works/98637/papi01.jpg
+tl 811 ./works/98637/backg02.jpg
+tl 812 ./works/98636/
+tl 813 ./works/98636/test1.html
+tl 814 ./works/98636/\203\212\203\223\203N.html
+tl 815 ./works/98636/color.html
+tl 816 ./works/98636/WS_FTP.LOG
+tl 817 ./works/98636/index.html
+tl 818 ./works/98636/98636b.jpg
+tl 819 ./works/98636/sphere.wrl
+tl 820 ./works/98636/link.html
+tl 821 ./works/98636/profile.html
+tl 822 ./works/98621/
+tl 823 ./works/98621/backyennew10.html
+tl 824 ./works/98621/backyennew11.html
+tl 825 ./works/98621/backyennew3.html
+tl 826 ./works/98621/backyennew7.html
+tl 827 ./works/98621/\202\335\202\304\202\335\202\304\202\313.bmp
+tl 828 ./works/98621/\224\232\211\212\223\373.bmp
+tl 829 ./works/98621/backyennew5.html
+tl 830 ./works/98621/backyennew6.html
+tl 831 ./works/98621/backyennew4.html
+tl 832 ./works/98621/backyennew9.html
+tl 833 ./works/98621/WS_FTP.LOG
+tl 834 ./works/98621/index.html
+tl 835 ./works/98621/3d01.wrl
+tl 836 ./works/98621/3d02.wrl
+tl 837 ./works/98621/kechi.bmp
+tl 838 ./works/98621/name.jpg
+tl 839 ./works/98621/menu.jpg
+tl 840 ./works/98621/index01.html
+tl 841 ./works/98621/maclike4_01.gif
+tl 842 ./works/98621/maclike4_02_4.gif
+tl 843 ./works/98621/maclike4_02_3.gif
+tl 844 ./works/98621/maclike4_02_2.gif
+tl 845 ./works/98621/maclike4_02_1.gif
+tl 846 ./works/98621/maclike4_02_5.gif
+tl 847 ./works/98621/title03.jpg
+tl 848 ./works/98621/title02.jpg
+tl 849 ./works/98621/maclike4_02_6.gif
+tl 850 ./works/98621/Kechi
+tl 851 ./works/98621/backyennew13.html
+tl 852 ./works/98621/backyennew12.html
+tl 853 ./works/98621/backyennew14.html
+tl 854 ./works/98632/
+tl 855 ./works/98632/test5.html
+tl 856 ./works/98632/WS_FTP.LOG
+tl 857 ./works/98632/index.html
+tl 858 ./works/98632/test6.html
+tl 859 ./works/98632/vrml.wrl
+tl 860 ./works/98627/
+tl 861 ./works/98627/\202\352\202\340\202\255\202\347.html
+tl 862 ./works/98627/lemon
+tl 863 ./works/98627/lemon
+tl 864 ./works/98627/\202\352\202\340\202\255\202\347\202Q.html
+tl 865 ./works/98627/WS_FTP.LOG
+tl 866 ./works/98627/DSC00003.JPG
+tl 867 ./works/98627/3D.wrl
+tl 868 ./works/98627/index.html
+tl 869 ./works/98627/lemonclub\202Q.html
+tl 870 ./works/98627/lemonclub2.html
+tl 871 ./works/98627/lemonclub
+tl 872 ./works/98627/lemonclub
+tl 873 ./works/98627/lemonclub
+tl 874 ./works/98627/lemon
+tl 875 ./works/98627/DSC00002.JPG
+tl 876 ./works/98627/DSC00004.JPG
+tl 877 ./works/98627/DSC00006.JPG
+tl 878 ./works/98627/DSC00011.JPG
+tl 879 ./works/98627/DSC00012.JPG
+tl 880 ./works/98627/lemonclub
+tl 881 ./works/98627/lemonclub
+tl 882 ./works/98627/lemonclub
+tl 883 ./works/98627/DSC00047.JPG
+tl 884 ./works/98627/DSC00055.JPG
+tl 885 ./works/98627/DSC00062.JPG
+tl 886 ./works/98627/DSC00063.JPG
+tl 887 ./works/98627/DSC00070.JPG
+tl 888 ./works/98627/DSC00076.JPG
+tl 889 ./works/98627/DSC00078.JPG
+tl 890 ./works/98627/DSC00079.JPG
+tl 891 ./works/98627/DSC00119.JPG
+tl 892 ./works/98627/DSC10062.JPG
+tl 893 ./works/98627/MOV00001.MPG
+tl 894 ./works/98623/
+tl 895 ./works/98623/k-mokuji.html
+tl 896 ./works/98623/link1.html
+tl 897 ./works/98623/link2.html
+tl 898 ./works/98623/WS_FTP.LOG
+tl 899 ./works/98623/index.html
+tl 900 ./works/98623/kj.JPG
+tl 901 ./works/98623/ring.wrl
+tl 902 ./works/98623/rope.wrl
+tl 903 ./works/98623/rope2.wrl
+tl 904 ./works/98623/hito.wrl
+tl 905 ./works/98623/gamen.wrl
+tl 906 ./works/98623/light.wrl
+tl 907 ./works/98623/yuka.wrl
+tl 908 ./works/98623/hito2.wrl
+tl 909 ./works/98623/hasira.wrl
+tl 910 ./works/98623/aruku.wrl
+tl 911 ./works/98623/kao.wrl
+tl 912 ./works/98623/ude.wrl
+tl 913 ./works/98623/ikidukai.wrl
+tl 914 ./works/98623/mat
+tl 915 ./works/98623/kanban.JPG
+tl 916 ./works/98623/asideta.wrl
+tl 917 ./works/98623/gamenn.wrl
+tl 918 ./works/98623/karada.wrl
+tl 919 ./works/98623/udekao.wrl
+tl 920 ./works/98623/sinpan.wrl
+tl 921 ./works/98623/kabe.JPG
+tl 922 ./works/98635/
+tl 923 ./works/98635/shadow.html
+tl 924 ./works/98635/kazuto.html
+tl 925 ./works/98635/WS_FTP.LOG
+tl 926 ./works/98635/index.html
+tl 927 ./works/98635/VRML.wrl
+tl 928 ./works/98619/
+tl 929 ./works/98619/music.jpg
+tl 930 ./works/98619/ken.g.bmp
+tl 931 ./works/98619/index.html.html
+tl 932 ./works/98619/black_or_white2.jpg
+tl 933 ./works/98619/WS_FTP.LOG
+tl 934 ./works/98619/index.html
+tl 935 ./works/98619/193.wrl
+tl 936 ./works/98619/info.html
+tl 937 ./works/98669/
+tl 938 ./works/98669/\203o\203C\203g\217\320\211\356.txt
+tl 939 ./works/98669/test1.html
+tl 940 ./works/98669/\203o\203C\203g\217\320\211\356.html
+tl 941 ./works/98669/WS_FTP.LOG
+tl 942 ./works/98669/monj.txt
+tl 943 ./works/98669/gazou.html
+tl 944 ./works/98669/menyu-.txt
+tl 945 ./works/98669/index.html
+tl 946 ./works/98669/98669.wrl
+tl 947 ./works/98669/monj.html
+tl 948 ./works/98669/menu-.html
+tl 949 ./works/98669/2maime.html
+tl 950 ./works/98669/monja-howto6.jpg
+tl 951 ./works/98669/monja-howto3.jpg
+tl 952 ./works/98669/monja-howto2.jpg
+tl 953 ./works/98669/monja-howto5.jpg
+tl 954 ./works/98669/monja-howto1.jpg
+tl 955 ./works/98669/monja-howto4.jpg
+tl 956 ./works/98669/\202\346\202\242\216q.jpg
+tl 957 ./works/98669/gazou/
+tl 958 ./works/98669/gazou/monja-howto5.jpg
+tl 959 ./works/98669/gazou/monja-howto3.jpg
+tl 960 ./works/98669/gazou/monja-howto2.jpg
+tl 961 ./works/98669/gazou/monja-howto6.jpg
+tl 962 ./works/98669/gazou/monja-howto4.jpg
+tl 963 ./works/98669/gazou/monja-howto1.jpg
+tl 964 ./works/98669/gazou/yoiko.jpg
+tl 965 ./works/98669/gazou/WS_FTP.LOG
+tl 966 ./works/98667/
+tl 967 ./works/98667/index.html
+tl 968 ./works/98667/photo.html
+tl 969 ./works/98667/poem.html
+tl 970 ./works/98667/WS_FTP.LOG
+tl 971 ./works/98667/\202\216\202\211\202\213\202\213\202\211.html
+tl 972 ./works/98667/nikki.html
+tl 973 ./works/98667/iiii.wrl
+tl 974 ./works/98665/
+tl 975 ./works/98665/index.html
+tl 976 ./works/98665/konade.jpg
+tl 977 ./works/98665/hashimoto.jpg
+tl 978 ./works/98665/WS_FTP.LOG
+tl 979 ./works/98665/top_ani.gif
+tl 980 ./works/98665/kabegami.gif
+tl 981 ./works/98665/uuu.wrl
+tl 982 ./works/98665/bikeanime.gif
+tl 983 ./works/98665/tr-001_1.gif
+tl 984 ./works/98665/5.jpg
+tl 985 ./works/98665/akicyanbaiku.jpg
+tl 986 ./works/98665/arumitwkoba.jpg
+tl 987 ./works/98665/arumitwkobasmall.jpg
+tl 988 ./works/98665/shinnosukesansmall.jpg
+tl 989 ./works/98665/test1.html
+tl 990 ./works/98665/1.wrl
+tl 991 ./works/98644/
+tl 992 ./works/98644/multimedia.html
+tl 993 ./works/98644/WS_FTP.LOG
+tl 994 ./works/98656/
+tl 995 ./works/98656/sisaku2-1.html
+tl 996 ./works/98656/sisaku.html
+tl 997 ./works/98656/house.JPG
+tl 998 ./works/98656/WS_FTP.LOG
+tl 999 ./works/98656/index.html
+tl 1000 ./works/98656/yaneura.html
+tl 1001 ./works/98656/mymyhouse.wrl
+tl 1002 ./works/98656/door.wrl
+tl 1003 ./works/98656/wall.JPG
+tl 1004 ./works/98656/kusa.JPG
+tl 1005 ./works/98656/back.wrl
+tl 1006 ./works/98650/
+tl 1007 ./works/98650/index.htm
+tl 1008 ./works/98650/test1.htm
+tl 1009 ./works/98650/Tools.JPG
+tl 1010 ./works/98650/WS_FTP.LOG
+tl 1011 ./works/98650/index.html.htm
+tl 1012 ./works/98650/index.html
+tl 1013 ./works/98650/2.wrl
+tl 1014 ./works/98650/1.wrl
+tl 1015 ./works/98650/3.wrl
+tl 1016 ./works/98646/
+tl 1017 ./works/98646/link.html
+tl 1018 ./works/98646/homepage.jpg
+tl 1019 ./works/98646/WS_FTP.LOG
+tl 1020 ./works/98646/index.html
+tl 1021 ./works/98646/3305010033.jpg
+tl 1022 ./works/98646/f9.gif
+tl 1023 ./works/98646/VRML1.wrl
+tl 1024 ./works/98646/may0022.gif
+tl 1025 ./works/98646/wing_l.gif
+tl 1026 ./works/98646/link1.html
+tl 1027 ./works/98646/link2.html
+tl 1028 ./works/98629/
+tl 1029 ./works/98629/\203T\203{\203e\203\223\203n\203E\203Xbmp.bmp
+tl 1030 ./works/98629/3008000030(1).jpg
+tl 1031 ./works/98629/WS_FTP.LOG
+tl 1032 ./works/98629/Rimg0005.JPG
+tl 1033 ./works/98629/index.html
+tl 1034 ./works/98629/Rimg0001.JPG
+tl 1035 ./works/98629/Rimg0006.JPG
+tl 1036 ./works/98629/Rimg0139.JPG
+tl 1037 ./works/98629/Rimg0174.JPG
+tl 1038 ./works/98629/sabotenlink.html
+tl 1039 ./works/98629/testlink.html
+tl 1040 ./works/98629/titlelogo.JPG
+tl 1041 ./works/98629/top.JPG
+tl 1042 ./works/98629/hyoumoji1.JPG
+tl 1043 ./works/98629/hyoumoji2.JPG
+tl 1044 ./works/98629/hyoumoji3.JPG
+tl 1045 ./works/98629/sabotenillsut.JPG
+tl 1046 ./works/98629/98629.wrl
+tl 1047 ./works/98629/98629ver2.wrl
+tl 1048 ./works/98688/
+tl 1049 ./works/98688/test1.html
+tl 1050 ./works/98688/WS_FTP.LOG
+tl 1051 ./works/98688/kajou.html
+tl 1052 ./works/98688/momo.html
+tl 1053 ./works/98688/mada.html
+tl 1054 ./works/98688/page\202Q.html
+tl 1055 ./works/98688/page1.html
+tl 1056 ./works/98688/toc.html
+tl 1057 ./works/98688/frame.html
+tl 1058 ./works/98688/hyoo.html
+tl 1059 ./works/98688/98688.wrl
+tl 1060 ./works/98688/shinkuu.html
+tl 1061 ./works/98671/
+tl 1062 ./works/98671/index.html
+tl 1063 ./works/98671/WS_FTP.LOG
+tl 1064 ./works/98671/VR1.wrl
+tl 1065 ./works/98671/\203}\203\213\203`.htm
+tl 1066 ./works/98671/VR1\211\346\221\234\201Dwrl.htm
+tl 1067 ./works/98671/vr2.wrl\202\326\202\314\274\256\260\304\266\257\304.lnk
+
+tablename 2 newness
+tabletype 2 double
+tablenumline 2 1067
+tl 1 12056.0
+tl 2 11327.0
+tl 3 10234.0
+tl 4 11340.0
+tl 5 11336.0
+tl 6 11341.0
+tl 7 12056.0
+tl 8 12056.0
+tl 9 11335.0
+tl 10 11334.0
+tl 11 11327.0
+tl 12 11327.0
+tl 13 10610.0
+tl 14 10610.0
+tl 15 11327.0
+tl 16 10964.0
+tl 17 11327.0
+tl 18 11334.0
+tl 19 11334.0
+tl 20 11334.0
+tl 21 11317.0
+tl 22 11334.0
+tl 23 11334.0
+tl 24 12056.0
+tl 25 11334.0
+tl 26 11330.0
+tl 27 11330.0
+tl 28 11330.0
+tl 29 11330.0
+tl 30 11330.0
+tl 31 11330.0
+tl 32 11330.0
+tl 33 11331.0
+tl 34 11331.0
+tl 35 11328.0
+tl 36 11328.0
+tl 37 11330.0
+tl 38 11328.0
+tl 39 11331.0
+tl 40 11331.0
+tl 41 11328.0
+tl 42 11328.0
+tl 43 11330.0
+tl 44 11330.0
+tl 45 11330.0
+tl 46 11331.0
+tl 47 11331.0
+tl 48 11331.0
+tl 49 12056.0
+tl 50 11316.0
+tl 51 11316.0
+tl 52 11328.0
+tl 53 11330.0
+tl 54 12056.0
+tl 55 10951.0
+tl 56 10968.0
+tl 57 10221.0
+tl 58 10221.0
+tl 59 10968.0
+tl 60 10221.0
+tl 61 10221.0
+tl 62 10951.0
+tl 63 11328.0
+tl 64 11330.0
+tl 65 12056.0
+tl 66 10234.0
+tl 67 10951.0
+tl 68 12056.0
+tl 69 11319.0
+tl 70 11319.0
+tl 71 12056.0
+tl 72 11340.0
+tl 73 11340.0
+tl 74 11340.0
+tl 75 11319.0
+tl 76 11319.0
+tl 77 11330.0
+tl 78 11330.0
+tl 79 11340.0
+tl 80 11330.0
+tl 81 11330.0
+tl 82 11330.0
+tl 83 11330.0
+tl 84 11318.0
+tl 85 11318.0
+tl 86 11318.0
+tl 87 11318.0
+tl 88 11318.0
+tl 89 11318.0
+tl 90 11318.0
+tl 91 11318.0
+tl 92 11330.0
+tl 93 11326.0
+tl 94 11330.0
+tl 95 11340.0
+tl 96 11333.0
+tl 97 12056.0
+tl 98 9856.0
+tl 99 10238.0
+tl 100 11319.0
+tl 101 11319.0
+tl 102 11330.0
+tl 103 11330.0
+tl 104 10229.0
+tl 105 11334.0
+tl 106 11334.0
+tl 107 11334.0
+tl 108 11334.0
+tl 109 11327.0
+tl 110 11334.0
+tl 111 11334.0
+tl 112 11334.0
+tl 113 11334.0
+tl 114 11336.0
+tl 115 11334.0
+tl 116 10597.0
+tl 117 11334.0
+tl 118 11319.0
+tl 119 12056.0
+tl 120 11333.0
+tl 121 11333.0
+tl 122 11333.0
+tl 123 11336.0
+tl 124 10597.0
+tl 125 11345.0
+tl 126 11333.0
+tl 127 11333.0
+tl 128 11334.0
+tl 129 11334.0
+tl 130 11334.0
+tl 131 11334.0
+tl 132 11334.0
+tl 133 11333.0
+tl 134 11333.0
+tl 135 11333.0
+tl 136 11333.0
+tl 137 11333.0
+tl 138 11333.0
+tl 139 11333.0
+tl 140 10961.0
+tl 141 11346.0
+tl 142 11319.0
+tl 143 12056.0
+tl 144 11335.0
+tl 145 11346.0
+tl 146 11336.0
+tl 147 11326.0
+tl 148 11336.0
+tl 149 11334.0
+tl 150 11334.0
+tl 151 11335.0
+tl 152 11335.0
+tl 153 12056.0
+tl 154 11333.0
+tl 155 11319.0
+tl 156 12056.0
+tl 157 10955.0
+tl 158 10955.0
+tl 159 11340.0
+tl 160 11340.0
+tl 161 11334.0
+tl 162 10955.0
+tl 163 10955.0
+tl 164 10955.0
+tl 165 10955.0
+tl 166 10955.0
+tl 167 10955.0
+tl 168 10955.0
+tl 169 12056.0
+tl 170 10964.0
+tl 171 10964.0
+tl 172 10965.0
+tl 173 10965.0
+tl 174 11340.0
+tl 175 11334.0
+tl 176 11334.0
+tl 177 11335.0
+tl 178 11340.0
+tl 179 11334.0
+tl 180 11334.0
+tl 181 11335.0
+tl 182 11322.0
+tl 183 11322.0
+tl 184 12056.0
+tl 185 11334.0
+tl 186 11334.0
+tl 187 11334.0
+tl 188 11340.0
+tl 189 11334.0
+tl 190 11334.0
+tl 191 11334.0
+tl 192 11334.0
+tl 193 11334.0
+tl 194 11334.0
+tl 195 12056.0
+tl 196 10963.0
+tl 197 10964.0
+tl 198 10964.0
+tl 199 10964.0
+tl 200 11334.0
+tl 201 11334.0
+tl 202 11340.0
+tl 203 11340.0
+tl 204 11340.0
+tl 205 11334.0
+tl 206 12056.0
+tl 207 10229.0
+tl 208 10975.0
+tl 209 10975.0
+tl 210 10963.0
+tl 211 10963.0
+tl 212 11340.0
+tl 213 11340.0
+tl 214 11340.0
+tl 215 11340.0
+tl 216 11340.0
+tl 217 11336.0
+tl 218 12056.0
+tl 219 11340.0
+tl 220 11334.0
+tl 221 10964.0
+tl 222 10964.0
+tl 223 11334.0
+tl 224 10963.0
+tl 225 10963.0
+tl 226 10963.0
+tl 227 10963.0
+tl 228 11334.0
+tl 229 11340.0
+tl 230 11334.0
+tl 231 11334.0
+tl 232 11340.0
+tl 233 11340.0
+tl 234 11340.0
+tl 235 11334.0
+tl 236 11334.0
+tl 237 11334.0
+tl 238 11334.0
+tl 239 12056.0
+tl 240 11346.0
+tl 241 11346.0
+tl 242 11346.0
+tl 243 11346.0
+tl 244 11346.0
+tl 245 11346.0
+tl 246 11346.0
+tl 247 11334.0
+tl 248 11346.0
+tl 249 11334.0
+tl 250 11334.0
+tl 251 11335.0
+tl 252 11335.0
+tl 253 11335.0
+tl 254 11335.0
+tl 255 11335.0
+tl 256 11319.0
+tl 257 11319.0
+tl 258 11319.0
+tl 259 11319.0
+tl 260 11319.0
+tl 261 11319.0
+tl 262 11319.0
+tl 263 11319.0
+tl 264 12056.0
+tl 265 11333.0
+tl 266 11333.0
+tl 267 11333.0
+tl 268 11333.0
+tl 269 11343.0
+tl 270 11342.0
+tl 271 11317.0
+tl 272 11328.0
+tl 273 11337.0
+tl 274 11343.0
+tl 275 11324.0
+tl 276 11324.0
+tl 277 11324.0
+tl 278 11324.0
+tl 279 11333.0
+tl 280 11333.0
+tl 281 11340.0
+tl 282 11340.0
+tl 283 12056.0
+tl 284 11339.0
+tl 285 11333.0
+tl 286 11329.0
+tl 287 12056.0
+tl 288 11336.0
+tl 289 11341.0
+tl 290 11341.0
+tl 291 11341.0
+tl 292 11341.0
+tl 293 11329.0
+tl 294 11327.0
+tl 295 11327.0
+tl 296 11322.0
+tl 297 11333.0
+tl 298 11322.0
+tl 299 11346.0
+tl 300 11339.0
+tl 301 11339.0
+tl 302 11339.0
+tl 303 11339.0
+tl 304 11339.0
+tl 305 11339.0
+tl 306 11339.0
+tl 307 11339.0
+tl 308 11339.0
+tl 309 11339.0
+tl 310 11346.0
+tl 311 11339.0
+tl 312 11339.0
+tl 313 11318.0
+tl 314 11339.0
+tl 315 11339.0
+tl 316 11339.0
+tl 317 11339.0
+tl 318 11339.0
+tl 319 11339.0
+tl 320 11339.0
+tl 321 11339.0
+tl 322 11346.0
+tl 323 11339.0
+tl 324 11339.0
+tl 325 11339.0
+tl 326 11339.0
+tl 327 11339.0
+tl 328 11339.0
+tl 329 11339.0
+tl 330 11339.0
+tl 331 11339.0
+tl 332 11316.0
+tl 333 11322.0
+tl 334 11322.0
+tl 335 11329.0
+tl 336 11318.0
+tl 337 11329.0
+tl 338 11346.0
+tl 339 11322.0
+tl 340 11322.0
+tl 341 11324.0
+tl 342 11336.0
+tl 343 11335.0
+tl 344 11333.0
+tl 345 11335.0
+tl 346 11335.0
+tl 347 11336.0
+tl 348 11335.0
+tl 349 11336.0
+tl 350 11336.0
+tl 351 11335.0
+tl 352 11336.0
+tl 353 11335.0
+tl 354 11336.0
+tl 355 11335.0
+tl 356 11336.0
+tl 357 11336.0
+tl 358 11335.0
+tl 359 11336.0
+tl 360 11336.0
+tl 361 11336.0
+tl 362 11336.0
+tl 363 11336.0
+tl 364 11335.0
+tl 365 11335.0
+tl 366 11335.0
+tl 367 11335.0
+tl 368 11335.0
+tl 369 11335.0
+tl 370 11335.0
+tl 371 11335.0
+tl 372 12056.0
+tl 373 11336.0
+tl 374 11341.0
+tl 375 11333.0
+tl 376 11329.0
+tl 377 12056.0
+tl 378 11323.0
+tl 379 11341.0
+tl 380 11332.0
+tl 381 11341.0
+tl 382 11341.0
+tl 383 11341.0
+tl 384 11323.0
+tl 385 11341.0
+tl 386 11341.0
+tl 387 11333.0
+tl 388 11332.0
+tl 389 11323.0
+tl 390 11336.0
+tl 391 11334.0
+tl 392 11346.0
+tl 393 11341.0
+tl 394 11346.0
+tl 395 11346.0
+tl 396 11336.0
+tl 397 11322.0
+tl 398 11322.0
+tl 399 11322.0
+tl 400 11322.0
+tl 401 11333.0
+tl 402 11322.0
+tl 403 11322.0
+tl 404 11329.0
+tl 405 11332.0
+tl 406 11322.0
+tl 407 11333.0
+tl 408 11329.0
+tl 409 11323.0
+tl 410 11333.0
+tl 411 11329.0
+tl 412 11329.0
+tl 413 11322.0
+tl 414 11329.0
+tl 415 11322.0
+tl 416 11322.0
+tl 417 11322.0
+tl 418 11329.0
+tl 419 11322.0
+tl 420 11322.0
+tl 421 11322.0
+tl 422 11322.0
+tl 423 11322.0
+tl 424 11322.0
+tl 425 11329.0
+tl 426 11333.0
+tl 427 11328.0
+tl 428 11329.0
+tl 429 11329.0
+tl 430 11329.0
+tl 431 11333.0
+tl 432 11336.0
+tl 433 11322.0
+tl 434 11336.0
+tl 435 11333.0
+tl 436 11329.0
+tl 437 11329.0
+tl 438 11322.0
+tl 439 11322.0
+tl 440 11329.0
+tl 441 11322.0
+tl 442 12056.0
+tl 443 11332.0
+tl 444 11332.0
+tl 445 11332.0
+tl 446 11333.0
+tl 447 11339.0
+tl 448 11329.0
+tl 449 11322.0
+tl 450 11329.0
+tl 451 11322.0
+tl 452 11322.0
+tl 453 12056.0
+tl 454 11333.0
+tl 455 11346.0
+tl 456 11341.0
+tl 457 11333.0
+tl 458 11329.0
+tl 459 11346.0
+tl 460 11337.0
+tl 461 12056.0
+tl 462 11341.0
+tl 463 11341.0
+tl 464 11341.0
+tl 465 11341.0
+tl 466 11346.0
+tl 467 11334.0
+tl 468 11341.0
+tl 469 11341.0
+tl 470 11333.0
+tl 471 11339.0
+tl 472 11346.0
+tl 473 11339.0
+tl 474 11346.0
+tl 475 11336.0
+tl 476 11339.0
+tl 477 11346.0
+tl 478 11346.0
+tl 479 11346.0
+tl 480 11346.0
+tl 481 11339.0
+tl 482 11339.0
+tl 483 11339.0
+tl 484 11346.0
+tl 485 11336.0
+tl 486 12056.0
+tl 487 11332.0
+tl 488 11333.0
+tl 489 11339.0
+tl 490 11346.0
+tl 491 11336.0
+tl 492 12056.0
+tl 493 11341.0
+tl 494 11325.0
+tl 495 11333.0
+tl 496 11332.0
+tl 497 11332.0
+tl 498 11332.0
+tl 499 11339.0
+tl 500 11322.0
+tl 501 11329.0
+tl 502 12056.0
+tl 503 11341.0
+tl 504 11334.0
+tl 505 11322.0
+tl 506 11325.0
+tl 507 11332.0
+tl 508 11333.0
+tl 509 11334.0
+tl 510 11332.0
+tl 511 11332.0
+tl 512 11332.0
+tl 513 11325.0
+tl 514 11339.0
+tl 515 11338.0
+tl 516 11322.0
+tl 517 11322.0
+tl 518 11333.0
+tl 519 11333.0
+tl 520 11346.0
+tl 521 11322.0
+tl 522 11322.0
+tl 523 11322.0
+tl 524 11322.0
+tl 525 11339.0
+tl 526 11321.0
+tl 527 11322.0
+tl 528 11322.0
+tl 529 11339.0
+tl 530 11333.0
+tl 531 11321.0
+tl 532 12056.0
+tl 533 11329.0
+tl 534 11334.0
+tl 535 11325.0
+tl 536 11325.0
+tl 537 11329.0
+tl 538 11333.0
+tl 539 11322.0
+tl 540 11322.0
+tl 541 11322.0
+tl 542 11336.0
+tl 543 12056.0
+tl 544 11325.0
+tl 545 11325.0
+tl 546 11325.0
+tl 547 11325.0
+tl 548 11341.0
+tl 549 11336.0
+tl 550 11333.0
+tl 551 11332.0
+tl 552 11332.0
+tl 553 11339.0
+tl 554 11339.0
+tl 555 11336.0
+tl 556 11336.0
+tl 557 10603.0
+tl 558 11329.0
+tl 559 11329.0
+tl 560 11316.0
+tl 561 10966.0
+tl 562 11328.0
+tl 563 11329.0
+tl 564 10980.0
+tl 565 11324.0
+tl 566 11324.0
+tl 567 11336.0
+tl 568 12056.0
+tl 569 11325.0
+tl 570 11329.0
+tl 571 11325.0
+tl 572 11333.0
+tl 573 11329.0
+tl 574 11336.0
+tl 575 11336.0
+tl 576 12056.0
+tl 577 11325.0
+tl 578 11341.0
+tl 579 11325.0
+tl 580 11332.0
+tl 581 11333.0
+tl 582 11336.0
+tl 583 11336.0
+tl 584 11332.0
+tl 585 11339.0
+tl 586 11336.0
+tl 587 11336.0
+tl 588 12056.0
+tl 589 11325.0
+tl 590 11341.0
+tl 591 11325.0
+tl 592 11333.0
+tl 593 11346.0
+tl 594 11339.0
+tl 595 11346.0
+tl 596 11322.0
+tl 597 11322.0
+tl 598 11336.0
+tl 599 12056.0
+tl 600 11336.0
+tl 601 11339.0
+tl 602 11341.0
+tl 603 11325.0
+tl 604 11333.0
+tl 605 11332.0
+tl 606 11332.0
+tl 607 11339.0
+tl 608 11346.0
+tl 609 11322.0
+tl 610 11329.0
+tl 611 11336.0
+tl 612 12056.0
+tl 613 11342.0
+tl 614 11325.0
+tl 615 11325.0
+tl 616 11333.0
+tl 617 11332.0
+tl 618 11325.0
+tl 619 11332.0
+tl 620 11325.0
+tl 621 11332.0
+tl 622 11332.0
+tl 623 11336.0
+tl 624 11322.0
+tl 625 11329.0
+tl 626 11322.0
+tl 627 11336.0
+tl 628 11336.0
+tl 629 11329.0
+tl 630 11329.0
+tl 631 11329.0
+tl 632 11329.0
+tl 633 11336.0
+tl 634 11336.0
+tl 635 11336.0
+tl 636 11336.0
+tl 637 12056.0
+tl 638 11341.0
+tl 639 11325.0
+tl 640 11333.0
+tl 641 11325.0
+tl 642 11325.0
+tl 643 11325.0
+tl 644 11332.0
+tl 645 11336.0
+tl 646 12056.0
+tl 647 11333.0
+tl 648 11334.0
+tl 649 11341.0
+tl 650 11341.0
+tl 651 11341.0
+tl 652 11334.0
+tl 653 11334.0
+tl 654 11333.0
+tl 655 11339.0
+tl 656 11339.0
+tl 657 11339.0
+tl 658 11346.0
+tl 659 11322.0
+tl 660 11336.0
+tl 661 11336.0
+tl 662 12056.0
+tl 663 11329.0
+tl 664 11334.0
+tl 665 11325.0
+tl 666 11333.0
+tl 667 11332.0
+tl 668 11329.0
+tl 669 11332.0
+tl 670 12056.0
+tl 671 11339.0
+tl 672 11322.0
+tl 673 11333.0
+tl 674 11322.0
+tl 675 11322.0
+tl 676 11336.0
+tl 677 11336.0
+tl 678 11336.0
+tl 679 12056.0
+tl 680 11325.0
+tl 681 11325.0
+tl 682 11325.0
+tl 683 11325.0
+tl 684 11325.0
+tl 685 11332.0
+tl 686 11333.0
+tl 687 12056.0
+tl 688 11336.0
+tl 689 11336.0
+tl 690 11341.0
+tl 691 11333.0
+tl 692 11336.0
+tl 693 11336.0
+tl 694 11329.0
+tl 695 12056.0
+tl 696 11334.0
+tl 697 11334.0
+tl 698 11334.0
+tl 699 11334.0
+tl 700 11322.0
+tl 701 11333.0
+tl 702 11332.0
+tl 703 11346.0
+tl 704 11346.0
+tl 705 11346.0
+tl 706 11346.0
+tl 707 11346.0
+tl 708 11346.0
+tl 709 11346.0
+tl 710 11346.0
+tl 711 11336.0
+tl 712 11322.0
+tl 713 11322.0
+tl 714 11336.0
+tl 715 11336.0
+tl 716 12056.0
+tl 717 11341.0
+tl 718 11325.0
+tl 719 11334.0
+tl 720 11325.0
+tl 721 11325.0
+tl 722 11339.0
+tl 723 11334.0
+tl 724 11334.0
+tl 725 11334.0
+tl 726 11346.0
+tl 727 11346.0
+tl 728 11334.0
+tl 729 11334.0
+tl 730 11346.0
+tl 731 11336.0
+tl 732 11346.0
+tl 733 12056.0
+tl 734 11334.0
+tl 735 11325.0
+tl 736 11325.0
+tl 737 11341.0
+tl 738 11341.0
+tl 739 11325.0
+tl 740 11325.0
+tl 741 11341.0
+tl 742 11334.0
+tl 743 11325.0
+tl 744 11325.0
+tl 745 11325.0
+tl 746 11325.0
+tl 747 11333.0
+tl 748 11346.0
+tl 749 11346.0
+tl 750 11333.0
+tl 751 11325.0
+tl 752 11333.0
+tl 753 11333.0
+tl 754 11333.0
+tl 755 11333.0
+tl 756 11333.0
+tl 757 11333.0
+tl 758 11333.0
+tl 759 11333.0
+tl 760 11333.0
+tl 761 11346.0
+tl 762 11333.0
+tl 763 11333.0
+tl 764 11333.0
+tl 765 11346.0
+tl 766 11346.0
+tl 767 11346.0
+tl 768 11346.0
+tl 769 11336.0
+tl 770 12056.0
+tl 771 11325.0
+tl 772 11325.0
+tl 773 11334.0
+tl 774 11332.0
+tl 775 11325.0
+tl 776 11325.0
+tl 777 11333.0
+tl 778 11332.0
+tl 779 11332.0
+tl 780 11332.0
+tl 781 11336.0
+tl 782 11332.0
+tl 783 12056.0
+tl 784 11325.0
+tl 785 11334.0
+tl 786 11325.0
+tl 787 11325.0
+tl 788 11333.0
+tl 789 11332.0
+tl 790 11325.0
+tl 791 11336.0
+tl 792 11336.0
+tl 793 11339.0
+tl 794 11339.0
+tl 795 11346.0
+tl 796 11346.0
+tl 797 11346.0
+tl 798 11346.0
+tl 799 11346.0
+tl 800 11346.0
+tl 801 11322.0
+tl 802 11329.0
+tl 803 11322.0
+tl 804 11322.0
+tl 805 11322.0
+tl 806 11336.0
+tl 807 11336.0
+tl 808 11322.0
+tl 809 11336.0
+tl 810 11336.0
+tl 811 11322.0
+tl 812 12056.0
+tl 813 11334.0
+tl 814 11341.0
+tl 815 11336.0
+tl 816 11333.0
+tl 817 11329.0
+tl 818 11332.0
+tl 819 11339.0
+tl 820 11322.0
+tl 821 11336.0
+tl 822 12056.0
+tl 823 11336.0
+tl 824 11346.0
+tl 825 11341.0
+tl 826 11320.0
+tl 827 11325.0
+tl 828 11325.0
+tl 829 11336.0
+tl 830 11346.0
+tl 831 11327.0
+tl 832 11325.0
+tl 833 11333.0
+tl 834 11325.0
+tl 835 11339.0
+tl 836 11346.0
+tl 837 11327.0
+tl 838 11326.0
+tl 839 11329.0
+tl 840 11329.0
+tl 841 11327.0
+tl 842 11327.0
+tl 843 11327.0
+tl 844 11327.0
+tl 845 11327.0
+tl 846 11327.0
+tl 847 11320.0
+tl 848 11320.0
+tl 849 11320.0
+tl 850 11322.0
+tl 851 11336.0
+tl 852 11336.0
+tl 853 11336.0
+tl 854 12056.0
+tl 855 11325.0
+tl 856 11333.0
+tl 857 11332.0
+tl 858 11332.0
+tl 859 11336.0
+tl 860 12056.0
+tl 861 11325.0
+tl 862 11325.0
+tl 863 11333.0
+tl 864 11332.0
+tl 865 11333.0
+tl 866 11332.0
+tl 867 11336.0
+tl 868 11336.0
+tl 869 11332.0
+tl 870 11336.0
+tl 871 11336.0
+tl 872 11336.0
+tl 873 11336.0
+tl 874 11329.0
+tl 875 11330.0
+tl 876 11330.0
+tl 877 11334.0
+tl 878 11330.0
+tl 879 11334.0
+tl 880 11336.0
+tl 881 11336.0
+tl 882 11336.0
+tl 883 11333.0
+tl 884 11330.0
+tl 885 11330.0
+tl 886 11334.0
+tl 887 11333.0
+tl 888 11333.0
+tl 889 11333.0
+tl 890 11333.0
+tl 891 11333.0
+tl 892 11333.0
+tl 893 11328.0
+tl 894 12056.0
+tl 895 11325.0
+tl 896 11329.0
+tl 897 11332.0
+tl 898 11333.0
+tl 899 11329.0
+tl 900 11332.0
+tl 901 11336.0
+tl 902 11339.0
+tl 903 11339.0
+tl 904 11336.0
+tl 905 11346.0
+tl 906 11336.0
+tl 907 11336.0
+tl 908 11336.0
+tl 909 11336.0
+tl 910 11329.0
+tl 911 11322.0
+tl 912 11322.0
+tl 913 11322.0
+tl 914 11329.0
+tl 915 11329.0
+tl 916 11322.0
+tl 917 11329.0
+tl 918 11336.0
+tl 919 11336.0
+tl 920 11336.0
+tl 921 11336.0
+tl 922 12056.0
+tl 923 11325.0
+tl 924 11325.0
+tl 925 11333.0
+tl 926 11332.0
+tl 927 11322.0
+tl 928 12056.0
+tl 929 11325.0
+tl 930 10956.0
+tl 931 11332.0
+tl 932 11325.0
+tl 933 11333.0
+tl 934 11336.0
+tl 935 11336.0
+tl 936 11336.0
+tl 937 12056.0
+tl 938 11325.0
+tl 939 11325.0
+tl 940 11325.0
+tl 941 11333.0
+tl 942 11325.0
+tl 943 11332.0
+tl 944 11332.0
+tl 945 11336.0
+tl 946 11336.0
+tl 947 11322.0
+tl 948 11336.0
+tl 949 11336.0
+tl 950 11325.0
+tl 951 11325.0
+tl 952 11325.0
+tl 953 11325.0
+tl 954 11325.0
+tl 955 11325.0
+tl 956 11325.0
+tl 957 12056.0
+tl 958 11325.0
+tl 959 11325.0
+tl 960 11325.0
+tl 961 11325.0
+tl 962 11325.0
+tl 963 11325.0
+tl 964 11325.0
+tl 965 11333.0
+tl 966 12056.0
+tl 967 11332.0
+tl 968 11341.0
+tl 969 11325.0
+tl 970 11339.0
+tl 971 11332.0
+tl 972 11332.0
+tl 973 11336.0
+tl 974 12056.0
+tl 975 11336.0
+tl 976 11325.0
+tl 977 11325.0
+tl 978 11333.0
+tl 979 11325.0
+tl 980 11325.0
+tl 981 11322.0
+tl 982 11329.0
+tl 983 11329.0
+tl 984 11329.0
+tl 985 11329.0
+tl 986 11329.0
+tl 987 11329.0
+tl 988 11329.0
+tl 989 11327.0
+tl 990 11336.0
+tl 991 12056.0
+tl 992 11325.0
+tl 993 11333.0
+tl 994 12056.0
+tl 995 11325.0
+tl 996 11325.0
+tl 997 11332.0
+tl 998 11333.0
+tl 999 11336.0
+tl 1000 11332.0
+tl 1001 11336.0
+tl 1002 11336.0
+tl 1003 11336.0
+tl 1004 11336.0
+tl 1005 11336.0
+tl 1006 12056.0
+tl 1007 11325.0
+tl 1008 11325.0
+tl 1009 11336.0
+tl 1010 11339.0
+tl 1011 11325.0
+tl 1012 11336.0
+tl 1013 11339.0
+tl 1014 11336.0
+tl 1015 11322.0
+tl 1016 12056.0
+tl 1017 11336.0
+tl 1018 11325.0
+tl 1019 11333.0
+tl 1020 11336.0
+tl 1021 11340.0
+tl 1022 11332.0
+tl 1023 11322.0
+tl 1024 11329.0
+tl 1025 11329.0
+tl 1026 11336.0
+tl 1027 11336.0
+tl 1028 12056.0
+tl 1029 11325.0
+tl 1030 11334.0
+tl 1031 11333.0
+tl 1032 11346.0
+tl 1033 11339.0
+tl 1034 11333.0
+tl 1035 11346.0
+tl 1036 11346.0
+tl 1037 11346.0
+tl 1038 11336.0
+tl 1039 11327.0
+tl 1040 11332.0
+tl 1041 11334.0
+tl 1042 11329.0
+tl 1043 11329.0
+tl 1044 11329.0
+tl 1045 11329.0
+tl 1046 11336.0
+tl 1047 11336.0
+tl 1048 12056.0
+tl 1049 11332.0
+tl 1050 11333.0
+tl 1051 11346.0
+tl 1052 11346.0
+tl 1053 11322.0
+tl 1054 11322.0
+tl 1055 11322.0
+tl 1056 11322.0
+tl 1057 11322.0
+tl 1058 11322.0
+tl 1059 11329.0
+tl 1060 11329.0
+tl 1061 12056.0
+tl 1062 11329.0
+tl 1063 11333.0
+tl 1064 11339.0
+tl 1065 11339.0
+tl 1066 11339.0
+tl 1067 11336.0
+
+tablename 3 filesize
+tabletype 3 double
+tablenumline 3 1067
+tl 1 0.0
+tl 2 22528.0
+tl 3 31963.0
+tl 4 3648.0
+tl 5 121856.0
+tl 6 3876.0
+tl 7 0.0
+tl 8 0.0
+tl 9 2373.0
+tl 10 2903.0
+tl 11 40585.0
+tl 12 3116.0
+tl 13 8989.0
+tl 14 16523.0
+tl 15 82690.0
+tl 16 1175.0
+tl 17 2470.0
+tl 18 2377.0
+tl 19 2443.0
+tl 20 2462.0
+tl 21 752.0
+tl 22 946.0
+tl 23 2678.0
+tl 24 0.0
+tl 25 469.0
+tl 26 3067.0
+tl 27 2915.0
+tl 28 3325.0
+tl 29 922.0
+tl 30 1636.0
+tl 31 1867.0
+tl 32 2165.0
+tl 33 3975.0
+tl 34 5156.0
+tl 35 1023.0
+tl 36 3555.0
+tl 37 2914.0
+tl 38 3981.0
+tl 39 5120.0
+tl 40 4318.0
+tl 41 1845.0
+tl 42 2627.0
+tl 43 33330.0
+tl 44 21035.0
+tl 45 22498.0
+tl 46 2942.0
+tl 47 3996.0
+tl 48 3613.0
+tl 49 0.0
+tl 50 74417.0
+tl 51 863744.0
+tl 52 5472.0
+tl 53 1371.0
+tl 54 0.0
+tl 55 1706.0
+tl 56 144.0
+tl 57 323.0
+tl 58 143.0
+tl 59 204.0
+tl 60 99.0
+tl 61 1619.0
+tl 62 139.0
+tl 63 2905.0
+tl 64 655.0
+tl 65 0.0
+tl 66 860.0
+tl 67 3728.0
+tl 68 0.0
+tl 69 2286.0
+tl 70 2651.0
+tl 71 0.0
+tl 72 3454.0
+tl 73 2717.0
+tl 74 2351.0
+tl 75 5940.0
+tl 76 4329.0
+tl 77 2737.0
+tl 78 579.0
+tl 79 22171.0
+tl 80 2173.0
+tl 81 4580.0
+tl 82 290.0
+tl 83 383.0
+tl 84 27183.0
+tl 85 38697.0
+tl 86 39608.0
+tl 87 515.0
+tl 88 21941.0
+tl 89 264.0
+tl 90 392.0
+tl 91 515.0
+tl 92 386.0
+tl 93 7027.0
+tl 94 695.0
+tl 95 108.0
+tl 96 4323.0
+tl 97 0.0
+tl 98 592928.0
+tl 99 594432.0
+tl 100 433.0
+tl 101 2352.0
+tl 102 2329.0
+tl 103 2941.0
+tl 104 3312236.0
+tl 105 3681.0
+tl 106 12077.0
+tl 107 12344.0
+tl 108 12743.0
+tl 109 3116.0
+tl 110 20457.0
+tl 111 79.0
+tl 112 1648.0
+tl 113 2630.0
+tl 114 4811.0
+tl 115 43.0
+tl 116 7392.0
+tl 117 489.0
+tl 118 3232.0
+tl 119 0.0
+tl 120 515.0
+tl 121 280.0
+tl 122 314.0
+tl 123 4067.0
+tl 124 7392.0
+tl 125 679.0
+tl 126 263.0
+tl 127 18739.0
+tl 128 3930.0
+tl 129 125.0
+tl 130 139.0
+tl 131 57.0
+tl 132 57.0
+tl 133 2744.0
+tl 134 280.0
+tl 135 15848.0
+tl 136 16013.0
+tl 137 314.0
+tl 138 13844.0
+tl 139 13886.0
+tl 140 1881.0
+tl 141 2672.0
+tl 142 4162.0
+tl 143 0.0
+tl 144 1866.0
+tl 145 2362.0
+tl 146 3067.0
+tl 147 4003.0
+tl 148 26624.0
+tl 149 581.0
+tl 150 557.0
+tl 151 4459.0
+tl 152 201.0
+tl 153 0.0
+tl 154 4611.0
+tl 155 4698.0
+tl 156 0.0
+tl 157 316.0
+tl 158 539.0
+tl 159 2475.0
+tl 160 4071.0
+tl 161 1506.0
+tl 162 9996.0
+tl 163 539.0
+tl 164 151.0
+tl 165 10658.0
+tl 166 151.0
+tl 167 316.0
+tl 168 11790.0
+tl 169 0.0
+tl 170 512.0
+tl 171 1175.0
+tl 172 991.0
+tl 173 1392.0
+tl 174 1864.0
+tl 175 3995.0
+tl 176 4237.0
+tl 177 3767.0
+tl 178 2414.0
+tl 179 4991.0
+tl 180 6875.0
+tl 181 7790.0
+tl 182 512.0
+tl 183 513.0
+tl 184 0.0
+tl 185 531.0
+tl 186 613.0
+tl 187 557.0
+tl 188 1449.0
+tl 189 1535.0
+tl 190 1757.0
+tl 191 1455.0
+tl 192 6765.0
+tl 193 7382.0
+tl 194 7325.0
+tl 195 0.0
+tl 196 559.0
+tl 197 586.0
+tl 198 517.0
+tl 199 564.0
+tl 200 2821.0
+tl 201 2255.0
+tl 202 1654.0
+tl 203 1567.0
+tl 204 1546.0
+tl 205 6581.0
+tl 206 0.0
+tl 207 3312236.0
+tl 208 110238.0
+tl 209 5130.0
+tl 210 33463.0
+tl 211 33191.0
+tl 212 988.0
+tl 213 5544.0
+tl 214 1664.0
+tl 215 1004.0
+tl 216 3048.0
+tl 217 1134.0
+tl 218 0.0
+tl 219 1016.0
+tl 220 1049.0
+tl 221 606.0
+tl 222 1615.0
+tl 223 165.0
+tl 224 185.0
+tl 225 184.0
+tl 226 165.0
+tl 227 178.0
+tl 228 986.0
+tl 229 1326.0
+tl 230 1050.0
+tl 231 968.0
+tl 232 1053.0
+tl 233 3811.0
+tl 234 4197.0
+tl 235 3375.0
+tl 236 3295.0
+tl 237 3247.0
+tl 238 2814.0
+tl 239 0.0
+tl 240 1016.0
+tl 241 1552.0
+tl 242 512.0
+tl 243 3223.0
+tl 244 3223.0
+tl 245 277.0
+tl 246 16118.0
+tl 247 2887.0
+tl 248 1829.0
+tl 249 826.0
+tl 250 28033.0
+tl 251 3738.0
+tl 252 1582.0
+tl 253 4226.0
+tl 254 2796.0
+tl 255 4133.0
+tl 256 17188.0
+tl 257 2784.0
+tl 258 1897.0
+tl 259 1897.0
+tl 260 1932.0
+tl 261 185.0
+tl 262 187.0
+tl 263 11531.0
+tl 264 0.0
+tl 265 665607.0
+tl 266 748857.0
+tl 267 903844.0
+tl 268 874421.0
+tl 269 14730.0
+tl 270 187.0
+tl 271 18400.0
+tl 272 4593.0
+tl 273 13279.0
+tl 274 15009.0
+tl 275 187.0
+tl 276 19274.0
+tl 277 1700.0
+tl 278 22353.0
+tl 279 21870.0
+tl 280 22195.0
+tl 281 22195.0
+tl 282 21929.0
+tl 283 0.0
+tl 284 683.0
+tl 285 1508.0
+tl 286 646.0
+tl 287 0.0
+tl 288 613.0
+tl 289 14726.0
+tl 290 30887.0
+tl 291 6109.0
+tl 292 19593.0
+tl 293 1104.0
+tl 294 710.0
+tl 295 10133.0
+tl 296 705.0
+tl 297 26720.0
+tl 298 2569.0
+tl 299 303.0
+tl 300 17169.0
+tl 301 20073.0
+tl 302 6241.0
+tl 303 15508.0
+tl 304 9503.0
+tl 305 22473.0
+tl 306 10676.0
+tl 307 26824.0
+tl 308 8870.0
+tl 309 20756.0
+tl 310 2828.0
+tl 311 17020.0
+tl 312 6584.0
+tl 313 10411.0
+tl 314 3830.0
+tl 315 9977.0
+tl 316 8784.0
+tl 317 21924.0
+tl 318 8082.0
+tl 319 20012.0
+tl 320 5943.0
+tl 321 14855.0
+tl 322 2190.0
+tl 323 12089.0
+tl 324 13622.0
+tl 325 37646.0
+tl 326 5177.0
+tl 327 12600.0
+tl 328 3997.0
+tl 329 9815.0
+tl 330 10678.0
+tl 331 25662.0
+tl 332 1698.0
+tl 333 1995.0
+tl 334 6243.0
+tl 335 1104.0
+tl 336 2765.0
+tl 337 2247.0
+tl 338 3614.0
+tl 339 513.0
+tl 340 4112.0
+tl 341 3297.0
+tl 342 784.0
+tl 343 12141.0
+tl 344 11138.0
+tl 345 9497.0
+tl 346 17015.0
+tl 347 5037.0
+tl 348 7873.0
+tl 349 2666.0
+tl 350 3281.0
+tl 351 3078.0
+tl 352 1472.0
+tl 353 9120.0
+tl 354 3624.0
+tl 355 9390.0
+tl 356 3054.0
+tl 357 1945.0
+tl 358 7506.0
+tl 359 980.0
+tl 360 2439.0
+tl 361 2383.0
+tl 362 355.0
+tl 363 923.0
+tl 364 7400.0
+tl 365 12063.0
+tl 366 7402.0
+tl 367 8776.0
+tl 368 13971.0
+tl 369 11444.0
+tl 370 7556.0
+tl 371 12208.0
+tl 372 0.0
+tl 373 198.0
+tl 374 655.0
+tl 375 2994.0
+tl 376 4365.0
+tl 377 0.0
+tl 378 1177.0
+tl 379 543.0
+tl 380 1363.0
+tl 381 2913.0
+tl 382 13971.0
+tl 383 3474.0
+tl 384 971.0
+tl 385 2979.0
+tl 386 1597.0
+tl 387 13003.0
+tl 388 2765.0
+tl 389 226.0
+tl 390 1061.0
+tl 391 1447.0
+tl 392 198.0
+tl 393 8448.0
+tl 394 18545.0
+tl 395 13638.0
+tl 396 6033.0
+tl 397 6045.0
+tl 398 587.0
+tl 399 565.0
+tl 400 551.0
+tl 401 8013.0
+tl 402 1618.0
+tl 403 1343.0
+tl 404 16828.0
+tl 405 744.0
+tl 406 1274.0
+tl 407 3971.0
+tl 408 14609.0
+tl 409 467.0
+tl 410 2464.0
+tl 411 6333.0
+tl 412 6303.0
+tl 413 1378.0
+tl 414 12087.0
+tl 415 1851.0
+tl 416 1947.0
+tl 417 1347.0
+tl 418 1233.0
+tl 419 5269.0
+tl 420 6357.0
+tl 421 7095.0
+tl 422 21897.0
+tl 423 15938.0
+tl 424 26710.0
+tl 425 2868.0
+tl 426 2349.0
+tl 427 14946.0
+tl 428 3566.0
+tl 429 3587.0
+tl 430 3969.0
+tl 431 1517.0
+tl 432 2818.0
+tl 433 93.0
+tl 434 2904.0
+tl 435 1091.0
+tl 436 2801.0
+tl 437 2094.0
+tl 438 1317.0
+tl 439 1185.0
+tl 440 1128.0
+tl 441 1362.0
+tl 442 0.0
+tl 443 677.0
+tl 444 677.0
+tl 445 677.0
+tl 446 6145.0
+tl 447 1466.0
+tl 448 2355.0
+tl 449 821.0
+tl 450 731.0
+tl 451 333.0
+tl 452 766.0
+tl 453 0.0
+tl 454 7168.0
+tl 455 415.0
+tl 456 236.0
+tl 457 3494.0
+tl 458 2275.0
+tl 459 187.0
+tl 460 375.0
+tl 461 0.0
+tl 462 12460.0
+tl 463 4392.0
+tl 464 1282.0
+tl 465 3054.0
+tl 466 611.0
+tl 467 7641.0
+tl 468 2651.0
+tl 469 5366.0
+tl 470 15198.0
+tl 471 217.0
+tl 472 21504.0
+tl 473 54.0
+tl 474 16149.0
+tl 475 645.0
+tl 476 56.0
+tl 477 117.0
+tl 478 12117.0
+tl 479 629.0
+tl 480 7180.0
+tl 481 989386.0
+tl 482 657.0
+tl 483 54.0
+tl 484 816.0
+tl 485 4604.0
+tl 486 0.0
+tl 487 439.0
+tl 488 3049.0
+tl 489 882.0
+tl 490 1109.0
+tl 491 7739.0
+tl 492 0.0
+tl 493 739.0
+tl 494 1734.0
+tl 495 6524.0
+tl 496 560.0
+tl 497 1866.0
+tl 498 739.0
+tl 499 537.0
+tl 500 2109.0
+tl 501 2154.0
+tl 502 0.0
+tl 503 615.0
+tl 504 519.0
+tl 505 543.0
+tl 506 117.0
+tl 507 133.0
+tl 508 16692.0
+tl 509 519.0
+tl 510 205.0
+tl 511 42.0
+tl 512 42.0
+tl 513 724.0
+tl 514 66614.0
+tl 515 66614.0
+tl 516 773.0
+tl 517 487.0
+tl 518 9235.0
+tl 519 3494.0
+tl 520 3073.0
+tl 521 4261.0
+tl 522 2656.0
+tl 523 1860.0
+tl 524 9907.0
+tl 525 2670.0
+tl 526 2082.0
+tl 527 1644.0
+tl 528 1207.0
+tl 529 1552.0
+tl 530 3039.0
+tl 531 2071.0
+tl 532 0.0
+tl 533 764.0
+tl 534 481.0
+tl 535 25618.0
+tl 536 40460.0
+tl 537 134.0
+tl 538 7373.0
+tl 539 2359350.0
+tl 540 2359350.0
+tl 541 12540.0
+tl 542 9771.0
+tl 543 0.0
+tl 544 7191.0
+tl 545 72954.0
+tl 546 72954.0
+tl 547 38246.0
+tl 548 16442.0
+tl 549 1149.0
+tl 550 12457.0
+tl 551 6462.0
+tl 552 7444.0
+tl 553 2864.0
+tl 554 2797.0
+tl 555 5091.0
+tl 556 4037.0
+tl 557 7524.0
+tl 558 41439.0
+tl 559 24469.0
+tl 560 49178.0
+tl 561 10462.0
+tl 562 97203.0
+tl 563 15487.0
+tl 564 12037.0
+tl 565 81738.0
+tl 566 53641.0
+tl 567 1753.0
+tl 568 0.0
+tl 569 1096.0
+tl 570 1302.0
+tl 571 12016.0
+tl 572 4575.0
+tl 573 6943.0
+tl 574 1172.0
+tl 575 1507.0
+tl 576 0.0
+tl 577 501.0
+tl 578 152.0
+tl 579 162.0
+tl 580 658.0
+tl 581 8408.0
+tl 582 733.0
+tl 583 2124.0
+tl 584 167.0
+tl 585 1282.0
+tl 586 5035.0
+tl 587 631.0
+tl 588 0.0
+tl 589 443.0
+tl 590 29722.0
+tl 591 928.0
+tl 592 6549.0
+tl 593 497.0
+tl 594 497.0
+tl 595 1167.0
+tl 596 4351.0
+tl 597 4351.0
+tl 598 10621.0
+tl 599 0.0
+tl 600 3672.0
+tl 601 1053.0
+tl 602 4214.0
+tl 603 776.0
+tl 604 8019.0
+tl 605 65391.0
+tl 606 776.0
+tl 607 177.0
+tl 608 1071.0
+tl 609 4515.0
+tl 610 5488.0
+tl 611 10535.0
+tl 612 0.0
+tl 613 26112.0
+tl 614 2374.0
+tl 615 17013.0
+tl 616 11160.0
+tl 617 40218.0
+tl 618 17013.0
+tl 619 6086.0
+tl 620 16031.0
+tl 621 363.0
+tl 622 354.0
+tl 623 2405.0
+tl 624 812.0
+tl 625 5934.0
+tl 626 11994.0
+tl 627 17077.0
+tl 628 7310.0
+tl 629 3840.0
+tl 630 1155.0
+tl 631 2774.0
+tl 632 1480.0
+tl 633 8815.0
+tl 634 17050.0
+tl 635 3732.0
+tl 636 7431.0
+tl 637 0.0
+tl 638 631.0
+tl 639 420.0
+tl 640 6797.0
+tl 641 2176.0
+tl 642 15511.0
+tl 643 420.0
+tl 644 138.0
+tl 645 5356.0
+tl 646 0.0
+tl 647 54.0
+tl 648 257.0
+tl 649 1047.0
+tl 650 3116.0
+tl 651 94.0
+tl 652 369.0
+tl 653 495.0
+tl 654 9583.0
+tl 655 165.0
+tl 656 185.0
+tl 657 202.0
+tl 658 88.0
+tl 659 330.0
+tl 660 36.0
+tl 661 331.0
+tl 662 0.0
+tl 663 1458.0
+tl 664 506.0
+tl 665 270.0
+tl 666 6360.0
+tl 667 2255.0
+tl 668 2375.0
+tl 669 1421.0
+tl 670 0.0
+tl 671 1310.0
+tl 672 1326.0
+tl 673 3128.0
+tl 674 2293.0
+tl 675 1845.0
+tl 676 4459.0
+tl 677 3300.0
+tl 678 1002.0
+tl 679 0.0
+tl 680 142158.0
+tl 681 1299.0
+tl 682 2274.0
+tl 683 753.0
+tl 684 3654.0
+tl 685 14677.0
+tl 686 5932.0
+tl 687 0.0
+tl 688 1993.0
+tl 689 405.0
+tl 690 43611.0
+tl 691 4627.0
+tl 692 2035.0
+tl 693 574.0
+tl 694 48332.0
+tl 695 0.0
+tl 696 300.0
+tl 697 263.0
+tl 698 416.0
+tl 699 511.0
+tl 700 327.0
+tl 701 11623.0
+tl 702 2359350.0
+tl 703 90.0
+tl 704 311.0
+tl 705 384.0
+tl 706 98.0
+tl 707 98.0
+tl 708 73.0
+tl 709 662.0
+tl 710 88.0
+tl 711 459.0
+tl 712 350.0
+tl 713 287.0
+tl 714 1411.0
+tl 715 3445.0
+tl 716 0.0
+tl 717 570.0
+tl 718 448.0
+tl 719 371.0
+tl 720 24877.0
+tl 721 10204.0
+tl 722 130.0
+tl 723 630.0
+tl 724 166.0
+tl 725 364.0
+tl 726 1345.0
+tl 727 2064.0
+tl 728 217.0
+tl 729 1876.0
+tl 730 1379.0
+tl 731 999.0
+tl 732 645.0
+tl 733 0.0
+tl 734 12849.0
+tl 735 124.0
+tl 736 687.0
+tl 737 1442.0
+tl 738 14026.0
+tl 739 599.0
+tl 740 48.0
+tl 741 68969.0
+tl 742 899.0
+tl 743 129.0
+tl 744 23430.0
+tl 745 570.0
+tl 746 401.0
+tl 747 25266.0
+tl 748 498.0
+tl 749 419.0
+tl 750 61422.0
+tl 751 23430.0
+tl 752 61659.0
+tl 753 61848.0
+tl 754 62228.0
+tl 755 61667.0
+tl 756 61566.0
+tl 757 61561.0
+tl 758 61546.0
+tl 759 60918.0
+tl 760 61157.0
+tl 761 154175.0
+tl 762 61677.0
+tl 763 62598.0
+tl 764 62919.0
+tl 765 335.0
+tl 766 390.0
+tl 767 376.0
+tl 768 399.0
+tl 769 7452.0
+tl 770 0.0
+tl 771 678.0
+tl 772 9729.0
+tl 773 479.0
+tl 774 374.0
+tl 775 222.0
+tl 776 5307.0
+tl 777 9904.0
+tl 778 142.0
+tl 779 16339.0
+tl 780 726.0
+tl 781 7773.0
+tl 782 726.0
+tl 783 0.0
+tl 784 496.0
+tl 785 674.0
+tl 786 135214.0
+tl 787 464.0
+tl 788 14313.0
+tl 789 11397.0
+tl 790 826.0
+tl 791 1079.0
+tl 792 719.0
+tl 793 313.0
+tl 794 313.0
+tl 795 3402.0
+tl 796 945.0
+tl 797 1470.0
+tl 798 1876.0
+tl 799 796.0
+tl 800 790.0
+tl 801 351.0
+tl 802 1321.0
+tl 803 2365.0
+tl 804 15776.0
+tl 805 501.0
+tl 806 9310.0
+tl 807 532.0
+tl 808 2573.0
+tl 809 632.0
+tl 810 6859.0
+tl 811 2366.0
+tl 812 0.0
+tl 813 505.0
+tl 814 293.0
+tl 815 822.0
+tl 816 6669.0
+tl 817 191.0
+tl 818 26258.0
+tl 819 520.0
+tl 820 286.0
+tl 821 310.0
+tl 822 0.0
+tl 823 1095.0
+tl 824 114.0
+tl 825 2027.0
+tl 826 712.0
+tl 827 25142.0
+tl 828 129222.0
+tl 829 1522.0
+tl 830 411.0
+tl 831 11563.0
+tl 832 183.0
+tl 833 18667.0
+tl 834 183.0
+tl 835 2989.0
+tl 836 4302.0
+tl 837 490934.0
+tl 838 9529.0
+tl 839 6015.0
+tl 840 208.0
+tl 841 1132.0
+tl 842 902.0
+tl 843 912.0
+tl 844 956.0
+tl 845 930.0
+tl 846 978.0
+tl 847 6058.0
+tl 848 6139.0
+tl 849 938.0
+tl 850 21260.0
+tl 851 4019.0
+tl 852 569.0
+tl 853 377.0
+tl 854 0.0
+tl 855 1471.0
+tl 856 3988.0
+tl 857 1552.0
+tl 858 805.0
+tl 859 14307.0
+tl 860 0.0
+tl 861 675.0
+tl 862 30312.0
+tl 863 16148.0
+tl 864 544.0
+tl 865 8713.0
+tl 866 422040.0
+tl 867 3900.0
+tl 868 730.0
+tl 869 544.0
+tl 870 1151.0
+tl 871 737.0
+tl 872 1100.0
+tl 873 325.0
+tl 874 60096.0
+tl 875 10034.0
+tl 876 12772.0
+tl 877 37253.0
+tl 878 9534.0
+tl 879 7394.0
+tl 880 112.0
+tl 881 193.0
+tl 882 413.0
+tl 883 10885.0
+tl 884 10099.0
+tl 885 12455.0
+tl 886 35565.0
+tl 887 9237.0
+tl 888 10830.0
+tl 889 8266.0
+tl 890 9959.0
+tl 891 17408.0
+tl 892 12228.0
+tl 893 351514.0
+tl 894 0.0
+tl 895 398.0
+tl 896 660.0
+tl 897 1544.0
+tl 898 12788.0
+tl 899 437.0
+tl 900 34748.0
+tl 901 5285.0
+tl 902 1740.0
+tl 903 1740.0
+tl 904 893.0
+tl 905 130.0
+tl 906 98.0
+tl 907 1781.0
+tl 908 1953.0
+tl 909 1235.0
+tl 910 1846.0
+tl 911 649.0
+tl 912 931.0
+tl 913 688.0
+tl 914 11164.0
+tl 915 21493.0
+tl 916 838.0
+tl 917 319.0
+tl 918 733.0
+tl 919 1178.0
+tl 920 1581.0
+tl 921 17596.0
+tl 922 0.0
+tl 923 834.0
+tl 924 91.0
+tl 925 4334.0
+tl 926 252.0
+tl 927 3237.0
+tl 928 0.0
+tl 929 136314.0
+tl 930 2359350.0
+tl 931 767.0
+tl 932 126061.0
+tl 933 5787.0
+tl 934 1023.0
+tl 935 5056.0
+tl 936 1060.0
+tl 937 0.0
+tl 938 466.0
+tl 939 464.0
+tl 940 730.0
+tl 941 8903.0
+tl 942 466.0
+tl 943 283.0
+tl 944 556.0
+tl 945 850.0
+tl 946 707.0
+tl 947 727.0
+tl 948 1169.0
+tl 949 974.0
+tl 950 15726.0
+tl 951 5725.0
+tl 952 5828.0
+tl 953 5289.0
+tl 954 5266.0
+tl 955 5913.0
+tl 956 27618.0
+tl 957 0.0
+tl 958 5289.0
+tl 959 5725.0
+tl 960 5828.0
+tl 961 15726.0
+tl 962 5913.0
+tl 963 5266.0
+tl 964 27618.0
+tl 965 5860.0
+tl 966 0.0
+tl 967 598.0
+tl 968 4.0
+tl 969 167.0
+tl 970 124.0
+tl 971 256.0
+tl 972 256.0
+tl 973 2899.0
+tl 974 0.0
+tl 975 1208.0
+tl 976 12697.0
+tl 977 9375.0
+tl 978 7281.0
+tl 979 57564.0
+tl 980 110.0
+tl 981 391.0
+tl 982 13309.0
+tl 983 166410.0
+tl 984 55001.0
+tl 985 12040.0
+tl 986 32695.0
+tl 987 13101.0
+tl 988 12812.0
+tl 989 110.0
+tl 990 1391.0
+tl 991 0.0
+tl 992 429.0
+tl 993 1887.0
+tl 994 0.0
+tl 995 488.0
+tl 996 888.0
+tl 997 19255.0
+tl 998 6573.0
+tl 999 588.0
+tl 1000 526.0
+tl 1001 5146.0
+tl 1002 2430.0
+tl 1003 32540.0
+tl 1004 22128.0
+tl 1005 223.0
+tl 1006 0.0
+tl 1007 793.0
+tl 1008 205.0
+tl 1009 39955.0
+tl 1010 132.0
+tl 1011 793.0
+tl 1012 793.0
+tl 1013 2617.0
+tl 1014 7121.0
+tl 1015 1538.0
+tl 1016 0.0
+tl 1017 1121.0
+tl 1018 10150.0
+tl 1019 6334.0
+tl 1020 648.0
+tl 1021 127959.0
+tl 1022 1135.0
+tl 1023 4382.0
+tl 1024 14151.0
+tl 1025 1815.0
+tl 1026 101.0
+tl 1027 117.0
+tl 1028 0.0
+tl 1029 190134.0
+tl 1030 19412.0
+tl 1031 12390.0
+tl 1032 113192.0
+tl 1033 602.0
+tl 1034 44656.0
+tl 1035 160893.0
+tl 1036 61726.0
+tl 1037 144997.0
+tl 1038 2149.0
+tl 1039 517.0
+tl 1040 41615.0
+tl 1041 19412.0
+tl 1042 27855.0
+tl 1043 17267.0
+tl 1044 20915.0
+tl 1045 13854.0
+tl 1046 9703.0
+tl 1047 13092.0
+tl 1048 0.0
+tl 1049 515.0
+tl 1050 5171.0
+tl 1051 191.0
+tl 1052 63.0
+tl 1053 228.0
+tl 1054 54.0
+tl 1055 54.0
+tl 1056 137.0
+tl 1057 125.0
+tl 1058 175.0
+tl 1059 555.0
+tl 1060 115.0
+tl 1061 0.0
+tl 1062 371.0
+tl 1063 4251.0
+tl 1064 586.0
+tl 1065 2650.0
+tl 1066 624.0
+tl 1067 253.0
+
+ 
+ 
+numbranch  67
+ 
+branch 1 #######
+branchtitle 1 null
+numnode 1 5
+numbranch 1 6
+childbranch 1 2
+childbranch 2 3
+childbranch 3 4
+childbranch 4 8
+childbranch 5 13
+childbranch 6 21
+ 
+ntl 1 1 2
+ntl 1 2 2
+ntl 1 3 2
+ 
+ 
+ntl 2 1 3
+ntl 2 2 3
+ntl 2 3 3
+ 
+ 
+ntl 3 1 4
+ntl 3 2 4
+ntl 3 3 4
+ 
+ 
+ntl 4 1 5
+ntl 4 2 5
+ntl 4 3 5
+ 
+ 
+ntl 5 1 6
+ntl 5 2 6
+ntl 5 3 6
+ 
+ 
+branch 2 #######
+branchtitle 2 null
+numnode 2 0
+numbranch 2 0
+ 
+gtl 2 1 7
+gtl 2 2 7
+gtl 2 3 7
+ 
+branch 3 #######
+branchtitle 3 null
+numnode 3 15
+numbranch 3 0
+ 
+gtl 3 1 8
+gtl 3 2 8
+gtl 3 3 8
+ 
+ntl 1 1 9
+ntl 1 2 9
+ntl 1 3 9
+ 
+ 
+ntl 2 1 10
+ntl 2 2 10
+ntl 2 3 10
+ 
+ 
+ntl 3 1 11
+ntl 3 2 11
+ntl 3 3 11
+ 
+ 
+ntl 4 1 12
+ntl 4 2 12
+ntl 4 3 12
+ 
+ 
+ntl 5 1 13
+ntl 5 2 13
+ntl 5 3 13
+ 
+ 
+ntl 6 1 14
+ntl 6 2 14
+ntl 6 3 14
+ 
+ 
+ntl 7 1 15
+ntl 7 2 15
+ntl 7 3 15
+ 
+ 
+ntl 8 1 16
+ntl 8 2 16
+ntl 8 3 16
+ 
+ 
+ntl 9 1 17
+ntl 9 2 17
+ntl 9 3 17
+ 
+ 
+ntl 10 1 18
+ntl 10 2 18
+ntl 10 3 18
+ 
+ 
+ntl 11 1 19
+ntl 11 2 19
+ntl 11 3 19
+ 
+ 
+ntl 12 1 20
+ntl 12 2 20
+ntl 12 3 20
+ 
+ 
+ntl 13 1 21
+ntl 13 2 21
+ntl 13 3 21
+ 
+ 
+ntl 14 1 22
+ntl 14 2 22
+ntl 14 3 22
+ 
+ 
+ntl 15 1 23
+ntl 15 2 23
+ntl 15 3 23
+ 
+ 
+branch 4 #######
+branchtitle 4 null
+numnode 4 24
+numbranch 4 1
+ 
+gtl 4 1 24
+gtl 4 2 24
+gtl 4 3 24
+childbranch 1 5
+ 
+ntl 1 1 25
+ntl 1 2 25
+ntl 1 3 25
+ 
+ 
+ntl 2 1 26
+ntl 2 2 26
+ntl 2 3 26
+ 
+ 
+ntl 3 1 27
+ntl 3 2 27
+ntl 3 3 27
+ 
+ 
+ntl 4 1 28
+ntl 4 2 28
+ntl 4 3 28
+ 
+ 
+ntl 5 1 29
+ntl 5 2 29
+ntl 5 3 29
+ 
+ 
+ntl 6 1 30
+ntl 6 2 30
+ntl 6 3 30
+ 
+ 
+ntl 7 1 31
+ntl 7 2 31
+ntl 7 3 31
+ 
+ 
+ntl 8 1 32
+ntl 8 2 32
+ntl 8 3 32
+ 
+ 
+ntl 9 1 33
+ntl 9 2 33
+ntl 9 3 33
+ 
+ 
+ntl 10 1 34
+ntl 10 2 34
+ntl 10 3 34
+ 
+ 
+ntl 11 1 35
+ntl 11 2 35
+ntl 11 3 35
+ 
+ 
+ntl 12 1 36
+ntl 12 2 36
+ntl 12 3 36
+ 
+ 
+ntl 13 1 37
+ntl 13 2 37
+ntl 13 3 37
+ 
+ 
+ntl 14 1 38
+ntl 14 2 38
+ntl 14 3 38
+ 
+ 
+ntl 15 1 39
+ntl 15 2 39
+ntl 15 3 39
+ 
+ 
+ntl 16 1 40
+ntl 16 2 40
+ntl 16 3 40
+ 
+ 
+ntl 17 1 41
+ntl 17 2 41
+ntl 17 3 41
+ 
+ 
+ntl 18 1 42
+ntl 18 2 42
+ntl 18 3 42
+ 
+ 
+ntl 19 1 43
+ntl 19 2 43
+ntl 19 3 43
+ 
+ 
+ntl 20 1 44
+ntl 20 2 44
+ntl 20 3 44
+ 
+ 
+ntl 21 1 45
+ntl 21 2 45
+ntl 21 3 45
+ 
+ 
+ntl 22 1 46
+ntl 22 2 46
+ntl 22 3 46
+ 
+ 
+ntl 23 1 47
+ntl 23 2 47
+ntl 23 3 47
+ 
+ 
+ntl 24 1 48
+ntl 24 2 48
+ntl 24 3 48
+ 
+ 
+branch 5 #######
+branchtitle 5 null
+numnode 5 4
+numbranch 5 1
+ 
+gtl 5 1 49
+gtl 5 2 49
+gtl 5 3 49
+childbranch 1 6
+ 
+ntl 1 1 50
+ntl 1 2 50
+ntl 1 3 50
+ 
+ 
+ntl 2 1 51
+ntl 2 2 51
+ntl 2 3 51
+ 
+ 
+ntl 3 1 52
+ntl 3 2 52
+ntl 3 3 52
+ 
+ 
+ntl 4 1 53
+ntl 4 2 53
+ntl 4 3 53
+ 
+ 
+branch 6 #######
+branchtitle 6 null
+numnode 6 10
+numbranch 6 1
+ 
+gtl 6 1 54
+gtl 6 2 54
+gtl 6 3 54
+childbranch 1 7
+ 
+ntl 1 1 55
+ntl 1 2 55
+ntl 1 3 55
+ 
+ 
+ntl 2 1 56
+ntl 2 2 56
+ntl 2 3 56
+ 
+ 
+ntl 3 1 57
+ntl 3 2 57
+ntl 3 3 57
+ 
+ 
+ntl 4 1 58
+ntl 4 2 58
+ntl 4 3 58
+ 
+ 
+ntl 5 1 59
+ntl 5 2 59
+ntl 5 3 59
+ 
+ 
+ntl 6 1 60
+ntl 6 2 60
+ntl 6 3 60
+ 
+ 
+ntl 7 1 61
+ntl 7 2 61
+ntl 7 3 61
+ 
+ 
+ntl 8 1 62
+ntl 8 2 62
+ntl 8 3 62
+ 
+ 
+ntl 9 1 63
+ntl 9 2 63
+ntl 9 3 63
+ 
+ 
+ntl 10 1 64
+ntl 10 2 64
+ntl 10 3 64
+ 
+ 
+branch 7 #######
+branchtitle 7 null
+numnode 7 2
+numbranch 7 0
+ 
+gtl 7 1 65
+gtl 7 2 65
+gtl 7 3 65
+ 
+ntl 1 1 66
+ntl 1 2 66
+ntl 1 3 66
+ 
+ 
+ntl 2 1 67
+ntl 2 2 67
+ntl 2 3 67
+ 
+ 
+branch 8 #######
+branchtitle 8 null
+numnode 8 2
+numbranch 8 4
+ 
+gtl 8 1 68
+gtl 8 2 68
+gtl 8 3 68
+childbranch 1 9
+childbranch 2 10
+childbranch 3 11
+childbranch 4 12
+ 
+ntl 1 1 69
+ntl 1 2 69
+ntl 1 3 69
+ 
+ 
+ntl 2 1 70
+ntl 2 2 70
+ntl 2 3 70
+ 
+ 
+branch 9 #######
+branchtitle 9 null
+numnode 9 25
+numbranch 9 0
+ 
+gtl 9 1 71
+gtl 9 2 71
+gtl 9 3 71
+ 
+ntl 1 1 72
+ntl 1 2 72
+ntl 1 3 72
+ 
+ 
+ntl 2 1 73
+ntl 2 2 73
+ntl 2 3 73
+ 
+ 
+ntl 3 1 74
+ntl 3 2 74
+ntl 3 3 74
+ 
+ 
+ntl 4 1 75
+ntl 4 2 75
+ntl 4 3 75
+ 
+ 
+ntl 5 1 76
+ntl 5 2 76
+ntl 5 3 76
+ 
+ 
+ntl 6 1 77
+ntl 6 2 77
+ntl 6 3 77
+ 
+ 
+ntl 7 1 78
+ntl 7 2 78
+ntl 7 3 78
+ 
+ 
+ntl 8 1 79
+ntl 8 2 79
+ntl 8 3 79
+ 
+ 
+ntl 9 1 80
+ntl 9 2 80
+ntl 9 3 80
+ 
+ 
+ntl 10 1 81
+ntl 10 2 81
+ntl 10 3 81
+ 
+ 
+ntl 11 1 82
+ntl 11 2 82
+ntl 11 3 82
+ 
+ 
+ntl 12 1 83
+ntl 12 2 83
+ntl 12 3 83
+ 
+ 
+ntl 13 1 84
+ntl 13 2 84
+ntl 13 3 84
+ 
+ 
+ntl 14 1 85
+ntl 14 2 85
+ntl 14 3 85
+ 
+ 
+ntl 15 1 86
+ntl 15 2 86
+ntl 15 3 86
+ 
+ 
+ntl 16 1 87
+ntl 16 2 87
+ntl 16 3 87
+ 
+ 
+ntl 17 1 88
+ntl 17 2 88
+ntl 17 3 88
+ 
+ 
+ntl 18 1 89
+ntl 18 2 89
+ntl 18 3 89
+ 
+ 
+ntl 19 1 90
+ntl 19 2 90
+ntl 19 3 90
+ 
+ 
+ntl 20 1 91
+ntl 20 2 91
+ntl 20 3 91
+ 
+ 
+ntl 21 1 92
+ntl 21 2 92
+ntl 21 3 92
+ 
+ 
+ntl 22 1 93
+ntl 22 2 93
+ntl 22 3 93
+ 
+ 
+ntl 23 1 94
+ntl 23 2 94
+ntl 23 3 94
+ 
+ 
+ntl 24 1 95
+ntl 24 2 95
+ntl 24 3 95
+ 
+ 
+ntl 25 1 96
+ntl 25 2 96
+ntl 25 3 96
+ 
+ 
+branch 10 #######
+branchtitle 10 null
+numnode 10 21
+numbranch 10 0
+ 
+gtl 10 1 97
+gtl 10 2 97
+gtl 10 3 97
+ 
+ntl 1 1 98
+ntl 1 2 98
+ntl 1 3 98
+ 
+ 
+ntl 2 1 99
+ntl 2 2 99
+ntl 2 3 99
+ 
+ 
+ntl 3 1 100
+ntl 3 2 100
+ntl 3 3 100
+ 
+ 
+ntl 4 1 101
+ntl 4 2 101
+ntl 4 3 101
+ 
+ 
+ntl 5 1 102
+ntl 5 2 102
+ntl 5 3 102
+ 
+ 
+ntl 6 1 103
+ntl 6 2 103
+ntl 6 3 103
+ 
+ 
+ntl 7 1 104
+ntl 7 2 104
+ntl 7 3 104
+ 
+ 
+ntl 8 1 105
+ntl 8 2 105
+ntl 8 3 105
+ 
+ 
+ntl 9 1 106
+ntl 9 2 106
+ntl 9 3 106
+ 
+ 
+ntl 10 1 107
+ntl 10 2 107
+ntl 10 3 107
+ 
+ 
+ntl 11 1 108
+ntl 11 2 108
+ntl 11 3 108
+ 
+ 
+ntl 12 1 109
+ntl 12 2 109
+ntl 12 3 109
+ 
+ 
+ntl 13 1 110
+ntl 13 2 110
+ntl 13 3 110
+ 
+ 
+ntl 14 1 111
+ntl 14 2 111
+ntl 14 3 111
+ 
+ 
+ntl 15 1 112
+ntl 15 2 112
+ntl 15 3 112
+ 
+ 
+ntl 16 1 113
+ntl 16 2 113
+ntl 16 3 113
+ 
+ 
+ntl 17 1 114
+ntl 17 2 114
+ntl 17 3 114
+ 
+ 
+ntl 18 1 115
+ntl 18 2 115
+ntl 18 3 115
+ 
+ 
+ntl 19 1 116
+ntl 19 2 116
+ntl 19 3 116
+ 
+ 
+ntl 20 1 117
+ntl 20 2 117
+ntl 20 3 117
+ 
+ 
+ntl 21 1 118
+ntl 21 2 118
+ntl 21 3 118
+ 
+ 
+branch 11 #######
+branchtitle 11 null
+numnode 11 23
+numbranch 11 0
+ 
+gtl 11 1 119
+gtl 11 2 119
+gtl 11 3 119
+ 
+ntl 1 1 120
+ntl 1 2 120
+ntl 1 3 120
+ 
+ 
+ntl 2 1 121
+ntl 2 2 121
+ntl 2 3 121
+ 
+ 
+ntl 3 1 122
+ntl 3 2 122
+ntl 3 3 122
+ 
+ 
+ntl 4 1 123
+ntl 4 2 123
+ntl 4 3 123
+ 
+ 
+ntl 5 1 124
+ntl 5 2 124
+ntl 5 3 124
+ 
+ 
+ntl 6 1 125
+ntl 6 2 125
+ntl 6 3 125
+ 
+ 
+ntl 7 1 126
+ntl 7 2 126
+ntl 7 3 126
+ 
+ 
+ntl 8 1 127
+ntl 8 2 127
+ntl 8 3 127
+ 
+ 
+ntl 9 1 128
+ntl 9 2 128
+ntl 9 3 128
+ 
+ 
+ntl 10 1 129
+ntl 10 2 129
+ntl 10 3 129
+ 
+ 
+ntl 11 1 130
+ntl 11 2 130
+ntl 11 3 130
+ 
+ 
+ntl 12 1 131
+ntl 12 2 131
+ntl 12 3 131
+ 
+ 
+ntl 13 1 132
+ntl 13 2 132
+ntl 13 3 132
+ 
+ 
+ntl 14 1 133
+ntl 14 2 133
+ntl 14 3 133
+ 
+ 
+ntl 15 1 134
+ntl 15 2 134
+ntl 15 3 134
+ 
+ 
+ntl 16 1 135
+ntl 16 2 135
+ntl 16 3 135
+ 
+ 
+ntl 17 1 136
+ntl 17 2 136
+ntl 17 3 136
+ 
+ 
+ntl 18 1 137
+ntl 18 2 137
+ntl 18 3 137
+ 
+ 
+ntl 19 1 138
+ntl 19 2 138
+ntl 19 3 138
+ 
+ 
+ntl 20 1 139
+ntl 20 2 139
+ntl 20 3 139
+ 
+ 
+ntl 21 1 140
+ntl 21 2 140
+ntl 21 3 140
+ 
+ 
+ntl 22 1 141
+ntl 22 2 141
+ntl 22 3 141
+ 
+ 
+ntl 23 1 142
+ntl 23 2 142
+ntl 23 3 142
+ 
+ 
+branch 12 #######
+branchtitle 12 null
+numnode 12 9
+numbranch 12 0
+ 
+gtl 12 1 143
+gtl 12 2 143
+gtl 12 3 143
+ 
+ntl 1 1 144
+ntl 1 2 144
+ntl 1 3 144
+ 
+ 
+ntl 2 1 145
+ntl 2 2 145
+ntl 2 3 145
+ 
+ 
+ntl 3 1 146
+ntl 3 2 146
+ntl 3 3 146
+ 
+ 
+ntl 4 1 147
+ntl 4 2 147
+ntl 4 3 147
+ 
+ 
+ntl 5 1 148
+ntl 5 2 148
+ntl 5 3 148
+ 
+ 
+ntl 6 1 149
+ntl 6 2 149
+ntl 6 3 149
+ 
+ 
+ntl 7 1 150
+ntl 7 2 150
+ntl 7 3 150
+ 
+ 
+ntl 8 1 151
+ntl 8 2 151
+ntl 8 3 151
+ 
+ 
+ntl 9 1 152
+ntl 9 2 152
+ntl 9 3 152
+ 
+ 
+branch 13 #######
+branchtitle 13 null
+numnode 13 2
+numbranch 13 7
+ 
+gtl 13 1 153
+gtl 13 2 153
+gtl 13 3 153
+childbranch 1 14
+childbranch 2 15
+childbranch 3 16
+childbranch 4 17
+childbranch 5 18
+childbranch 6 19
+childbranch 7 20
+ 
+ntl 1 1 154
+ntl 1 2 154
+ntl 1 3 154
+ 
+ 
+ntl 2 1 155
+ntl 2 2 155
+ntl 2 3 155
+ 
+ 
+branch 14 #######
+branchtitle 14 null
+numnode 14 12
+numbranch 14 0
+ 
+gtl 14 1 156
+gtl 14 2 156
+gtl 14 3 156
+ 
+ntl 1 1 157
+ntl 1 2 157
+ntl 1 3 157
+ 
+ 
+ntl 2 1 158
+ntl 2 2 158
+ntl 2 3 158
+ 
+ 
+ntl 3 1 159
+ntl 3 2 159
+ntl 3 3 159
+ 
+ 
+ntl 4 1 160
+ntl 4 2 160
+ntl 4 3 160
+ 
+ 
+ntl 5 1 161
+ntl 5 2 161
+ntl 5 3 161
+ 
+ 
+ntl 6 1 162
+ntl 6 2 162
+ntl 6 3 162
+ 
+ 
+ntl 7 1 163
+ntl 7 2 163
+ntl 7 3 163
+ 
+ 
+ntl 8 1 164
+ntl 8 2 164
+ntl 8 3 164
+ 
+ 
+ntl 9 1 165
+ntl 9 2 165
+ntl 9 3 165
+ 
+ 
+ntl 10 1 166
+ntl 10 2 166
+ntl 10 3 166
+ 
+ 
+ntl 11 1 167
+ntl 11 2 167
+ntl 11 3 167
+ 
+ 
+ntl 12 1 168
+ntl 12 2 168
+ntl 12 3 168
+ 
+ 
+branch 15 #######
+branchtitle 15 null
+numnode 15 14
+numbranch 15 0
+ 
+gtl 15 1 169
+gtl 15 2 169
+gtl 15 3 169
+ 
+ntl 1 1 170
+ntl 1 2 170
+ntl 1 3 170
+ 
+ 
+ntl 2 1 171
+ntl 2 2 171
+ntl 2 3 171
+ 
+ 
+ntl 3 1 172
+ntl 3 2 172
+ntl 3 3 172
+ 
+ 
+ntl 4 1 173
+ntl 4 2 173
+ntl 4 3 173
+ 
+ 
+ntl 5 1 174
+ntl 5 2 174
+ntl 5 3 174
+ 
+ 
+ntl 6 1 175
+ntl 6 2 175
+ntl 6 3 175
+ 
+ 
+ntl 7 1 176
+ntl 7 2 176
+ntl 7 3 176
+ 
+ 
+ntl 8 1 177
+ntl 8 2 177
+ntl 8 3 177
+ 
+ 
+ntl 9 1 178
+ntl 9 2 178
+ntl 9 3 178
+ 
+ 
+ntl 10 1 179
+ntl 10 2 179
+ntl 10 3 179
+ 
+ 
+ntl 11 1 180
+ntl 11 2 180
+ntl 11 3 180
+ 
+ 
+ntl 12 1 181
+ntl 12 2 181
+ntl 12 3 181
+ 
+ 
+ntl 13 1 182
+ntl 13 2 182
+ntl 13 3 182
+ 
+ 
+ntl 14 1 183
+ntl 14 2 183
+ntl 14 3 183
+ 
+ 
+branch 16 #######
+branchtitle 16 null
+numnode 16 10
+numbranch 16 0
+ 
+gtl 16 1 184
+gtl 16 2 184
+gtl 16 3 184
+ 
+ntl 1 1 185
+ntl 1 2 185
+ntl 1 3 185
+ 
+ 
+ntl 2 1 186
+ntl 2 2 186
+ntl 2 3 186
+ 
+ 
+ntl 3 1 187
+ntl 3 2 187
+ntl 3 3 187
+ 
+ 
+ntl 4 1 188
+ntl 4 2 188
+ntl 4 3 188
+ 
+ 
+ntl 5 1 189
+ntl 5 2 189
+ntl 5 3 189
+ 
+ 
+ntl 6 1 190
+ntl 6 2 190
+ntl 6 3 190
+ 
+ 
+ntl 7 1 191
+ntl 7 2 191
+ntl 7 3 191
+ 
+ 
+ntl 8 1 192
+ntl 8 2 192
+ntl 8 3 192
+ 
+ 
+ntl 9 1 193
+ntl 9 2 193
+ntl 9 3 193
+ 
+ 
+ntl 10 1 194
+ntl 10 2 194
+ntl 10 3 194
+ 
+ 
+branch 17 #######
+branchtitle 17 null
+numnode 17 10
+numbranch 17 0
+ 
+gtl 17 1 195
+gtl 17 2 195
+gtl 17 3 195
+ 
+ntl 1 1 196
+ntl 1 2 196
+ntl 1 3 196
+ 
+ 
+ntl 2 1 197
+ntl 2 2 197
+ntl 2 3 197
+ 
+ 
+ntl 3 1 198
+ntl 3 2 198
+ntl 3 3 198
+ 
+ 
+ntl 4 1 199
+ntl 4 2 199
+ntl 4 3 199
+ 
+ 
+ntl 5 1 200
+ntl 5 2 200
+ntl 5 3 200
+ 
+ 
+ntl 6 1 201
+ntl 6 2 201
+ntl 6 3 201
+ 
+ 
+ntl 7 1 202
+ntl 7 2 202
+ntl 7 3 202
+ 
+ 
+ntl 8 1 203
+ntl 8 2 203
+ntl 8 3 203
+ 
+ 
+ntl 9 1 204
+ntl 9 2 204
+ntl 9 3 204
+ 
+ 
+ntl 10 1 205
+ntl 10 2 205
+ntl 10 3 205
+ 
+ 
+branch 18 #######
+branchtitle 18 null
+numnode 18 11
+numbranch 18 0
+ 
+gtl 18 1 206
+gtl 18 2 206
+gtl 18 3 206
+ 
+ntl 1 1 207
+ntl 1 2 207
+ntl 1 3 207
+ 
+ 
+ntl 2 1 208
+ntl 2 2 208
+ntl 2 3 208
+ 
+ 
+ntl 3 1 209
+ntl 3 2 209
+ntl 3 3 209
+ 
+ 
+ntl 4 1 210
+ntl 4 2 210
+ntl 4 3 210
+ 
+ 
+ntl 5 1 211
+ntl 5 2 211
+ntl 5 3 211
+ 
+ 
+ntl 6 1 212
+ntl 6 2 212
+ntl 6 3 212
+ 
+ 
+ntl 7 1 213
+ntl 7 2 213
+ntl 7 3 213
+ 
+ 
+ntl 8 1 214
+ntl 8 2 214
+ntl 8 3 214
+ 
+ 
+ntl 9 1 215
+ntl 9 2 215
+ntl 9 3 215
+ 
+ 
+ntl 10 1 216
+ntl 10 2 216
+ntl 10 3 216
+ 
+ 
+ntl 11 1 217
+ntl 11 2 217
+ntl 11 3 217
+ 
+ 
+branch 19 #######
+branchtitle 19 null
+numnode 19 20
+numbranch 19 0
+ 
+gtl 19 1 218
+gtl 19 2 218
+gtl 19 3 218
+ 
+ntl 1 1 219
+ntl 1 2 219
+ntl 1 3 219
+ 
+ 
+ntl 2 1 220
+ntl 2 2 220
+ntl 2 3 220
+ 
+ 
+ntl 3 1 221
+ntl 3 2 221
+ntl 3 3 221
+ 
+ 
+ntl 4 1 222
+ntl 4 2 222
+ntl 4 3 222
+ 
+ 
+ntl 5 1 223
+ntl 5 2 223
+ntl 5 3 223
+ 
+ 
+ntl 6 1 224
+ntl 6 2 224
+ntl 6 3 224
+ 
+ 
+ntl 7 1 225
+ntl 7 2 225
+ntl 7 3 225
+ 
+ 
+ntl 8 1 226
+ntl 8 2 226
+ntl 8 3 226
+ 
+ 
+ntl 9 1 227
+ntl 9 2 227
+ntl 9 3 227
+ 
+ 
+ntl 10 1 228
+ntl 10 2 228
+ntl 10 3 228
+ 
+ 
+ntl 11 1 229
+ntl 11 2 229
+ntl 11 3 229
+ 
+ 
+ntl 12 1 230
+ntl 12 2 230
+ntl 12 3 230
+ 
+ 
+ntl 13 1 231
+ntl 13 2 231
+ntl 13 3 231
+ 
+ 
+ntl 14 1 232
+ntl 14 2 232
+ntl 14 3 232
+ 
+ 
+ntl 15 1 233
+ntl 15 2 233
+ntl 15 3 233
+ 
+ 
+ntl 16 1 234
+ntl 16 2 234
+ntl 16 3 234
+ 
+ 
+ntl 17 1 235
+ntl 17 2 235
+ntl 17 3 235
+ 
+ 
+ntl 18 1 236
+ntl 18 2 236
+ntl 18 3 236
+ 
+ 
+ntl 19 1 237
+ntl 19 2 237
+ntl 19 3 237
+ 
+ 
+ntl 20 1 238
+ntl 20 2 238
+ntl 20 3 238
+ 
+ 
+branch 20 #######
+branchtitle 20 null
+numnode 20 24
+numbranch 20 0
+ 
+gtl 20 1 239
+gtl 20 2 239
+gtl 20 3 239
+ 
+ntl 1 1 240
+ntl 1 2 240
+ntl 1 3 240
+ 
+ 
+ntl 2 1 241
+ntl 2 2 241
+ntl 2 3 241
+ 
+ 
+ntl 3 1 242
+ntl 3 2 242
+ntl 3 3 242
+ 
+ 
+ntl 4 1 243
+ntl 4 2 243
+ntl 4 3 243
+ 
+ 
+ntl 5 1 244
+ntl 5 2 244
+ntl 5 3 244
+ 
+ 
+ntl 6 1 245
+ntl 6 2 245
+ntl 6 3 245
+ 
+ 
+ntl 7 1 246
+ntl 7 2 246
+ntl 7 3 246
+ 
+ 
+ntl 8 1 247
+ntl 8 2 247
+ntl 8 3 247
+ 
+ 
+ntl 9 1 248
+ntl 9 2 248
+ntl 9 3 248
+ 
+ 
+ntl 10 1 249
+ntl 10 2 249
+ntl 10 3 249
+ 
+ 
+ntl 11 1 250
+ntl 11 2 250
+ntl 11 3 250
+ 
+ 
+ntl 12 1 251
+ntl 12 2 251
+ntl 12 3 251
+ 
+ 
+ntl 13 1 252
+ntl 13 2 252
+ntl 13 3 252
+ 
+ 
+ntl 14 1 253
+ntl 14 2 253
+ntl 14 3 253
+ 
+ 
+ntl 15 1 254
+ntl 15 2 254
+ntl 15 3 254
+ 
+ 
+ntl 16 1 255
+ntl 16 2 255
+ntl 16 3 255
+ 
+ 
+ntl 17 1 256
+ntl 17 2 256
+ntl 17 3 256
+ 
+ 
+ntl 18 1 257
+ntl 18 2 257
+ntl 18 3 257
+ 
+ 
+ntl 19 1 258
+ntl 19 2 258
+ntl 19 3 258
+ 
+ 
+ntl 20 1 259
+ntl 20 2 259
+ntl 20 3 259
+ 
+ 
+ntl 21 1 260
+ntl 21 2 260
+ntl 21 3 260
+ 
+ 
+ntl 22 1 261
+ntl 22 2 261
+ntl 22 3 261
+ 
+ 
+ntl 23 1 262
+ntl 23 2 262
+ntl 23 3 262
+ 
+ 
+ntl 24 1 263
+ntl 24 2 263
+ntl 24 3 263
+ 
+ 
+branch 21 #######
+branchtitle 21 null
+numnode 21 18
+numbranch 21 43
+ 
+gtl 21 1 264
+gtl 21 2 264
+gtl 21 3 264
+childbranch 1 22
+childbranch 2 23
+childbranch 3 24
+childbranch 4 25
+childbranch 5 26
+childbranch 6 27
+childbranch 7 28
+childbranch 8 29
+childbranch 9 30
+childbranch 10 31
+childbranch 11 32
+childbranch 12 33
+childbranch 13 34
+childbranch 14 35
+childbranch 15 36
+childbranch 16 37
+childbranch 17 38
+childbranch 18 39
+childbranch 19 40
+childbranch 20 41
+childbranch 21 44
+childbranch 22 45
+childbranch 23 46
+childbranch 24 47
+childbranch 25 48
+childbranch 26 49
+childbranch 27 50
+childbranch 28 51
+childbranch 29 52
+childbranch 30 53
+childbranch 31 54
+childbranch 32 55
+childbranch 33 56
+childbranch 34 57
+childbranch 35 59
+childbranch 36 60
+childbranch 37 61
+childbranch 38 62
+childbranch 39 63
+childbranch 40 64
+childbranch 41 65
+childbranch 42 66
+childbranch 43 67
+ 
+ntl 1 1 265
+ntl 1 2 265
+ntl 1 3 265
+ 
+ 
+ntl 2 1 266
+ntl 2 2 266
+ntl 2 3 266
+ 
+ 
+ntl 3 1 267
+ntl 3 2 267
+ntl 3 3 267
+ 
+ 
+ntl 4 1 268
+ntl 4 2 268
+ntl 4 3 268
+ 
+ 
+ntl 5 1 269
+ntl 5 2 269
+ntl 5 3 269
+ 
+ 
+ntl 6 1 270
+ntl 6 2 270
+ntl 6 3 270
+ 
+ 
+ntl 7 1 271
+ntl 7 2 271
+ntl 7 3 271
+ 
+ 
+ntl 8 1 272
+ntl 8 2 272
+ntl 8 3 272
+ 
+ 
+ntl 9 1 273
+ntl 9 2 273
+ntl 9 3 273
+ 
+ 
+ntl 10 1 274
+ntl 10 2 274
+ntl 10 3 274
+ 
+ 
+ntl 11 1 275
+ntl 11 2 275
+ntl 11 3 275
+ 
+ 
+ntl 12 1 276
+ntl 12 2 276
+ntl 12 3 276
+ 
+ 
+ntl 13 1 277
+ntl 13 2 277
+ntl 13 3 277
+ 
+ 
+ntl 14 1 278
+ntl 14 2 278
+ntl 14 3 278
+ 
+ 
+ntl 15 1 279
+ntl 15 2 279
+ntl 15 3 279
+ 
+ 
+ntl 16 1 280
+ntl 16 2 280
+ntl 16 3 280
+ 
+ 
+ntl 17 1 281
+ntl 17 2 281
+ntl 17 3 281
+ 
+ 
+ntl 18 1 282
+ntl 18 2 282
+ntl 18 3 282
+ 
+ 
+branch 22 #######
+branchtitle 22 null
+numnode 22 3
+numbranch 22 0
+ 
+gtl 22 1 283
+gtl 22 2 283
+gtl 22 3 283
+ 
+ntl 1 1 284
+ntl 1 2 284
+ntl 1 3 284
+ 
+ 
+ntl 2 1 285
+ntl 2 2 285
+ntl 2 3 285
+ 
+ 
+ntl 3 1 286
+ntl 3 2 286
+ntl 3 3 286
+ 
+ 
+branch 23 #######
+branchtitle 23 null
+numnode 23 84
+numbranch 23 0
+ 
+gtl 23 1 287
+gtl 23 2 287
+gtl 23 3 287
+ 
+ntl 1 1 288
+ntl 1 2 288
+ntl 1 3 288
+ 
+ 
+ntl 2 1 289
+ntl 2 2 289
+ntl 2 3 289
+ 
+ 
+ntl 3 1 290
+ntl 3 2 290
+ntl 3 3 290
+ 
+ 
+ntl 4 1 291
+ntl 4 2 291
+ntl 4 3 291
+ 
+ 
+ntl 5 1 292
+ntl 5 2 292
+ntl 5 3 292
+ 
+ 
+ntl 6 1 293
+ntl 6 2 293
+ntl 6 3 293
+ 
+ 
+ntl 7 1 294
+ntl 7 2 294
+ntl 7 3 294
+ 
+ 
+ntl 8 1 295
+ntl 8 2 295
+ntl 8 3 295
+ 
+ 
+ntl 9 1 296
+ntl 9 2 296
+ntl 9 3 296
+ 
+ 
+ntl 10 1 297
+ntl 10 2 297
+ntl 10 3 297
+ 
+ 
+ntl 11 1 298
+ntl 11 2 298
+ntl 11 3 298
+ 
+ 
+ntl 12 1 299
+ntl 12 2 299
+ntl 12 3 299
+ 
+ 
+ntl 13 1 300
+ntl 13 2 300
+ntl 13 3 300
+ 
+ 
+ntl 14 1 301
+ntl 14 2 301
+ntl 14 3 301
+ 
+ 
+ntl 15 1 302
+ntl 15 2 302
+ntl 15 3 302
+ 
+ 
+ntl 16 1 303
+ntl 16 2 303
+ntl 16 3 303
+ 
+ 
+ntl 17 1 304
+ntl 17 2 304
+ntl 17 3 304
+ 
+ 
+ntl 18 1 305
+ntl 18 2 305
+ntl 18 3 305
+ 
+ 
+ntl 19 1 306
+ntl 19 2 306
+ntl 19 3 306
+ 
+ 
+ntl 20 1 307
+ntl 20 2 307
+ntl 20 3 307
+ 
+ 
+ntl 21 1 308
+ntl 21 2 308
+ntl 21 3 308
+ 
+ 
+ntl 22 1 309
+ntl 22 2 309
+ntl 22 3 309
+ 
+ 
+ntl 23 1 310
+ntl 23 2 310
+ntl 23 3 310
+ 
+ 
+ntl 24 1 311
+ntl 24 2 311
+ntl 24 3 311
+ 
+ 
+ntl 25 1 312
+ntl 25 2 312
+ntl 25 3 312
+ 
+ 
+ntl 26 1 313
+ntl 26 2 313
+ntl 26 3 313
+ 
+ 
+ntl 27 1 314
+ntl 27 2 314
+ntl 27 3 314
+ 
+ 
+ntl 28 1 315
+ntl 28 2 315
+ntl 28 3 315
+ 
+ 
+ntl 29 1 316
+ntl 29 2 316
+ntl 29 3 316
+ 
+ 
+ntl 30 1 317
+ntl 30 2 317
+ntl 30 3 317
+ 
+ 
+ntl 31 1 318
+ntl 31 2 318
+ntl 31 3 318
+ 
+ 
+ntl 32 1 319
+ntl 32 2 319
+ntl 32 3 319
+ 
+ 
+ntl 33 1 320
+ntl 33 2 320
+ntl 33 3 320
+ 
+ 
+ntl 34 1 321
+ntl 34 2 321
+ntl 34 3 321
+ 
+ 
+ntl 35 1 322
+ntl 35 2 322
+ntl 35 3 322
+ 
+ 
+ntl 36 1 323
+ntl 36 2 323
+ntl 36 3 323
+ 
+ 
+ntl 37 1 324
+ntl 37 2 324
+ntl 37 3 324
+ 
+ 
+ntl 38 1 325
+ntl 38 2 325
+ntl 38 3 325
+ 
+ 
+ntl 39 1 326
+ntl 39 2 326
+ntl 39 3 326
+ 
+ 
+ntl 40 1 327
+ntl 40 2 327
+ntl 40 3 327
+ 
+ 
+ntl 41 1 328
+ntl 41 2 328
+ntl 41 3 328
+ 
+ 
+ntl 42 1 329
+ntl 42 2 329
+ntl 42 3 329
+ 
+ 
+ntl 43 1 330
+ntl 43 2 330
+ntl 43 3 330
+ 
+ 
+ntl 44 1 331
+ntl 44 2 331
+ntl 44 3 331
+ 
+ 
+ntl 45 1 332
+ntl 45 2 332
+ntl 45 3 332
+ 
+ 
+ntl 46 1 333
+ntl 46 2 333
+ntl 46 3 333
+ 
+ 
+ntl 47 1 334
+ntl 47 2 334
+ntl 47 3 334
+ 
+ 
+ntl 48 1 335
+ntl 48 2 335
+ntl 48 3 335
+ 
+ 
+ntl 49 1 336
+ntl 49 2 336
+ntl 49 3 336
+ 
+ 
+ntl 50 1 337
+ntl 50 2 337
+ntl 50 3 337
+ 
+ 
+ntl 51 1 338
+ntl 51 2 338
+ntl 51 3 338
+ 
+ 
+ntl 52 1 339
+ntl 52 2 339
+ntl 52 3 339
+ 
+ 
+ntl 53 1 340
+ntl 53 2 340
+ntl 53 3 340
+ 
+ 
+ntl 54 1 341
+ntl 54 2 341
+ntl 54 3 341
+ 
+ 
+ntl 55 1 342
+ntl 55 2 342
+ntl 55 3 342
+ 
+ 
+ntl 56 1 343
+ntl 56 2 343
+ntl 56 3 343
+ 
+ 
+ntl 57 1 344
+ntl 57 2 344
+ntl 57 3 344
+ 
+ 
+ntl 58 1 345
+ntl 58 2 345
+ntl 58 3 345
+ 
+ 
+ntl 59 1 346
+ntl 59 2 346
+ntl 59 3 346
+ 
+ 
+ntl 60 1 347
+ntl 60 2 347
+ntl 60 3 347
+ 
+ 
+ntl 61 1 348
+ntl 61 2 348
+ntl 61 3 348
+ 
+ 
+ntl 62 1 349
+ntl 62 2 349
+ntl 62 3 349
+ 
+ 
+ntl 63 1 350
+ntl 63 2 350
+ntl 63 3 350
+ 
+ 
+ntl 64 1 351
+ntl 64 2 351
+ntl 64 3 351
+ 
+ 
+ntl 65 1 352
+ntl 65 2 352
+ntl 65 3 352
+ 
+ 
+ntl 66 1 353
+ntl 66 2 353
+ntl 66 3 353
+ 
+ 
+ntl 67 1 354
+ntl 67 2 354
+ntl 67 3 354
+ 
+ 
+ntl 68 1 355
+ntl 68 2 355
+ntl 68 3 355
+ 
+ 
+ntl 69 1 356
+ntl 69 2 356
+ntl 69 3 356
+ 
+ 
+ntl 70 1 357
+ntl 70 2 357
+ntl 70 3 357
+ 
+ 
+ntl 71 1 358
+ntl 71 2 358
+ntl 71 3 358
+ 
+ 
+ntl 72 1 359
+ntl 72 2 359
+ntl 72 3 359
+ 
+ 
+ntl 73 1 360
+ntl 73 2 360
+ntl 73 3 360
+ 
+ 
+ntl 74 1 361
+ntl 74 2 361
+ntl 74 3 361
+ 
+ 
+ntl 75 1 362
+ntl 75 2 362
+ntl 75 3 362
+ 
+ 
+ntl 76 1 363
+ntl 76 2 363
+ntl 76 3 363
+ 
+ 
+ntl 77 1 364
+ntl 77 2 364
+ntl 77 3 364
+ 
+ 
+ntl 78 1 365
+ntl 78 2 365
+ntl 78 3 365
+ 
+ 
+ntl 79 1 366
+ntl 79 2 366
+ntl 79 3 366
+ 
+ 
+ntl 80 1 367
+ntl 80 2 367
+ntl 80 3 367
+ 
+ 
+ntl 81 1 368
+ntl 81 2 368
+ntl 81 3 368
+ 
+ 
+ntl 82 1 369
+ntl 82 2 369
+ntl 82 3 369
+ 
+ 
+ntl 83 1 370
+ntl 83 2 370
+ntl 83 3 370
+ 
+ 
+ntl 84 1 371
+ntl 84 2 371
+ntl 84 3 371
+ 
+ 
+branch 24 #######
+branchtitle 24 null
+numnode 24 4
+numbranch 24 0
+ 
+gtl 24 1 372
+gtl 24 2 372
+gtl 24 3 372
+ 
+ntl 1 1 373
+ntl 1 2 373
+ntl 1 3 373
+ 
+ 
+ntl 2 1 374
+ntl 2 2 374
+ntl 2 3 374
+ 
+ 
+ntl 3 1 375
+ntl 3 2 375
+ntl 3 3 375
+ 
+ 
+ntl 4 1 376
+ntl 4 2 376
+ntl 4 3 376
+ 
+ 
+branch 25 #######
+branchtitle 25 null
+numnode 25 64
+numbranch 25 0
+ 
+gtl 25 1 377
+gtl 25 2 377
+gtl 25 3 377
+ 
+ntl 1 1 378
+ntl 1 2 378
+ntl 1 3 378
+ 
+ 
+ntl 2 1 379
+ntl 2 2 379
+ntl 2 3 379
+ 
+ 
+ntl 3 1 380
+ntl 3 2 380
+ntl 3 3 380
+ 
+ 
+ntl 4 1 381
+ntl 4 2 381
+ntl 4 3 381
+ 
+ 
+ntl 5 1 382
+ntl 5 2 382
+ntl 5 3 382
+ 
+ 
+ntl 6 1 383
+ntl 6 2 383
+ntl 6 3 383
+ 
+ 
+ntl 7 1 384
+ntl 7 2 384
+ntl 7 3 384
+ 
+ 
+ntl 8 1 385
+ntl 8 2 385
+ntl 8 3 385
+ 
+ 
+ntl 9 1 386
+ntl 9 2 386
+ntl 9 3 386
+ 
+ 
+ntl 10 1 387
+ntl 10 2 387
+ntl 10 3 387
+ 
+ 
+ntl 11 1 388
+ntl 11 2 388
+ntl 11 3 388
+ 
+ 
+ntl 12 1 389
+ntl 12 2 389
+ntl 12 3 389
+ 
+ 
+ntl 13 1 390
+ntl 13 2 390
+ntl 13 3 390
+ 
+ 
+ntl 14 1 391
+ntl 14 2 391
+ntl 14 3 391
+ 
+ 
+ntl 15 1 392
+ntl 15 2 392
+ntl 15 3 392
+ 
+ 
+ntl 16 1 393
+ntl 16 2 393
+ntl 16 3 393
+ 
+ 
+ntl 17 1 394
+ntl 17 2 394
+ntl 17 3 394
+ 
+ 
+ntl 18 1 395
+ntl 18 2 395
+ntl 18 3 395
+ 
+ 
+ntl 19 1 396
+ntl 19 2 396
+ntl 19 3 396
+ 
+ 
+ntl 20 1 397
+ntl 20 2 397
+ntl 20 3 397
+ 
+ 
+ntl 21 1 398
+ntl 21 2 398
+ntl 21 3 398
+ 
+ 
+ntl 22 1 399
+ntl 22 2 399
+ntl 22 3 399
+ 
+ 
+ntl 23 1 400
+ntl 23 2 400
+ntl 23 3 400
+ 
+ 
+ntl 24 1 401
+ntl 24 2 401
+ntl 24 3 401
+ 
+ 
+ntl 25 1 402
+ntl 25 2 402
+ntl 25 3 402
+ 
+ 
+ntl 26 1 403
+ntl 26 2 403
+ntl 26 3 403
+ 
+ 
+ntl 27 1 404
+ntl 27 2 404
+ntl 27 3 404
+ 
+ 
+ntl 28 1 405
+ntl 28 2 405
+ntl 28 3 405
+ 
+ 
+ntl 29 1 406
+ntl 29 2 406
+ntl 29 3 406
+ 
+ 
+ntl 30 1 407
+ntl 30 2 407
+ntl 30 3 407
+ 
+ 
+ntl 31 1 408
+ntl 31 2 408
+ntl 31 3 408
+ 
+ 
+ntl 32 1 409
+ntl 32 2 409
+ntl 32 3 409
+ 
+ 
+ntl 33 1 410
+ntl 33 2 410
+ntl 33 3 410
+ 
+ 
+ntl 34 1 411
+ntl 34 2 411
+ntl 34 3 411
+ 
+ 
+ntl 35 1 412
+ntl 35 2 412
+ntl 35 3 412
+ 
+ 
+ntl 36 1 413
+ntl 36 2 413
+ntl 36 3 413
+ 
+ 
+ntl 37 1 414
+ntl 37 2 414
+ntl 37 3 414
+ 
+ 
+ntl 38 1 415
+ntl 38 2 415
+ntl 38 3 415
+ 
+ 
+ntl 39 1 416
+ntl 39 2 416
+ntl 39 3 416
+ 
+ 
+ntl 40 1 417
+ntl 40 2 417
+ntl 40 3 417
+ 
+ 
+ntl 41 1 418
+ntl 41 2 418
+ntl 41 3 418
+ 
+ 
+ntl 42 1 419
+ntl 42 2 419
+ntl 42 3 419
+ 
+ 
+ntl 43 1 420
+ntl 43 2 420
+ntl 43 3 420
+ 
+ 
+ntl 44 1 421
+ntl 44 2 421
+ntl 44 3 421
+ 
+ 
+ntl 45 1 422
+ntl 45 2 422
+ntl 45 3 422
+ 
+ 
+ntl 46 1 423
+ntl 46 2 423
+ntl 46 3 423
+ 
+ 
+ntl 47 1 424
+ntl 47 2 424
+ntl 47 3 424
+ 
+ 
+ntl 48 1 425
+ntl 48 2 425
+ntl 48 3 425
+ 
+ 
+ntl 49 1 426
+ntl 49 2 426
+ntl 49 3 426
+ 
+ 
+ntl 50 1 427
+ntl 50 2 427
+ntl 50 3 427
+ 
+ 
+ntl 51 1 428
+ntl 51 2 428
+ntl 51 3 428
+ 
+ 
+ntl 52 1 429
+ntl 52 2 429
+ntl 52 3 429
+ 
+ 
+ntl 53 1 430
+ntl 53 2 430
+ntl 53 3 430
+ 
+ 
+ntl 54 1 431
+ntl 54 2 431
+ntl 54 3 431
+ 
+ 
+ntl 55 1 432
+ntl 55 2 432
+ntl 55 3 432
+ 
+ 
+ntl 56 1 433
+ntl 56 2 433
+ntl 56 3 433
+ 
+ 
+ntl 57 1 434
+ntl 57 2 434
+ntl 57 3 434
+ 
+ 
+ntl 58 1 435
+ntl 58 2 435
+ntl 58 3 435
+ 
+ 
+ntl 59 1 436
+ntl 59 2 436
+ntl 59 3 436
+ 
+ 
+ntl 60 1 437
+ntl 60 2 437
+ntl 60 3 437
+ 
+ 
+ntl 61 1 438
+ntl 61 2 438
+ntl 61 3 438
+ 
+ 
+ntl 62 1 439
+ntl 62 2 439
+ntl 62 3 439
+ 
+ 
+ntl 63 1 440
+ntl 63 2 440
+ntl 63 3 440
+ 
+ 
+ntl 64 1 441
+ntl 64 2 441
+ntl 64 3 441
+ 
+ 
+branch 26 #######
+branchtitle 26 null
+numnode 26 10
+numbranch 26 0
+ 
+gtl 26 1 442
+gtl 26 2 442
+gtl 26 3 442
+ 
+ntl 1 1 443
+ntl 1 2 443
+ntl 1 3 443
+ 
+ 
+ntl 2 1 444
+ntl 2 2 444
+ntl 2 3 444
+ 
+ 
+ntl 3 1 445
+ntl 3 2 445
+ntl 3 3 445
+ 
+ 
+ntl 4 1 446
+ntl 4 2 446
+ntl 4 3 446
+ 
+ 
+ntl 5 1 447
+ntl 5 2 447
+ntl 5 3 447
+ 
+ 
+ntl 6 1 448
+ntl 6 2 448
+ntl 6 3 448
+ 
+ 
+ntl 7 1 449
+ntl 7 2 449
+ntl 7 3 449
+ 
+ 
+ntl 8 1 450
+ntl 8 2 450
+ntl 8 3 450
+ 
+ 
+ntl 9 1 451
+ntl 9 2 451
+ntl 9 3 451
+ 
+ 
+ntl 10 1 452
+ntl 10 2 452
+ntl 10 3 452
+ 
+ 
+branch 27 #######
+branchtitle 27 null
+numnode 27 7
+numbranch 27 0
+ 
+gtl 27 1 453
+gtl 27 2 453
+gtl 27 3 453
+ 
+ntl 1 1 454
+ntl 1 2 454
+ntl 1 3 454
+ 
+ 
+ntl 2 1 455
+ntl 2 2 455
+ntl 2 3 455
+ 
+ 
+ntl 3 1 456
+ntl 3 2 456
+ntl 3 3 456
+ 
+ 
+ntl 4 1 457
+ntl 4 2 457
+ntl 4 3 457
+ 
+ 
+ntl 5 1 458
+ntl 5 2 458
+ntl 5 3 458
+ 
+ 
+ntl 6 1 459
+ntl 6 2 459
+ntl 6 3 459
+ 
+ 
+ntl 7 1 460
+ntl 7 2 460
+ntl 7 3 460
+ 
+ 
+branch 28 #######
+branchtitle 28 null
+numnode 28 24
+numbranch 28 0
+ 
+gtl 28 1 461
+gtl 28 2 461
+gtl 28 3 461
+ 
+ntl 1 1 462
+ntl 1 2 462
+ntl 1 3 462
+ 
+ 
+ntl 2 1 463
+ntl 2 2 463
+ntl 2 3 463
+ 
+ 
+ntl 3 1 464
+ntl 3 2 464
+ntl 3 3 464
+ 
+ 
+ntl 4 1 465
+ntl 4 2 465
+ntl 4 3 465
+ 
+ 
+ntl 5 1 466
+ntl 5 2 466
+ntl 5 3 466
+ 
+ 
+ntl 6 1 467
+ntl 6 2 467
+ntl 6 3 467
+ 
+ 
+ntl 7 1 468
+ntl 7 2 468
+ntl 7 3 468
+ 
+ 
+ntl 8 1 469
+ntl 8 2 469
+ntl 8 3 469
+ 
+ 
+ntl 9 1 470
+ntl 9 2 470
+ntl 9 3 470
+ 
+ 
+ntl 10 1 471
+ntl 10 2 471
+ntl 10 3 471
+ 
+ 
+ntl 11 1 472
+ntl 11 2 472
+ntl 11 3 472
+ 
+ 
+ntl 12 1 473
+ntl 12 2 473
+ntl 12 3 473
+ 
+ 
+ntl 13 1 474
+ntl 13 2 474
+ntl 13 3 474
+ 
+ 
+ntl 14 1 475
+ntl 14 2 475
+ntl 14 3 475
+ 
+ 
+ntl 15 1 476
+ntl 15 2 476
+ntl 15 3 476
+ 
+ 
+ntl 16 1 477
+ntl 16 2 477
+ntl 16 3 477
+ 
+ 
+ntl 17 1 478
+ntl 17 2 478
+ntl 17 3 478
+ 
+ 
+ntl 18 1 479
+ntl 18 2 479
+ntl 18 3 479
+ 
+ 
+ntl 19 1 480
+ntl 19 2 480
+ntl 19 3 480
+ 
+ 
+ntl 20 1 481
+ntl 20 2 481
+ntl 20 3 481
+ 
+ 
+ntl 21 1 482
+ntl 21 2 482
+ntl 21 3 482
+ 
+ 
+ntl 22 1 483
+ntl 22 2 483
+ntl 22 3 483
+ 
+ 
+ntl 23 1 484
+ntl 23 2 484
+ntl 23 3 484
+ 
+ 
+ntl 24 1 485
+ntl 24 2 485
+ntl 24 3 485
+ 
+ 
+branch 29 #######
+branchtitle 29 null
+numnode 29 5
+numbranch 29 0
+ 
+gtl 29 1 486
+gtl 29 2 486
+gtl 29 3 486
+ 
+ntl 1 1 487
+ntl 1 2 487
+ntl 1 3 487
+ 
+ 
+ntl 2 1 488
+ntl 2 2 488
+ntl 2 3 488
+ 
+ 
+ntl 3 1 489
+ntl 3 2 489
+ntl 3 3 489
+ 
+ 
+ntl 4 1 490
+ntl 4 2 490
+ntl 4 3 490
+ 
+ 
+ntl 5 1 491
+ntl 5 2 491
+ntl 5 3 491
+ 
+ 
+branch 30 #######
+branchtitle 30 null
+numnode 30 9
+numbranch 30 0
+ 
+gtl 30 1 492
+gtl 30 2 492
+gtl 30 3 492
+ 
+ntl 1 1 493
+ntl 1 2 493
+ntl 1 3 493
+ 
+ 
+ntl 2 1 494
+ntl 2 2 494
+ntl 2 3 494
+ 
+ 
+ntl 3 1 495
+ntl 3 2 495
+ntl 3 3 495
+ 
+ 
+ntl 4 1 496
+ntl 4 2 496
+ntl 4 3 496
+ 
+ 
+ntl 5 1 497
+ntl 5 2 497
+ntl 5 3 497
+ 
+ 
+ntl 6 1 498
+ntl 6 2 498
+ntl 6 3 498
+ 
+ 
+ntl 7 1 499
+ntl 7 2 499
+ntl 7 3 499
+ 
+ 
+ntl 8 1 500
+ntl 8 2 500
+ntl 8 3 500
+ 
+ 
+ntl 9 1 501
+ntl 9 2 501
+ntl 9 3 501
+ 
+ 
+branch 31 #######
+branchtitle 31 null
+numnode 31 29
+numbranch 31 0
+ 
+gtl 31 1 502
+gtl 31 2 502
+gtl 31 3 502
+ 
+ntl 1 1 503
+ntl 1 2 503
+ntl 1 3 503
+ 
+ 
+ntl 2 1 504
+ntl 2 2 504
+ntl 2 3 504
+ 
+ 
+ntl 3 1 505
+ntl 3 2 505
+ntl 3 3 505
+ 
+ 
+ntl 4 1 506
+ntl 4 2 506
+ntl 4 3 506
+ 
+ 
+ntl 5 1 507
+ntl 5 2 507
+ntl 5 3 507
+ 
+ 
+ntl 6 1 508
+ntl 6 2 508
+ntl 6 3 508
+ 
+ 
+ntl 7 1 509
+ntl 7 2 509
+ntl 7 3 509
+ 
+ 
+ntl 8 1 510
+ntl 8 2 510
+ntl 8 3 510
+ 
+ 
+ntl 9 1 511
+ntl 9 2 511
+ntl 9 3 511
+ 
+ 
+ntl 10 1 512
+ntl 10 2 512
+ntl 10 3 512
+ 
+ 
+ntl 11 1 513
+ntl 11 2 513
+ntl 11 3 513
+ 
+ 
+ntl 12 1 514
+ntl 12 2 514
+ntl 12 3 514
+ 
+ 
+ntl 13 1 515
+ntl 13 2 515
+ntl 13 3 515
+ 
+ 
+ntl 14 1 516
+ntl 14 2 516
+ntl 14 3 516
+ 
+ 
+ntl 15 1 517
+ntl 15 2 517
+ntl 15 3 517
+ 
+ 
+ntl 16 1 518
+ntl 16 2 518
+ntl 16 3 518
+ 
+ 
+ntl 17 1 519
+ntl 17 2 519
+ntl 17 3 519
+ 
+ 
+ntl 18 1 520
+ntl 18 2 520
+ntl 18 3 520
+ 
+ 
+ntl 19 1 521
+ntl 19 2 521
+ntl 19 3 521
+ 
+ 
+ntl 20 1 522
+ntl 20 2 522
+ntl 20 3 522
+ 
+ 
+ntl 21 1 523
+ntl 21 2 523
+ntl 21 3 523
+ 
+ 
+ntl 22 1 524
+ntl 22 2 524
+ntl 22 3 524
+ 
+ 
+ntl 23 1 525
+ntl 23 2 525
+ntl 23 3 525
+ 
+ 
+ntl 24 1 526
+ntl 24 2 526
+ntl 24 3 526
+ 
+ 
+ntl 25 1 527
+ntl 25 2 527
+ntl 25 3 527
+ 
+ 
+ntl 26 1 528
+ntl 26 2 528
+ntl 26 3 528
+ 
+ 
+ntl 27 1 529
+ntl 27 2 529
+ntl 27 3 529
+ 
+ 
+ntl 28 1 530
+ntl 28 2 530
+ntl 28 3 530
+ 
+ 
+ntl 29 1 531
+ntl 29 2 531
+ntl 29 3 531
+ 
+ 
+branch 32 #######
+branchtitle 32 null
+numnode 32 10
+numbranch 32 0
+ 
+gtl 32 1 532
+gtl 32 2 532
+gtl 32 3 532
+ 
+ntl 1 1 533
+ntl 1 2 533
+ntl 1 3 533
+ 
+ 
+ntl 2 1 534
+ntl 2 2 534
+ntl 2 3 534
+ 
+ 
+ntl 3 1 535
+ntl 3 2 535
+ntl 3 3 535
+ 
+ 
+ntl 4 1 536
+ntl 4 2 536
+ntl 4 3 536
+ 
+ 
+ntl 5 1 537
+ntl 5 2 537
+ntl 5 3 537
+ 
+ 
+ntl 6 1 538
+ntl 6 2 538
+ntl 6 3 538
+ 
+ 
+ntl 7 1 539
+ntl 7 2 539
+ntl 7 3 539
+ 
+ 
+ntl 8 1 540
+ntl 8 2 540
+ntl 8 3 540
+ 
+ 
+ntl 9 1 541
+ntl 9 2 541
+ntl 9 3 541
+ 
+ 
+ntl 10 1 542
+ntl 10 2 542
+ntl 10 3 542
+ 
+ 
+branch 33 #######
+branchtitle 33 null
+numnode 33 24
+numbranch 33 0
+ 
+gtl 33 1 543
+gtl 33 2 543
+gtl 33 3 543
+ 
+ntl 1 1 544
+ntl 1 2 544
+ntl 1 3 544
+ 
+ 
+ntl 2 1 545
+ntl 2 2 545
+ntl 2 3 545
+ 
+ 
+ntl 3 1 546
+ntl 3 2 546
+ntl 3 3 546
+ 
+ 
+ntl 4 1 547
+ntl 4 2 547
+ntl 4 3 547
+ 
+ 
+ntl 5 1 548
+ntl 5 2 548
+ntl 5 3 548
+ 
+ 
+ntl 6 1 549
+ntl 6 2 549
+ntl 6 3 549
+ 
+ 
+ntl 7 1 550
+ntl 7 2 550
+ntl 7 3 550
+ 
+ 
+ntl 8 1 551
+ntl 8 2 551
+ntl 8 3 551
+ 
+ 
+ntl 9 1 552
+ntl 9 2 552
+ntl 9 3 552
+ 
+ 
+ntl 10 1 553
+ntl 10 2 553
+ntl 10 3 553
+ 
+ 
+ntl 11 1 554
+ntl 11 2 554
+ntl 11 3 554
+ 
+ 
+ntl 12 1 555
+ntl 12 2 555
+ntl 12 3 555
+ 
+ 
+ntl 13 1 556
+ntl 13 2 556
+ntl 13 3 556
+ 
+ 
+ntl 14 1 557
+ntl 14 2 557
+ntl 14 3 557
+ 
+ 
+ntl 15 1 558
+ntl 15 2 558
+ntl 15 3 558
+ 
+ 
+ntl 16 1 559
+ntl 16 2 559
+ntl 16 3 559
+ 
+ 
+ntl 17 1 560
+ntl 17 2 560
+ntl 17 3 560
+ 
+ 
+ntl 18 1 561
+ntl 18 2 561
+ntl 18 3 561
+ 
+ 
+ntl 19 1 562
+ntl 19 2 562
+ntl 19 3 562
+ 
+ 
+ntl 20 1 563
+ntl 20 2 563
+ntl 20 3 563
+ 
+ 
+ntl 21 1 564
+ntl 21 2 564
+ntl 21 3 564
+ 
+ 
+ntl 22 1 565
+ntl 22 2 565
+ntl 22 3 565
+ 
+ 
+ntl 23 1 566
+ntl 23 2 566
+ntl 23 3 566
+ 
+ 
+ntl 24 1 567
+ntl 24 2 567
+ntl 24 3 567
+ 
+ 
+branch 34 #######
+branchtitle 34 null
+numnode 34 7
+numbranch 34 0
+ 
+gtl 34 1 568
+gtl 34 2 568
+gtl 34 3 568
+ 
+ntl 1 1 569
+ntl 1 2 569
+ntl 1 3 569
+ 
+ 
+ntl 2 1 570
+ntl 2 2 570
+ntl 2 3 570
+ 
+ 
+ntl 3 1 571
+ntl 3 2 571
+ntl 3 3 571
+ 
+ 
+ntl 4 1 572
+ntl 4 2 572
+ntl 4 3 572
+ 
+ 
+ntl 5 1 573
+ntl 5 2 573
+ntl 5 3 573
+ 
+ 
+ntl 6 1 574
+ntl 6 2 574
+ntl 6 3 574
+ 
+ 
+ntl 7 1 575
+ntl 7 2 575
+ntl 7 3 575
+ 
+ 
+branch 35 #######
+branchtitle 35 null
+numnode 35 11
+numbranch 35 0
+ 
+gtl 35 1 576
+gtl 35 2 576
+gtl 35 3 576
+ 
+ntl 1 1 577
+ntl 1 2 577
+ntl 1 3 577
+ 
+ 
+ntl 2 1 578
+ntl 2 2 578
+ntl 2 3 578
+ 
+ 
+ntl 3 1 579
+ntl 3 2 579
+ntl 3 3 579
+ 
+ 
+ntl 4 1 580
+ntl 4 2 580
+ntl 4 3 580
+ 
+ 
+ntl 5 1 581
+ntl 5 2 581
+ntl 5 3 581
+ 
+ 
+ntl 6 1 582
+ntl 6 2 582
+ntl 6 3 582
+ 
+ 
+ntl 7 1 583
+ntl 7 2 583
+ntl 7 3 583
+ 
+ 
+ntl 8 1 584
+ntl 8 2 584
+ntl 8 3 584
+ 
+ 
+ntl 9 1 585
+ntl 9 2 585
+ntl 9 3 585
+ 
+ 
+ntl 10 1 586
+ntl 10 2 586
+ntl 10 3 586
+ 
+ 
+ntl 11 1 587
+ntl 11 2 587
+ntl 11 3 587
+ 
+ 
+branch 36 #######
+branchtitle 36 null
+numnode 36 10
+numbranch 36 0
+ 
+gtl 36 1 588
+gtl 36 2 588
+gtl 36 3 588
+ 
+ntl 1 1 589
+ntl 1 2 589
+ntl 1 3 589
+ 
+ 
+ntl 2 1 590
+ntl 2 2 590
+ntl 2 3 590
+ 
+ 
+ntl 3 1 591
+ntl 3 2 591
+ntl 3 3 591
+ 
+ 
+ntl 4 1 592
+ntl 4 2 592
+ntl 4 3 592
+ 
+ 
+ntl 5 1 593
+ntl 5 2 593
+ntl 5 3 593
+ 
+ 
+ntl 6 1 594
+ntl 6 2 594
+ntl 6 3 594
+ 
+ 
+ntl 7 1 595
+ntl 7 2 595
+ntl 7 3 595
+ 
+ 
+ntl 8 1 596
+ntl 8 2 596
+ntl 8 3 596
+ 
+ 
+ntl 9 1 597
+ntl 9 2 597
+ntl 9 3 597
+ 
+ 
+ntl 10 1 598
+ntl 10 2 598
+ntl 10 3 598
+ 
+ 
+branch 37 #######
+branchtitle 37 null
+numnode 37 12
+numbranch 37 0
+ 
+gtl 37 1 599
+gtl 37 2 599
+gtl 37 3 599
+ 
+ntl 1 1 600
+ntl 1 2 600
+ntl 1 3 600
+ 
+ 
+ntl 2 1 601
+ntl 2 2 601
+ntl 2 3 601
+ 
+ 
+ntl 3 1 602
+ntl 3 2 602
+ntl 3 3 602
+ 
+ 
+ntl 4 1 603
+ntl 4 2 603
+ntl 4 3 603
+ 
+ 
+ntl 5 1 604
+ntl 5 2 604
+ntl 5 3 604
+ 
+ 
+ntl 6 1 605
+ntl 6 2 605
+ntl 6 3 605
+ 
+ 
+ntl 7 1 606
+ntl 7 2 606
+ntl 7 3 606
+ 
+ 
+ntl 8 1 607
+ntl 8 2 607
+ntl 8 3 607
+ 
+ 
+ntl 9 1 608
+ntl 9 2 608
+ntl 9 3 608
+ 
+ 
+ntl 10 1 609
+ntl 10 2 609
+ntl 10 3 609
+ 
+ 
+ntl 11 1 610
+ntl 11 2 610
+ntl 11 3 610
+ 
+ 
+ntl 12 1 611
+ntl 12 2 611
+ntl 12 3 611
+ 
+ 
+branch 38 #######
+branchtitle 38 null
+numnode 38 24
+numbranch 38 0
+ 
+gtl 38 1 612
+gtl 38 2 612
+gtl 38 3 612
+ 
+ntl 1 1 613
+ntl 1 2 613
+ntl 1 3 613
+ 
+ 
+ntl 2 1 614
+ntl 2 2 614
+ntl 2 3 614
+ 
+ 
+ntl 3 1 615
+ntl 3 2 615
+ntl 3 3 615
+ 
+ 
+ntl 4 1 616
+ntl 4 2 616
+ntl 4 3 616
+ 
+ 
+ntl 5 1 617
+ntl 5 2 617
+ntl 5 3 617
+ 
+ 
+ntl 6 1 618
+ntl 6 2 618
+ntl 6 3 618
+ 
+ 
+ntl 7 1 619
+ntl 7 2 619
+ntl 7 3 619
+ 
+ 
+ntl 8 1 620
+ntl 8 2 620
+ntl 8 3 620
+ 
+ 
+ntl 9 1 621
+ntl 9 2 621
+ntl 9 3 621
+ 
+ 
+ntl 10 1 622
+ntl 10 2 622
+ntl 10 3 622
+ 
+ 
+ntl 11 1 623
+ntl 11 2 623
+ntl 11 3 623
+ 
+ 
+ntl 12 1 624
+ntl 12 2 624
+ntl 12 3 624
+ 
+ 
+ntl 13 1 625
+ntl 13 2 625
+ntl 13 3 625
+ 
+ 
+ntl 14 1 626
+ntl 14 2 626
+ntl 14 3 626
+ 
+ 
+ntl 15 1 627
+ntl 15 2 627
+ntl 15 3 627
+ 
+ 
+ntl 16 1 628
+ntl 16 2 628
+ntl 16 3 628
+ 
+ 
+ntl 17 1 629
+ntl 17 2 629
+ntl 17 3 629
+ 
+ 
+ntl 18 1 630
+ntl 18 2 630
+ntl 18 3 630
+ 
+ 
+ntl 19 1 631
+ntl 19 2 631
+ntl 19 3 631
+ 
+ 
+ntl 20 1 632
+ntl 20 2 632
+ntl 20 3 632
+ 
+ 
+ntl 21 1 633
+ntl 21 2 633
+ntl 21 3 633
+ 
+ 
+ntl 22 1 634
+ntl 22 2 634
+ntl 22 3 634
+ 
+ 
+ntl 23 1 635
+ntl 23 2 635
+ntl 23 3 635
+ 
+ 
+ntl 24 1 636
+ntl 24 2 636
+ntl 24 3 636
+ 
+ 
+branch 39 #######
+branchtitle 39 null
+numnode 39 8
+numbranch 39 0
+ 
+gtl 39 1 637
+gtl 39 2 637
+gtl 39 3 637
+ 
+ntl 1 1 638
+ntl 1 2 638
+ntl 1 3 638
+ 
+ 
+ntl 2 1 639
+ntl 2 2 639
+ntl 2 3 639
+ 
+ 
+ntl 3 1 640
+ntl 3 2 640
+ntl 3 3 640
+ 
+ 
+ntl 4 1 641
+ntl 4 2 641
+ntl 4 3 641
+ 
+ 
+ntl 5 1 642
+ntl 5 2 642
+ntl 5 3 642
+ 
+ 
+ntl 6 1 643
+ntl 6 2 643
+ntl 6 3 643
+ 
+ 
+ntl 7 1 644
+ntl 7 2 644
+ntl 7 3 644
+ 
+ 
+ntl 8 1 645
+ntl 8 2 645
+ntl 8 3 645
+ 
+ 
+branch 40 #######
+branchtitle 40 null
+numnode 40 15
+numbranch 40 0
+ 
+gtl 40 1 646
+gtl 40 2 646
+gtl 40 3 646
+ 
+ntl 1 1 647
+ntl 1 2 647
+ntl 1 3 647
+ 
+ 
+ntl 2 1 648
+ntl 2 2 648
+ntl 2 3 648
+ 
+ 
+ntl 3 1 649
+ntl 3 2 649
+ntl 3 3 649
+ 
+ 
+ntl 4 1 650
+ntl 4 2 650
+ntl 4 3 650
+ 
+ 
+ntl 5 1 651
+ntl 5 2 651
+ntl 5 3 651
+ 
+ 
+ntl 6 1 652
+ntl 6 2 652
+ntl 6 3 652
+ 
+ 
+ntl 7 1 653
+ntl 7 2 653
+ntl 7 3 653
+ 
+ 
+ntl 8 1 654
+ntl 8 2 654
+ntl 8 3 654
+ 
+ 
+ntl 9 1 655
+ntl 9 2 655
+ntl 9 3 655
+ 
+ 
+ntl 10 1 656
+ntl 10 2 656
+ntl 10 3 656
+ 
+ 
+ntl 11 1 657
+ntl 11 2 657
+ntl 11 3 657
+ 
+ 
+ntl 12 1 658
+ntl 12 2 658
+ntl 12 3 658
+ 
+ 
+ntl 13 1 659
+ntl 13 2 659
+ntl 13 3 659
+ 
+ 
+ntl 14 1 660
+ntl 14 2 660
+ntl 14 3 660
+ 
+ 
+ntl 15 1 661
+ntl 15 2 661
+ntl 15 3 661
+ 
+ 
+branch 41 #######
+branchtitle 41 null
+numnode 41 7
+numbranch 41 2
+ 
+gtl 41 1 662
+gtl 41 2 662
+gtl 41 3 662
+childbranch 1 42
+childbranch 2 43
+ 
+ntl 1 1 663
+ntl 1 2 663
+ntl 1 3 663
+ 
+ 
+ntl 2 1 664
+ntl 2 2 664
+ntl 2 3 664
+ 
+ 
+ntl 3 1 665
+ntl 3 2 665
+ntl 3 3 665
+ 
+ 
+ntl 4 1 666
+ntl 4 2 666
+ntl 4 3 666
+ 
+ 
+ntl 5 1 667
+ntl 5 2 667
+ntl 5 3 667
+ 
+ 
+ntl 6 1 668
+ntl 6 2 668
+ntl 6 3 668
+ 
+ 
+ntl 7 1 669
+ntl 7 2 669
+ntl 7 3 669
+ 
+ 
+branch 42 #######
+branchtitle 42 null
+numnode 42 8
+numbranch 42 0
+ 
+gtl 42 1 670
+gtl 42 2 670
+gtl 42 3 670
+ 
+ntl 1 1 671
+ntl 1 2 671
+ntl 1 3 671
+ 
+ 
+ntl 2 1 672
+ntl 2 2 672
+ntl 2 3 672
+ 
+ 
+ntl 3 1 673
+ntl 3 2 673
+ntl 3 3 673
+ 
+ 
+ntl 4 1 674
+ntl 4 2 674
+ntl 4 3 674
+ 
+ 
+ntl 5 1 675
+ntl 5 2 675
+ntl 5 3 675
+ 
+ 
+ntl 6 1 676
+ntl 6 2 676
+ntl 6 3 676
+ 
+ 
+ntl 7 1 677
+ntl 7 2 677
+ntl 7 3 677
+ 
+ 
+ntl 8 1 678
+ntl 8 2 678
+ntl 8 3 678
+ 
+ 
+branch 43 #######
+branchtitle 43 null
+numnode 43 7
+numbranch 43 0
+ 
+gtl 43 1 679
+gtl 43 2 679
+gtl 43 3 679
+ 
+ntl 1 1 680
+ntl 1 2 680
+ntl 1 3 680
+ 
+ 
+ntl 2 1 681
+ntl 2 2 681
+ntl 2 3 681
+ 
+ 
+ntl 3 1 682
+ntl 3 2 682
+ntl 3 3 682
+ 
+ 
+ntl 4 1 683
+ntl 4 2 683
+ntl 4 3 683
+ 
+ 
+ntl 5 1 684
+ntl 5 2 684
+ntl 5 3 684
+ 
+ 
+ntl 6 1 685
+ntl 6 2 685
+ntl 6 3 685
+ 
+ 
+ntl 7 1 686
+ntl 7 2 686
+ntl 7 3 686
+ 
+ 
+branch 44 #######
+branchtitle 44 null
+numnode 44 7
+numbranch 44 0
+ 
+gtl 44 1 687
+gtl 44 2 687
+gtl 44 3 687
+ 
+ntl 1 1 688
+ntl 1 2 688
+ntl 1 3 688
+ 
+ 
+ntl 2 1 689
+ntl 2 2 689
+ntl 2 3 689
+ 
+ 
+ntl 3 1 690
+ntl 3 2 690
+ntl 3 3 690
+ 
+ 
+ntl 4 1 691
+ntl 4 2 691
+ntl 4 3 691
+ 
+ 
+ntl 5 1 692
+ntl 5 2 692
+ntl 5 3 692
+ 
+ 
+ntl 6 1 693
+ntl 6 2 693
+ntl 6 3 693
+ 
+ 
+ntl 7 1 694
+ntl 7 2 694
+ntl 7 3 694
+ 
+ 
+branch 45 #######
+branchtitle 45 null
+numnode 45 20
+numbranch 45 0
+ 
+gtl 45 1 695
+gtl 45 2 695
+gtl 45 3 695
+ 
+ntl 1 1 696
+ntl 1 2 696
+ntl 1 3 696
+ 
+ 
+ntl 2 1 697
+ntl 2 2 697
+ntl 2 3 697
+ 
+ 
+ntl 3 1 698
+ntl 3 2 698
+ntl 3 3 698
+ 
+ 
+ntl 4 1 699
+ntl 4 2 699
+ntl 4 3 699
+ 
+ 
+ntl 5 1 700
+ntl 5 2 700
+ntl 5 3 700
+ 
+ 
+ntl 6 1 701
+ntl 6 2 701
+ntl 6 3 701
+ 
+ 
+ntl 7 1 702
+ntl 7 2 702
+ntl 7 3 702
+ 
+ 
+ntl 8 1 703
+ntl 8 2 703
+ntl 8 3 703
+ 
+ 
+ntl 9 1 704
+ntl 9 2 704
+ntl 9 3 704
+ 
+ 
+ntl 10 1 705
+ntl 10 2 705
+ntl 10 3 705
+ 
+ 
+ntl 11 1 706
+ntl 11 2 706
+ntl 11 3 706
+ 
+ 
+ntl 12 1 707
+ntl 12 2 707
+ntl 12 3 707
+ 
+ 
+ntl 13 1 708
+ntl 13 2 708
+ntl 13 3 708
+ 
+ 
+ntl 14 1 709
+ntl 14 2 709
+ntl 14 3 709
+ 
+ 
+ntl 15 1 710
+ntl 15 2 710
+ntl 15 3 710
+ 
+ 
+ntl 16 1 711
+ntl 16 2 711
+ntl 16 3 711
+ 
+ 
+ntl 17 1 712
+ntl 17 2 712
+ntl 17 3 712
+ 
+ 
+ntl 18 1 713
+ntl 18 2 713
+ntl 18 3 713
+ 
+ 
+ntl 19 1 714
+ntl 19 2 714
+ntl 19 3 714
+ 
+ 
+ntl 20 1 715
+ntl 20 2 715
+ntl 20 3 715
+ 
+ 
+branch 46 #######
+branchtitle 46 null
+numnode 46 16
+numbranch 46 0
+ 
+gtl 46 1 716
+gtl 46 2 716
+gtl 46 3 716
+ 
+ntl 1 1 717
+ntl 1 2 717
+ntl 1 3 717
+ 
+ 
+ntl 2 1 718
+ntl 2 2 718
+ntl 2 3 718
+ 
+ 
+ntl 3 1 719
+ntl 3 2 719
+ntl 3 3 719
+ 
+ 
+ntl 4 1 720
+ntl 4 2 720
+ntl 4 3 720
+ 
+ 
+ntl 5 1 721
+ntl 5 2 721
+ntl 5 3 721
+ 
+ 
+ntl 6 1 722
+ntl 6 2 722
+ntl 6 3 722
+ 
+ 
+ntl 7 1 723
+ntl 7 2 723
+ntl 7 3 723
+ 
+ 
+ntl 8 1 724
+ntl 8 2 724
+ntl 8 3 724
+ 
+ 
+ntl 9 1 725
+ntl 9 2 725
+ntl 9 3 725
+ 
+ 
+ntl 10 1 726
+ntl 10 2 726
+ntl 10 3 726
+ 
+ 
+ntl 11 1 727
+ntl 11 2 727
+ntl 11 3 727
+ 
+ 
+ntl 12 1 728
+ntl 12 2 728
+ntl 12 3 728
+ 
+ 
+ntl 13 1 729
+ntl 13 2 729
+ntl 13 3 729
+ 
+ 
+ntl 14 1 730
+ntl 14 2 730
+ntl 14 3 730
+ 
+ 
+ntl 15 1 731
+ntl 15 2 731
+ntl 15 3 731
+ 
+ 
+ntl 16 1 732
+ntl 16 2 732
+ntl 16 3 732
+ 
+ 
+branch 47 #######
+branchtitle 47 null
+numnode 47 36
+numbranch 47 0
+ 
+gtl 47 1 733
+gtl 47 2 733
+gtl 47 3 733
+ 
+ntl 1 1 734
+ntl 1 2 734
+ntl 1 3 734
+ 
+ 
+ntl 2 1 735
+ntl 2 2 735
+ntl 2 3 735
+ 
+ 
+ntl 3 1 736
+ntl 3 2 736
+ntl 3 3 736
+ 
+ 
+ntl 4 1 737
+ntl 4 2 737
+ntl 4 3 737
+ 
+ 
+ntl 5 1 738
+ntl 5 2 738
+ntl 5 3 738
+ 
+ 
+ntl 6 1 739
+ntl 6 2 739
+ntl 6 3 739
+ 
+ 
+ntl 7 1 740
+ntl 7 2 740
+ntl 7 3 740
+ 
+ 
+ntl 8 1 741
+ntl 8 2 741
+ntl 8 3 741
+ 
+ 
+ntl 9 1 742
+ntl 9 2 742
+ntl 9 3 742
+ 
+ 
+ntl 10 1 743
+ntl 10 2 743
+ntl 10 3 743
+ 
+ 
+ntl 11 1 744
+ntl 11 2 744
+ntl 11 3 744
+ 
+ 
+ntl 12 1 745
+ntl 12 2 745
+ntl 12 3 745
+ 
+ 
+ntl 13 1 746
+ntl 13 2 746
+ntl 13 3 746
+ 
+ 
+ntl 14 1 747
+ntl 14 2 747
+ntl 14 3 747
+ 
+ 
+ntl 15 1 748
+ntl 15 2 748
+ntl 15 3 748
+ 
+ 
+ntl 16 1 749
+ntl 16 2 749
+ntl 16 3 749
+ 
+ 
+ntl 17 1 750
+ntl 17 2 750
+ntl 17 3 750
+ 
+ 
+ntl 18 1 751
+ntl 18 2 751
+ntl 18 3 751
+ 
+ 
+ntl 19 1 752
+ntl 19 2 752
+ntl 19 3 752
+ 
+ 
+ntl 20 1 753
+ntl 20 2 753
+ntl 20 3 753
+ 
+ 
+ntl 21 1 754
+ntl 21 2 754
+ntl 21 3 754
+ 
+ 
+ntl 22 1 755
+ntl 22 2 755
+ntl 22 3 755
+ 
+ 
+ntl 23 1 756
+ntl 23 2 756
+ntl 23 3 756
+ 
+ 
+ntl 24 1 757
+ntl 24 2 757
+ntl 24 3 757
+ 
+ 
+ntl 25 1 758
+ntl 25 2 758
+ntl 25 3 758
+ 
+ 
+ntl 26 1 759
+ntl 26 2 759
+ntl 26 3 759
+ 
+ 
+ntl 27 1 760
+ntl 27 2 760
+ntl 27 3 760
+ 
+ 
+ntl 28 1 761
+ntl 28 2 761
+ntl 28 3 761
+ 
+ 
+ntl 29 1 762
+ntl 29 2 762
+ntl 29 3 762
+ 
+ 
+ntl 30 1 763
+ntl 30 2 763
+ntl 30 3 763
+ 
+ 
+ntl 31 1 764
+ntl 31 2 764
+ntl 31 3 764
+ 
+ 
+ntl 32 1 765
+ntl 32 2 765
+ntl 32 3 765
+ 
+ 
+ntl 33 1 766
+ntl 33 2 766
+ntl 33 3 766
+ 
+ 
+ntl 34 1 767
+ntl 34 2 767
+ntl 34 3 767
+ 
+ 
+ntl 35 1 768
+ntl 35 2 768
+ntl 35 3 768
+ 
+ 
+ntl 36 1 769
+ntl 36 2 769
+ntl 36 3 769
+ 
+ 
+branch 48 #######
+branchtitle 48 null
+numnode 48 12
+numbranch 48 0
+ 
+gtl 48 1 770
+gtl 48 2 770
+gtl 48 3 770
+ 
+ntl 1 1 771
+ntl 1 2 771
+ntl 1 3 771
+ 
+ 
+ntl 2 1 772
+ntl 2 2 772
+ntl 2 3 772
+ 
+ 
+ntl 3 1 773
+ntl 3 2 773
+ntl 3 3 773
+ 
+ 
+ntl 4 1 774
+ntl 4 2 774
+ntl 4 3 774
+ 
+ 
+ntl 5 1 775
+ntl 5 2 775
+ntl 5 3 775
+ 
+ 
+ntl 6 1 776
+ntl 6 2 776
+ntl 6 3 776
+ 
+ 
+ntl 7 1 777
+ntl 7 2 777
+ntl 7 3 777
+ 
+ 
+ntl 8 1 778
+ntl 8 2 778
+ntl 8 3 778
+ 
+ 
+ntl 9 1 779
+ntl 9 2 779
+ntl 9 3 779
+ 
+ 
+ntl 10 1 780
+ntl 10 2 780
+ntl 10 3 780
+ 
+ 
+ntl 11 1 781
+ntl 11 2 781
+ntl 11 3 781
+ 
+ 
+ntl 12 1 782
+ntl 12 2 782
+ntl 12 3 782
+ 
+ 
+branch 49 #######
+branchtitle 49 null
+numnode 49 28
+numbranch 49 0
+ 
+gtl 49 1 783
+gtl 49 2 783
+gtl 49 3 783
+ 
+ntl 1 1 784
+ntl 1 2 784
+ntl 1 3 784
+ 
+ 
+ntl 2 1 785
+ntl 2 2 785
+ntl 2 3 785
+ 
+ 
+ntl 3 1 786
+ntl 3 2 786
+ntl 3 3 786
+ 
+ 
+ntl 4 1 787
+ntl 4 2 787
+ntl 4 3 787
+ 
+ 
+ntl 5 1 788
+ntl 5 2 788
+ntl 5 3 788
+ 
+ 
+ntl 6 1 789
+ntl 6 2 789
+ntl 6 3 789
+ 
+ 
+ntl 7 1 790
+ntl 7 2 790
+ntl 7 3 790
+ 
+ 
+ntl 8 1 791
+ntl 8 2 791
+ntl 8 3 791
+ 
+ 
+ntl 9 1 792
+ntl 9 2 792
+ntl 9 3 792
+ 
+ 
+ntl 10 1 793
+ntl 10 2 793
+ntl 10 3 793
+ 
+ 
+ntl 11 1 794
+ntl 11 2 794
+ntl 11 3 794
+ 
+ 
+ntl 12 1 795
+ntl 12 2 795
+ntl 12 3 795
+ 
+ 
+ntl 13 1 796
+ntl 13 2 796
+ntl 13 3 796
+ 
+ 
+ntl 14 1 797
+ntl 14 2 797
+ntl 14 3 797
+ 
+ 
+ntl 15 1 798
+ntl 15 2 798
+ntl 15 3 798
+ 
+ 
+ntl 16 1 799
+ntl 16 2 799
+ntl 16 3 799
+ 
+ 
+ntl 17 1 800
+ntl 17 2 800
+ntl 17 3 800
+ 
+ 
+ntl 18 1 801
+ntl 18 2 801
+ntl 18 3 801
+ 
+ 
+ntl 19 1 802
+ntl 19 2 802
+ntl 19 3 802
+ 
+ 
+ntl 20 1 803
+ntl 20 2 803
+ntl 20 3 803
+ 
+ 
+ntl 21 1 804
+ntl 21 2 804
+ntl 21 3 804
+ 
+ 
+ntl 22 1 805
+ntl 22 2 805
+ntl 22 3 805
+ 
+ 
+ntl 23 1 806
+ntl 23 2 806
+ntl 23 3 806
+ 
+ 
+ntl 24 1 807
+ntl 24 2 807
+ntl 24 3 807
+ 
+ 
+ntl 25 1 808
+ntl 25 2 808
+ntl 25 3 808
+ 
+ 
+ntl 26 1 809
+ntl 26 2 809
+ntl 26 3 809
+ 
+ 
+ntl 27 1 810
+ntl 27 2 810
+ntl 27 3 810
+ 
+ 
+ntl 28 1 811
+ntl 28 2 811
+ntl 28 3 811
+ 
+ 
+branch 50 #######
+branchtitle 50 null
+numnode 50 9
+numbranch 50 0
+ 
+gtl 50 1 812
+gtl 50 2 812
+gtl 50 3 812
+ 
+ntl 1 1 813
+ntl 1 2 813
+ntl 1 3 813
+ 
+ 
+ntl 2 1 814
+ntl 2 2 814
+ntl 2 3 814
+ 
+ 
+ntl 3 1 815
+ntl 3 2 815
+ntl 3 3 815
+ 
+ 
+ntl 4 1 816
+ntl 4 2 816
+ntl 4 3 816
+ 
+ 
+ntl 5 1 817
+ntl 5 2 817
+ntl 5 3 817
+ 
+ 
+ntl 6 1 818
+ntl 6 2 818
+ntl 6 3 818
+ 
+ 
+ntl 7 1 819
+ntl 7 2 819
+ntl 7 3 819
+ 
+ 
+ntl 8 1 820
+ntl 8 2 820
+ntl 8 3 820
+ 
+ 
+ntl 9 1 821
+ntl 9 2 821
+ntl 9 3 821
+ 
+ 
+branch 51 #######
+branchtitle 51 null
+numnode 51 31
+numbranch 51 0
+ 
+gtl 51 1 822
+gtl 51 2 822
+gtl 51 3 822
+ 
+ntl 1 1 823
+ntl 1 2 823
+ntl 1 3 823
+ 
+ 
+ntl 2 1 824
+ntl 2 2 824
+ntl 2 3 824
+ 
+ 
+ntl 3 1 825
+ntl 3 2 825
+ntl 3 3 825
+ 
+ 
+ntl 4 1 826
+ntl 4 2 826
+ntl 4 3 826
+ 
+ 
+ntl 5 1 827
+ntl 5 2 827
+ntl 5 3 827
+ 
+ 
+ntl 6 1 828
+ntl 6 2 828
+ntl 6 3 828
+ 
+ 
+ntl 7 1 829
+ntl 7 2 829
+ntl 7 3 829
+ 
+ 
+ntl 8 1 830
+ntl 8 2 830
+ntl 8 3 830
+ 
+ 
+ntl 9 1 831
+ntl 9 2 831
+ntl 9 3 831
+ 
+ 
+ntl 10 1 832
+ntl 10 2 832
+ntl 10 3 832
+ 
+ 
+ntl 11 1 833
+ntl 11 2 833
+ntl 11 3 833
+ 
+ 
+ntl 12 1 834
+ntl 12 2 834
+ntl 12 3 834
+ 
+ 
+ntl 13 1 835
+ntl 13 2 835
+ntl 13 3 835
+ 
+ 
+ntl 14 1 836
+ntl 14 2 836
+ntl 14 3 836
+ 
+ 
+ntl 15 1 837
+ntl 15 2 837
+ntl 15 3 837
+ 
+ 
+ntl 16 1 838
+ntl 16 2 838
+ntl 16 3 838
+ 
+ 
+ntl 17 1 839
+ntl 17 2 839
+ntl 17 3 839
+ 
+ 
+ntl 18 1 840
+ntl 18 2 840
+ntl 18 3 840
+ 
+ 
+ntl 19 1 841
+ntl 19 2 841
+ntl 19 3 841
+ 
+ 
+ntl 20 1 842
+ntl 20 2 842
+ntl 20 3 842
+ 
+ 
+ntl 21 1 843
+ntl 21 2 843
+ntl 21 3 843
+ 
+ 
+ntl 22 1 844
+ntl 22 2 844
+ntl 22 3 844
+ 
+ 
+ntl 23 1 845
+ntl 23 2 845
+ntl 23 3 845
+ 
+ 
+ntl 24 1 846
+ntl 24 2 846
+ntl 24 3 846
+ 
+ 
+ntl 25 1 847
+ntl 25 2 847
+ntl 25 3 847
+ 
+ 
+ntl 26 1 848
+ntl 26 2 848
+ntl 26 3 848
+ 
+ 
+ntl 27 1 849
+ntl 27 2 849
+ntl 27 3 849
+ 
+ 
+ntl 28 1 850
+ntl 28 2 850
+ntl 28 3 850
+ 
+ 
+ntl 29 1 851
+ntl 29 2 851
+ntl 29 3 851
+ 
+ 
+ntl 30 1 852
+ntl 30 2 852
+ntl 30 3 852
+ 
+ 
+ntl 31 1 853
+ntl 31 2 853
+ntl 31 3 853
+ 
+ 
+branch 52 #######
+branchtitle 52 null
+numnode 52 5
+numbranch 52 0
+ 
+gtl 52 1 854
+gtl 52 2 854
+gtl 52 3 854
+ 
+ntl 1 1 855
+ntl 1 2 855
+ntl 1 3 855
+ 
+ 
+ntl 2 1 856
+ntl 2 2 856
+ntl 2 3 856
+ 
+ 
+ntl 3 1 857
+ntl 3 2 857
+ntl 3 3 857
+ 
+ 
+ntl 4 1 858
+ntl 4 2 858
+ntl 4 3 858
+ 
+ 
+ntl 5 1 859
+ntl 5 2 859
+ntl 5 3 859
+ 
+ 
+branch 53 #######
+branchtitle 53 null
+numnode 53 33
+numbranch 53 0
+ 
+gtl 53 1 860
+gtl 53 2 860
+gtl 53 3 860
+ 
+ntl 1 1 861
+ntl 1 2 861
+ntl 1 3 861
+ 
+ 
+ntl 2 1 862
+ntl 2 2 862
+ntl 2 3 862
+ 
+ 
+ntl 3 1 863
+ntl 3 2 863
+ntl 3 3 863
+ 
+ 
+ntl 4 1 864
+ntl 4 2 864
+ntl 4 3 864
+ 
+ 
+ntl 5 1 865
+ntl 5 2 865
+ntl 5 3 865
+ 
+ 
+ntl 6 1 866
+ntl 6 2 866
+ntl 6 3 866
+ 
+ 
+ntl 7 1 867
+ntl 7 2 867
+ntl 7 3 867
+ 
+ 
+ntl 8 1 868
+ntl 8 2 868
+ntl 8 3 868
+ 
+ 
+ntl 9 1 869
+ntl 9 2 869
+ntl 9 3 869
+ 
+ 
+ntl 10 1 870
+ntl 10 2 870
+ntl 10 3 870
+ 
+ 
+ntl 11 1 871
+ntl 11 2 871
+ntl 11 3 871
+ 
+ 
+ntl 12 1 872
+ntl 12 2 872
+ntl 12 3 872
+ 
+ 
+ntl 13 1 873
+ntl 13 2 873
+ntl 13 3 873
+ 
+ 
+ntl 14 1 874
+ntl 14 2 874
+ntl 14 3 874
+ 
+ 
+ntl 15 1 875
+ntl 15 2 875
+ntl 15 3 875
+ 
+ 
+ntl 16 1 876
+ntl 16 2 876
+ntl 16 3 876
+ 
+ 
+ntl 17 1 877
+ntl 17 2 877
+ntl 17 3 877
+ 
+ 
+ntl 18 1 878
+ntl 18 2 878
+ntl 18 3 878
+ 
+ 
+ntl 19 1 879
+ntl 19 2 879
+ntl 19 3 879
+ 
+ 
+ntl 20 1 880
+ntl 20 2 880
+ntl 20 3 880
+ 
+ 
+ntl 21 1 881
+ntl 21 2 881
+ntl 21 3 881
+ 
+ 
+ntl 22 1 882
+ntl 22 2 882
+ntl 22 3 882
+ 
+ 
+ntl 23 1 883
+ntl 23 2 883
+ntl 23 3 883
+ 
+ 
+ntl 24 1 884
+ntl 24 2 884
+ntl 24 3 884
+ 
+ 
+ntl 25 1 885
+ntl 25 2 885
+ntl 25 3 885
+ 
+ 
+ntl 26 1 886
+ntl 26 2 886
+ntl 26 3 886
+ 
+ 
+ntl 27 1 887
+ntl 27 2 887
+ntl 27 3 887
+ 
+ 
+ntl 28 1 888
+ntl 28 2 888
+ntl 28 3 888
+ 
+ 
+ntl 29 1 889
+ntl 29 2 889
+ntl 29 3 889
+ 
+ 
+ntl 30 1 890
+ntl 30 2 890
+ntl 30 3 890
+ 
+ 
+ntl 31 1 891
+ntl 31 2 891
+ntl 31 3 891
+ 
+ 
+ntl 32 1 892
+ntl 32 2 892
+ntl 32 3 892
+ 
+ 
+ntl 33 1 893
+ntl 33 2 893
+ntl 33 3 893
+ 
+ 
+branch 54 #######
+branchtitle 54 null
+numnode 54 27
+numbranch 54 0
+ 
+gtl 54 1 894
+gtl 54 2 894
+gtl 54 3 894
+ 
+ntl 1 1 895
+ntl 1 2 895
+ntl 1 3 895
+ 
+ 
+ntl 2 1 896
+ntl 2 2 896
+ntl 2 3 896
+ 
+ 
+ntl 3 1 897
+ntl 3 2 897
+ntl 3 3 897
+ 
+ 
+ntl 4 1 898
+ntl 4 2 898
+ntl 4 3 898
+ 
+ 
+ntl 5 1 899
+ntl 5 2 899
+ntl 5 3 899
+ 
+ 
+ntl 6 1 900
+ntl 6 2 900
+ntl 6 3 900
+ 
+ 
+ntl 7 1 901
+ntl 7 2 901
+ntl 7 3 901
+ 
+ 
+ntl 8 1 902
+ntl 8 2 902
+ntl 8 3 902
+ 
+ 
+ntl 9 1 903
+ntl 9 2 903
+ntl 9 3 903
+ 
+ 
+ntl 10 1 904
+ntl 10 2 904
+ntl 10 3 904
+ 
+ 
+ntl 11 1 905
+ntl 11 2 905
+ntl 11 3 905
+ 
+ 
+ntl 12 1 906
+ntl 12 2 906
+ntl 12 3 906
+ 
+ 
+ntl 13 1 907
+ntl 13 2 907
+ntl 13 3 907
+ 
+ 
+ntl 14 1 908
+ntl 14 2 908
+ntl 14 3 908
+ 
+ 
+ntl 15 1 909
+ntl 15 2 909
+ntl 15 3 909
+ 
+ 
+ntl 16 1 910
+ntl 16 2 910
+ntl 16 3 910
+ 
+ 
+ntl 17 1 911
+ntl 17 2 911
+ntl 17 3 911
+ 
+ 
+ntl 18 1 912
+ntl 18 2 912
+ntl 18 3 912
+ 
+ 
+ntl 19 1 913
+ntl 19 2 913
+ntl 19 3 913
+ 
+ 
+ntl 20 1 914
+ntl 20 2 914
+ntl 20 3 914
+ 
+ 
+ntl 21 1 915
+ntl 21 2 915
+ntl 21 3 915
+ 
+ 
+ntl 22 1 916
+ntl 22 2 916
+ntl 22 3 916
+ 
+ 
+ntl 23 1 917
+ntl 23 2 917
+ntl 23 3 917
+ 
+ 
+ntl 24 1 918
+ntl 24 2 918
+ntl 24 3 918
+ 
+ 
+ntl 25 1 919
+ntl 25 2 919
+ntl 25 3 919
+ 
+ 
+ntl 26 1 920
+ntl 26 2 920
+ntl 26 3 920
+ 
+ 
+ntl 27 1 921
+ntl 27 2 921
+ntl 27 3 921
+ 
+ 
+branch 55 #######
+branchtitle 55 null
+numnode 55 5
+numbranch 55 0
+ 
+gtl 55 1 922
+gtl 55 2 922
+gtl 55 3 922
+ 
+ntl 1 1 923
+ntl 1 2 923
+ntl 1 3 923
+ 
+ 
+ntl 2 1 924
+ntl 2 2 924
+ntl 2 3 924
+ 
+ 
+ntl 3 1 925
+ntl 3 2 925
+ntl 3 3 925
+ 
+ 
+ntl 4 1 926
+ntl 4 2 926
+ntl 4 3 926
+ 
+ 
+ntl 5 1 927
+ntl 5 2 927
+ntl 5 3 927
+ 
+ 
+branch 56 #######
+branchtitle 56 null
+numnode 56 8
+numbranch 56 0
+ 
+gtl 56 1 928
+gtl 56 2 928
+gtl 56 3 928
+ 
+ntl 1 1 929
+ntl 1 2 929
+ntl 1 3 929
+ 
+ 
+ntl 2 1 930
+ntl 2 2 930
+ntl 2 3 930
+ 
+ 
+ntl 3 1 931
+ntl 3 2 931
+ntl 3 3 931
+ 
+ 
+ntl 4 1 932
+ntl 4 2 932
+ntl 4 3 932
+ 
+ 
+ntl 5 1 933
+ntl 5 2 933
+ntl 5 3 933
+ 
+ 
+ntl 6 1 934
+ntl 6 2 934
+ntl 6 3 934
+ 
+ 
+ntl 7 1 935
+ntl 7 2 935
+ntl 7 3 935
+ 
+ 
+ntl 8 1 936
+ntl 8 2 936
+ntl 8 3 936
+ 
+ 
+branch 57 #######
+branchtitle 57 null
+numnode 57 19
+numbranch 57 1
+ 
+gtl 57 1 937
+gtl 57 2 937
+gtl 57 3 937
+childbranch 1 58
+ 
+ntl 1 1 938
+ntl 1 2 938
+ntl 1 3 938
+ 
+ 
+ntl 2 1 939
+ntl 2 2 939
+ntl 2 3 939
+ 
+ 
+ntl 3 1 940
+ntl 3 2 940
+ntl 3 3 940
+ 
+ 
+ntl 4 1 941
+ntl 4 2 941
+ntl 4 3 941
+ 
+ 
+ntl 5 1 942
+ntl 5 2 942
+ntl 5 3 942
+ 
+ 
+ntl 6 1 943
+ntl 6 2 943
+ntl 6 3 943
+ 
+ 
+ntl 7 1 944
+ntl 7 2 944
+ntl 7 3 944
+ 
+ 
+ntl 8 1 945
+ntl 8 2 945
+ntl 8 3 945
+ 
+ 
+ntl 9 1 946
+ntl 9 2 946
+ntl 9 3 946
+ 
+ 
+ntl 10 1 947
+ntl 10 2 947
+ntl 10 3 947
+ 
+ 
+ntl 11 1 948
+ntl 11 2 948
+ntl 11 3 948
+ 
+ 
+ntl 12 1 949
+ntl 12 2 949
+ntl 12 3 949
+ 
+ 
+ntl 13 1 950
+ntl 13 2 950
+ntl 13 3 950
+ 
+ 
+ntl 14 1 951
+ntl 14 2 951
+ntl 14 3 951
+ 
+ 
+ntl 15 1 952
+ntl 15 2 952
+ntl 15 3 952
+ 
+ 
+ntl 16 1 953
+ntl 16 2 953
+ntl 16 3 953
+ 
+ 
+ntl 17 1 954
+ntl 17 2 954
+ntl 17 3 954
+ 
+ 
+ntl 18 1 955
+ntl 18 2 955
+ntl 18 3 955
+ 
+ 
+ntl 19 1 956
+ntl 19 2 956
+ntl 19 3 956
+ 
+ 
+branch 58 #######
+branchtitle 58 null
+numnode 58 8
+numbranch 58 0
+ 
+gtl 58 1 957
+gtl 58 2 957
+gtl 58 3 957
+ 
+ntl 1 1 958
+ntl 1 2 958
+ntl 1 3 958
+ 
+ 
+ntl 2 1 959
+ntl 2 2 959
+ntl 2 3 959
+ 
+ 
+ntl 3 1 960
+ntl 3 2 960
+ntl 3 3 960
+ 
+ 
+ntl 4 1 961
+ntl 4 2 961
+ntl 4 3 961
+ 
+ 
+ntl 5 1 962
+ntl 5 2 962
+ntl 5 3 962
+ 
+ 
+ntl 6 1 963
+ntl 6 2 963
+ntl 6 3 963
+ 
+ 
+ntl 7 1 964
+ntl 7 2 964
+ntl 7 3 964
+ 
+ 
+ntl 8 1 965
+ntl 8 2 965
+ntl 8 3 965
+ 
+ 
+branch 59 #######
+branchtitle 59 null
+numnode 59 7
+numbranch 59 0
+ 
+gtl 59 1 966
+gtl 59 2 966
+gtl 59 3 966
+ 
+ntl 1 1 967
+ntl 1 2 967
+ntl 1 3 967
+ 
+ 
+ntl 2 1 968
+ntl 2 2 968
+ntl 2 3 968
+ 
+ 
+ntl 3 1 969
+ntl 3 2 969
+ntl 3 3 969
+ 
+ 
+ntl 4 1 970
+ntl 4 2 970
+ntl 4 3 970
+ 
+ 
+ntl 5 1 971
+ntl 5 2 971
+ntl 5 3 971
+ 
+ 
+ntl 6 1 972
+ntl 6 2 972
+ntl 6 3 972
+ 
+ 
+ntl 7 1 973
+ntl 7 2 973
+ntl 7 3 973
+ 
+ 
+branch 60 #######
+branchtitle 60 null
+numnode 60 16
+numbranch 60 0
+ 
+gtl 60 1 974
+gtl 60 2 974
+gtl 60 3 974
+ 
+ntl 1 1 975
+ntl 1 2 975
+ntl 1 3 975
+ 
+ 
+ntl 2 1 976
+ntl 2 2 976
+ntl 2 3 976
+ 
+ 
+ntl 3 1 977
+ntl 3 2 977
+ntl 3 3 977
+ 
+ 
+ntl 4 1 978
+ntl 4 2 978
+ntl 4 3 978
+ 
+ 
+ntl 5 1 979
+ntl 5 2 979
+ntl 5 3 979
+ 
+ 
+ntl 6 1 980
+ntl 6 2 980
+ntl 6 3 980
+ 
+ 
+ntl 7 1 981
+ntl 7 2 981
+ntl 7 3 981
+ 
+ 
+ntl 8 1 982
+ntl 8 2 982
+ntl 8 3 982
+ 
+ 
+ntl 9 1 983
+ntl 9 2 983
+ntl 9 3 983
+ 
+ 
+ntl 10 1 984
+ntl 10 2 984
+ntl 10 3 984
+ 
+ 
+ntl 11 1 985
+ntl 11 2 985
+ntl 11 3 985
+ 
+ 
+ntl 12 1 986
+ntl 12 2 986
+ntl 12 3 986
+ 
+ 
+ntl 13 1 987
+ntl 13 2 987
+ntl 13 3 987
+ 
+ 
+ntl 14 1 988
+ntl 14 2 988
+ntl 14 3 988
+ 
+ 
+ntl 15 1 989
+ntl 15 2 989
+ntl 15 3 989
+ 
+ 
+ntl 16 1 990
+ntl 16 2 990
+ntl 16 3 990
+ 
+ 
+branch 61 #######
+branchtitle 61 null
+numnode 61 2
+numbranch 61 0
+ 
+gtl 61 1 991
+gtl 61 2 991
+gtl 61 3 991
+ 
+ntl 1 1 992
+ntl 1 2 992
+ntl 1 3 992
+ 
+ 
+ntl 2 1 993
+ntl 2 2 993
+ntl 2 3 993
+ 
+ 
+branch 62 #######
+branchtitle 62 null
+numnode 62 11
+numbranch 62 0
+ 
+gtl 62 1 994
+gtl 62 2 994
+gtl 62 3 994
+ 
+ntl 1 1 995
+ntl 1 2 995
+ntl 1 3 995
+ 
+ 
+ntl 2 1 996
+ntl 2 2 996
+ntl 2 3 996
+ 
+ 
+ntl 3 1 997
+ntl 3 2 997
+ntl 3 3 997
+ 
+ 
+ntl 4 1 998
+ntl 4 2 998
+ntl 4 3 998
+ 
+ 
+ntl 5 1 999
+ntl 5 2 999
+ntl 5 3 999
+ 
+ 
+ntl 6 1 1000
+ntl 6 2 1000
+ntl 6 3 1000
+ 
+ 
+ntl 7 1 1001
+ntl 7 2 1001
+ntl 7 3 1001
+ 
+ 
+ntl 8 1 1002
+ntl 8 2 1002
+ntl 8 3 1002
+ 
+ 
+ntl 9 1 1003
+ntl 9 2 1003
+ntl 9 3 1003
+ 
+ 
+ntl 10 1 1004
+ntl 10 2 1004
+ntl 10 3 1004
+ 
+ 
+ntl 11 1 1005
+ntl 11 2 1005
+ntl 11 3 1005
+ 
+ 
+branch 63 #######
+branchtitle 63 null
+numnode 63 9
+numbranch 63 0
+ 
+gtl 63 1 1006
+gtl 63 2 1006
+gtl 63 3 1006
+ 
+ntl 1 1 1007
+ntl 1 2 1007
+ntl 1 3 1007
+ 
+ 
+ntl 2 1 1008
+ntl 2 2 1008
+ntl 2 3 1008
+ 
+ 
+ntl 3 1 1009
+ntl 3 2 1009
+ntl 3 3 1009
+ 
+ 
+ntl 4 1 1010
+ntl 4 2 1010
+ntl 4 3 1010
+ 
+ 
+ntl 5 1 1011
+ntl 5 2 1011
+ntl 5 3 1011
+ 
+ 
+ntl 6 1 1012
+ntl 6 2 1012
+ntl 6 3 1012
+ 
+ 
+ntl 7 1 1013
+ntl 7 2 1013
+ntl 7 3 1013
+ 
+ 
+ntl 8 1 1014
+ntl 8 2 1014
+ntl 8 3 1014
+ 
+ 
+ntl 9 1 1015
+ntl 9 2 1015
+ntl 9 3 1015
+ 
+ 
+branch 64 #######
+branchtitle 64 null
+numnode 64 11
+numbranch 64 0
+ 
+gtl 64 1 1016
+gtl 64 2 1016
+gtl 64 3 1016
+ 
+ntl 1 1 1017
+ntl 1 2 1017
+ntl 1 3 1017
+ 
+ 
+ntl 2 1 1018
+ntl 2 2 1018
+ntl 2 3 1018
+ 
+ 
+ntl 3 1 1019
+ntl 3 2 1019
+ntl 3 3 1019
+ 
+ 
+ntl 4 1 1020
+ntl 4 2 1020
+ntl 4 3 1020
+ 
+ 
+ntl 5 1 1021
+ntl 5 2 1021
+ntl 5 3 1021
+ 
+ 
+ntl 6 1 1022
+ntl 6 2 1022
+ntl 6 3 1022
+ 
+ 
+ntl 7 1 1023
+ntl 7 2 1023
+ntl 7 3 1023
+ 
+ 
+ntl 8 1 1024
+ntl 8 2 1024
+ntl 8 3 1024
+ 
+ 
+ntl 9 1 1025
+ntl 9 2 1025
+ntl 9 3 1025
+ 
+ 
+ntl 10 1 1026
+ntl 10 2 1026
+ntl 10 3 1026
+ 
+ 
+ntl 11 1 1027
+ntl 11 2 1027
+ntl 11 3 1027
+ 
+ 
+branch 65 #######
+branchtitle 65 null
+numnode 65 19
+numbranch 65 0
+ 
+gtl 65 1 1028
+gtl 65 2 1028
+gtl 65 3 1028
+ 
+ntl 1 1 1029
+ntl 1 2 1029
+ntl 1 3 1029
+ 
+ 
+ntl 2 1 1030
+ntl 2 2 1030
+ntl 2 3 1030
+ 
+ 
+ntl 3 1 1031
+ntl 3 2 1031
+ntl 3 3 1031
+ 
+ 
+ntl 4 1 1032
+ntl 4 2 1032
+ntl 4 3 1032
+ 
+ 
+ntl 5 1 1033
+ntl 5 2 1033
+ntl 5 3 1033
+ 
+ 
+ntl 6 1 1034
+ntl 6 2 1034
+ntl 6 3 1034
+ 
+ 
+ntl 7 1 1035
+ntl 7 2 1035
+ntl 7 3 1035
+ 
+ 
+ntl 8 1 1036
+ntl 8 2 1036
+ntl 8 3 1036
+ 
+ 
+ntl 9 1 1037
+ntl 9 2 1037
+ntl 9 3 1037
+ 
+ 
+ntl 10 1 1038
+ntl 10 2 1038
+ntl 10 3 1038
+ 
+ 
+ntl 11 1 1039
+ntl 11 2 1039
+ntl 11 3 1039
+ 
+ 
+ntl 12 1 1040
+ntl 12 2 1040
+ntl 12 3 1040
+ 
+ 
+ntl 13 1 1041
+ntl 13 2 1041
+ntl 13 3 1041
+ 
+ 
+ntl 14 1 1042
+ntl 14 2 1042
+ntl 14 3 1042
+ 
+ 
+ntl 15 1 1043
+ntl 15 2 1043
+ntl 15 3 1043
+ 
+ 
+ntl 16 1 1044
+ntl 16 2 1044
+ntl 16 3 1044
+ 
+ 
+ntl 17 1 1045
+ntl 17 2 1045
+ntl 17 3 1045
+ 
+ 
+ntl 18 1 1046
+ntl 18 2 1046
+ntl 18 3 1046
+ 
+ 
+ntl 19 1 1047
+ntl 19 2 1047
+ntl 19 3 1047
+ 
+ 
+branch 66 #######
+branchtitle 66 null
+numnode 66 12
+numbranch 66 0
+ 
+gtl 66 1 1048
+gtl 66 2 1048
+gtl 66 3 1048
+ 
+ntl 1 1 1049
+ntl 1 2 1049
+ntl 1 3 1049
+ 
+ 
+ntl 2 1 1050
+ntl 2 2 1050
+ntl 2 3 1050
+ 
+ 
+ntl 3 1 1051
+ntl 3 2 1051
+ntl 3 3 1051
+ 
+ 
+ntl 4 1 1052
+ntl 4 2 1052
+ntl 4 3 1052
+ 
+ 
+ntl 5 1 1053
+ntl 5 2 1053
+ntl 5 3 1053
+ 
+ 
+ntl 6 1 1054
+ntl 6 2 1054
+ntl 6 3 1054
+ 
+ 
+ntl 7 1 1055
+ntl 7 2 1055
+ntl 7 3 1055
+ 
+ 
+ntl 8 1 1056
+ntl 8 2 1056
+ntl 8 3 1056
+ 
+ 
+ntl 9 1 1057
+ntl 9 2 1057
+ntl 9 3 1057
+ 
+ 
+ntl 10 1 1058
+ntl 10 2 1058
+ntl 10 3 1058
+ 
+ 
+ntl 11 1 1059
+ntl 11 2 1059
+ntl 11 3 1059
+ 
+ 
+ntl 12 1 1060
+ntl 12 2 1060
+ntl 12 3 1060
+ 
+ 
+branch 67 #######
+branchtitle 67 null
+numnode 67 6
+numbranch 67 0
+ 
+gtl 67 1 1061
+gtl 67 2 1061
+gtl 67 3 1061
+ 
+ntl 1 1 1062
+ntl 1 2 1062
+ntl 1 3 1062
+ 
+ 
+ntl 2 1 1063
+ntl 2 2 1063
+ntl 2 3 1063
+ 
+ 
+ntl 3 1 1064
+ntl 3 2 1064
+ntl 3 3 1064
+ 
+ 
+ntl 4 1 1065
+ntl 4 2 1065
+ntl 4 3 1065
+ 
+ 
+ntl 5 1 1066
+ntl 5 2 1066
+ntl 5 3 1066
+ 
+ 
+ntl 6 1 1067
+ntl 6 2 1067
+ntl 6 3 1067
+ 
+ 
+numarc 0
+ 

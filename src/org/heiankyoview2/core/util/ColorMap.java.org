@@ -1,0 +1,64 @@
+package org.heiankyoview2.core.util;
+
+import java.awt.Color;
+
+
+/**
+ * 数値を色に変換する算出式のクラス
+ * @author itot
+ */
+public class ColorMap {
+
+	Color startColor; //the Color of the start point which value = 1.0
+	Color endColor; //the Color of the end point which value = 0.0
+
+		
+	/**
+	 * 入力数値に応じて滑らかに変化するように色を算出する
+	 * @param value 入力数値
+	 * @return 色
+	 */
+	public static Color calcHSBSmoothColor(float value) {
+		Color color;
+
+		// Calculate color gradation 
+		// if the value is -1 or 1, the color of the value is gray.
+		if (value < 0 || value > 1) {
+			color = Color.gray;
+			return color;
+		}
+
+		//red->yellow->green->blue
+		float hue = (1.0f - value) * 160.f / 240.f;
+		color = Color.getHSBColor(hue, 1.0f, 1.0f);
+
+		return color;
+	}
+
+	/**
+	 * 入力数値に応じて滑らかに変化するように色を算出する
+	 * @param value 入力数値
+	 * @return 色
+	 */
+	public static Color calcHSBSmoothColor(float value1, float value2) {
+		Color color;
+
+		// Calculate color gradation 
+		// if the value is -1 or 1, the color of the value is gray.
+		if (value1 < 0 || value1 > 1) {
+			color = Color.gray;
+			return color;
+		}
+		if (value2 < 0) value2 = 0.0f;
+		if (value2 > 1) value2 = 1.0f;
+		
+		//red->yellow->green->blue
+		float hue = (1.0f - value1) * 160.f / 240.f;
+		float saturation = 0.3f + 0.7f * value2;
+		float intensity = 0.5f + 0.5f * value2;
+		color = Color.getHSBColor(hue, saturation, intensity);
+
+		return color;
+	}
+
+}

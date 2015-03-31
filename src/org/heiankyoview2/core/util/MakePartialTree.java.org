@@ -1,0 +1,207 @@
+package org.heiankyoview2.core.util;
+
+import org.heiankyoview2.core.tree.Tree;
+import org.heiankyoview2.core.tree.Branch;
+import org.heiankyoview2.core.tree.Node;
+import org.heiankyoview2.core.table.Table;
+import org.heiankyoview2.core.table.TreeTable;
+import org.heiankyoview2.core.table.NodeTablePointer;
+import org.heiankyoview2.core.placement.Packing;
+
+
+/**
+ * Treeの一部分を切り取った部分Treeを生成する
+ * @author itot
+ */
+public class MakePartialTree {
+
+	Tree parentTree;
+	Tree newTree;
+
+	/**
+	 * Constructor
+	 * @param tree 元Tree
+	 */
+	public MakePartialTree(Tree tree) {
+		this.parentTree = tree;
+	}
+
+	/**
+	 * Treeの一部分を切り取った部分Treeを生成する
+	 * @param branch 部分Treeの根BranchとなるBranch
+	 * @return 生成された部分Tree
+	 */
+	public Tree makeTree(Branch branch) {
+
+		newTree = new Tree();
+
+		newTree.setNumBranch(1);
+		Branch newBranch = newTree.getBranchAt(1);
+		newTree.setRootBranch(newBranch);
+		newBranch.setParentNode(newTree.getRootNode());
+		newTree.getRootNode().setChildBranch(newBranch);
+
+		if (branch == null)
+			return newTree;
+
+		//
+		// Copy tree attributes
+		//
+		if (parentTree.getAttributeType() == parentTree.ATTRIBUTE_TABLE) {
+			copyTableTree(branch, newTree, newBranch);
+		}
+
+		TreeTable newtg = (TreeTable)newTree.getAttribute();
+		TreeTable ptg = (TreeTable)parentTree.getAttribute();
+		newtg.setColorType(ptg.getColorType());
+		newtg.setHeightType(ptg.getHeightType());
+		newtg.setNameType(ptg.getNameType());
+
+		//
+		// Copy branches from the root to children
+		//
+		copyOneBranch(branch, newBranch);
+
+		//
+		// Jewel layout
+		//
+		Packing packing = new Packing();
+		packing.placeNodesAllBranch(newTree);
+
+		System.out.println("makePartialTree: newTree=" + newTree);
+
+		return newTree;
+	}
+
+	/**
+	 * 1個のBranchの内容をコピーする
+	 * @param branch 元TreeのBranch
+	 * @param newBranch 生成されるTreeのコピー先Branch
+	 */
+	void copyOneBranch(Branch branch, Branch newBranch) {
+
+		//
+		// for each node
+		//
+		for (int i = 1; i <= branch.getNodeList().size(); i++) {
+			Node node = branch.getNodeAt(i);
+			Node newNode = newBranch.getOneNewNode();
+
+			//
+			// copy attributes of the node
+			//
+			if (parentTree.getAttributeType()
+				== parentTree.ATTRIBUTE_TABLE) {
+				copyTableNode(node, newNode);
+			}
+
+			//
+			// Copy the child branch
+			//
+			Branch childBranch = node.getChildBranch();
+			if (childBranch != null) {
+				Branch newChildBranch = newTree.getOneNewBranch();
+
+				newChildBranch.setParentNode(newNode);
+				newNode.setChildBranch(newChildBranch);
+
+				copyOneBranch(childBranch, newChildBranch);
+			}
+
+		}
+	}
+
+
+	/**
+	 * Treeの属性となるTable情報をコピーする
+	 * @param branch コピー元Branch
+	 * @param newTree 新しいTree
+	 * @param newBranch 新しいTreeのコピー先Branch
+	 */
+	void copyTableTree(
+		Branch branch,
+		Tree newTree,
+		Branch newBranch) {
+
+		int numTable, i;
+
+		//
+		// Set the attribute type of the new tree
+		//
+		newTree.setAttributeType(newTree.ATTRIBUTE_TABLE);
+		TreeTable tg2 = new TreeTable(newTree);
+		newTree.setAttribute(tg2);
+
+		TreeTable tg1 = (TreeTable)parentTree.getAttribute();
+
+		//
+		// for each table of the parent tree
+		//
+		numTable = tg1.getNumTable();
+		tg2.setNumTable(numTable);
+		for (i = 1; i <= numTable; i++) {
+			Table table1 = tg1.getTable(i);
+			Table table2 = new Table();
+			tg2.setTable(i, table2);
+
+			int ttype = table1.getType();
+			int tsize = table1.getSize();
+			table2.setType(ttype);
+			table2.setSize(tsize);
+			table2.setName(table1.getName());
+
+			if (ttype == table1.TABLE_DOUBLE) {
+				table2.setMaxDValue(table1.getMaxDValue());
+				table2.setMinDValue(table1.getMinDValue());
+			}
+			if (ttype == table1.TABLE_INT) {
+				table2.setMaxIValue(table1.getMaxIValue());
+				table2.setMinIValue(table1.getMinIValue());
+			}
+
+			//
+			// for each data element of the table
+			//
+			for (int j = 1; j <= tsize; j++) {
+				Object value = null;
+				if (ttype == table1.TABLE_STRING) {
+					String svalue = table1.getString(i);
+					value = (Object) svalue;
+				}
+				if (ttype == table1.TABLE_DOUBLE) {
+					double dvalue[] = new double[1];
+					dvalue[0] = table1.getDouble(i);
+					value = (Object) dvalue;
+				}
+				if (ttype == table1.TABLE_INT) {
+					int ivalue[] = new int[1];
+					ivalue[0] = table1.getInt(i);
+					value = (Object) ivalue;
+				}
+				table2.set(j, value);
+			}
+
+		}
+
+	}
+
+
+	/**
+	 * NodeからTableへのポインタをコピーする
+	 * @param node コピー元のNode
+	 * @param newNode 新しいTreeのコピー先Node
+	 */
+	void copyTableNode(Node node, Node newNode) {
+
+		NodeTablePointer tn = (NodeTablePointer)node.getAttribute();
+		NodeTablePointer newtn = (NodeTablePointer)newNode.getAttribute();
+
+		int numId = tn.getNumId();
+		newtn.setNumId(numId);
+
+		for (int i = 1; i <= numId; i++) {
+			newtn.setId(i, tn.getId(i));
+		}
+	}
+
+}
