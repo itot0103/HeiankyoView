@@ -14,8 +14,7 @@ import org.heiankyoview2.core.tree.Node;
 import org.heiankyoview2.core.glwindow.*;
 
 import java.lang.Exception;
-
-import javax.media.opengl.GLCanvas;
+import javax.media.opengl.awt.GLCanvas;
 
 
 public class GlCursorListener implements MouseListener, MouseMotionListener, MouseWheelListener {

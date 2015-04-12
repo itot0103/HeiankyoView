@@ -3,7 +3,7 @@ package org.heiankyoview2.applet.junihitoeview;
 
 import java.awt.*;
 
-import javax.media.opengl.GLCanvas;
+import javax.media.opengl.awt.GLCanvas;
 import javax.swing.*;
 
 import org.heiankyoview2.core.tree.Tree;

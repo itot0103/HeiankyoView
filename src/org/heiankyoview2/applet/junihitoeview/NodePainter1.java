@@ -3,7 +3,7 @@ package org.heiankyoview2.applet.junihitoeview;
 import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.geom.GeneralPath;
-import javax.media.opengl.GL;
+import javax.media.opengl.GL2;
 
 import org.heiankyoview2.core.table.Table;
 import org.heiankyoview2.core.table.TreeTable;
@@ -96,24 +96,24 @@ public class NodePainter1 {
 	/**
 	 * NodeÇÃ1ë§ñ ÅiÇ‹ÇΩÇÕ1íÍñ ÅjÇìhÇËÇ¬Ç‘Ç∑
 	 */
-	void paintOneNodeFaceGl(GL gl, Color color, double brightness) {
+	void paintOneNodeFaceGl(GL2 gl2, Color color, double brightness) {
 		float cvalue[] = new float[4];
 		
 		cvalue[0] = (float)color.getRed()   / 255.0f;
 		cvalue[1] = (float)color.getGreen() / 255.0f;
 		cvalue[2] = (float)color.getBlue()  / 255.0f;
 		cvalue[3] = 1.0f;
-		gl.glColor3f(cvalue[0], cvalue[1], cvalue[2]);
+		gl2.glColor3f(cvalue[0], cvalue[1], cvalue[2]);
 		//gl.glMaterialfv(GL.GL_FRONT_AND_BACK, GL.GL_AMBIENT_AND_DIFFUSE, cvalue, 0);
 		
 		// 1ñáñ⁄ÇÃí∑ï˚å`
-		gl.glBegin(GL.GL_POLYGON);
-		gl.glNormal3d(0.0, 0.0, 1.0);
-		gl.glVertex3d(p1[0], p1[1], p1[2]);
-		gl.glVertex3d(p2[0], p2[1], p2[2]);
-		gl.glVertex3d(p3[0], p3[1], p3[2]);
-		gl.glVertex3d(p4[0], p4[1], p4[2]);
-		gl.glEnd();
+		gl2.glBegin(GL2.GL_POLYGON);
+		gl2.glNormal3d(0.0, 0.0, 1.0);
+		gl2.glVertex3d(p1[0], p1[1], p1[2]);
+		gl2.glVertex3d(p2[0], p2[1], p2[2]);
+		gl2.glVertex3d(p3[0], p3[1], p3[2]);
+		gl2.glVertex3d(p4[0], p4[1], p4[2]);
+		gl2.glEnd();
 	
 	}
 	
@@ -124,12 +124,12 @@ public class NodePainter1 {
 	 * @param g2
 	 *            Graphics2D
 	 */
-	public void paintNodes(Graphics2D g2, GL gl, double scale) {
+	public void paintNodes(Graphics2D g2, GL2 gl2, double scale) {
 		Node node;
 		counter = 0;
 		this.scale = scale;
 		
-		if(gl != null) {
+		if(gl2 != null) {
 			p1 = new double[3];
 			p2 = new double[3];
 			p3 = new double[3];
@@ -163,7 +163,7 @@ public class NodePainter1 {
 			paintNodesAwt(g2);
 		}
 		else {
-			paintNodesGl(gl, tree.getRootBranch());
+			paintNodesGl(gl2, tree.getRootBranch());
 		}
 	}
 	
@@ -209,7 +209,7 @@ public class NodePainter1 {
 	/**
 	 * NodeÇÃï`âÊÅiGLî≈Åj
 	 */
-	void paintNodesGl(GL gl, Branch branch) {
+	void paintNodesGl(GL2 gl2, Branch branch) {
 		Node node;
 		
 		if(branch == tree.getRootBranch()) {
@@ -242,17 +242,17 @@ public class NodePainter1 {
 			
 			if(isLod == true) {
 				if (cbranch != null && level < nodelevel - 1)
-					paintNodesGl(gl, cbranch);
+					paintNodesGl(gl2, cbranch);
 				
 				if ((cbranch != null && level == nodelevel - 1)
 						|| (cbranch == null && level <= nodelevel - 1))
-					paintOneNode(node, null, gl);
+					paintOneNode(node, null, gl2);
 			}
 			else {
 				if (cbranch != null)
-					paintNodesGl(gl, cbranch);
+					paintNodesGl(gl2, cbranch);
 				else
-					paintOneNode(node, null, gl);
+					paintOneNode(node, null, gl2);
 			}
 		}
 	}
@@ -261,7 +261,7 @@ public class NodePainter1 {
 	/**
 	 * 1å¬ÇÃNodeÇï`âÊÇ∑ÇÈ
 	 */
-	void paintOneNode(Node node, Graphics2D g2, GL gl) {
+	void paintOneNode(Node node, Graphics2D g2, GL2 gl2) {
 		double z, x1, x2, y1, y2;
 		
 		
@@ -313,7 +313,7 @@ public class NodePainter1 {
 				if(g2 != null)
 					paintOneNodeFaceAwt(g2, color, 1.0);
 				else
-					paintOneNodeFaceGl(gl, color, 1.0);
+					paintOneNodeFaceGl(gl2, color, 1.0);
 				
 			}
 			if (n >= numdim) break;

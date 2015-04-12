@@ -5,11 +5,14 @@ import java.nio.DoubleBuffer;
 import java.nio.IntBuffer;
 
 import javax.media.opengl.GL;
+import javax.media.opengl.GL2;
 import javax.media.opengl.GLAutoDrawable;
-import javax.media.opengl.GLCanvas;
+import javax.media.opengl.awt.GLCanvas;
 import javax.media.opengl.GLEventListener;
 import javax.media.opengl.glu.GLU;
-import com.sun.opengl.util.GLUT;
+import javax.media.opengl.glu.gl2.GLUgl2;
+
+import com.jogamp.opengl.util.gl2.GLUT;
 
 import org.heiankyoview2.core.tree.*;
 import org.heiankyoview2.core.table.*;
@@ -19,7 +22,9 @@ import org.heiankyoview2.core.gldraw.*;
 public class GlDefaultDrawer implements GLEventListener, org.heiankyoview2.core.gldraw.Drawer {
 
 	private GL gl;
+	private GL2 gl2;
 	private GLU glu;
+	private GLUgl2 glu2;
 	private GLUT glut;
 	GLAutoDrawable glAD;
 
@@ -213,18 +218,19 @@ public class GlDefaultDrawer implements GLEventListener, org.heiankyoview2.core.
 	 */
 	public void init(GLAutoDrawable drawable) {
 		gl = drawable.getGL();
+		gl2= drawable.getGL().getGL2();
 		glu = new GLU();
+		glu2 = new GLUgl2();
 		glut = new GLUT();
 		this.glAD = drawable;
-	
-		gl.glEnable(GL.GL_RGBA);
-		gl.glEnable(GL.GL_DEPTH);
-		gl.glEnable(GL.GL_DOUBLE);
-		gl.glEnable(GL.GL_DEPTH_TEST);
-		gl.glEnable(GL.GL_NORMALIZE);
-		gl.glLightModeli(GL.GL_LIGHT_MODEL_TWO_SIDE, GL.GL_TRUE);
-		gl.glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
-
+		
+		gl2.glEnable(GL2.GL_RGBA);
+		gl2.glEnable(GL2.GL_DEPTH);
+		gl2.glEnable(GL2.GL_DOUBLE);
+		gl2.glEnable(GL2.GL_DEPTH_TEST);
+		gl2.glEnable(GL2.GL_NORMALIZE);
+		gl2.glLightModeli(GL2.GL_LIGHT_MODEL_TWO_SIDE, GL.GL_TRUE);
+		gl2.glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
 	}
 	
 	
@@ -238,16 +244,16 @@ public class GlDefaultDrawer implements GLEventListener, org.heiankyoview2.core.
 		windowHeight = height;
 	
 		// ビューポートの定義
-		gl.glViewport(0, 0, width, height);
+		gl2.glViewport(0, 0, width, height);
 		
 		// 投影変換行列の定義
-		gl.glMatrixMode(GL.GL_PROJECTION);
-		gl.glLoadIdentity();
-		gl.glOrtho(-width / 200.0, width / 200.0, 
+		gl2.glMatrixMode(GL2.GL_PROJECTION);
+		gl2.glLoadIdentity();
+		gl2.glOrtho(-width / 200.0, width / 200.0, 
 				  -height / 200.0, height / 200.0,
 				  -1000.0, 1000.0);
 
-		gl.glMatrixMode(GL.GL_MODELVIEW);
+		gl2.glMatrixMode(GL2.GL_MODELVIEW);
 		
 	}
 	
@@ -263,7 +269,7 @@ public class GlDefaultDrawer implements GLEventListener, org.heiankyoview2.core.
 		if(tree == null) return;
 		
 		// 視点位置を決定
-		gl.glLoadIdentity();
+		gl2.glLoadIdentity();
 		glu.gluLookAt( centerX, centerY, (centerZ + 20.0),
 		           centerX, centerY, centerZ,
 		           0.0, 1.0, 0.0 );
@@ -277,31 +283,31 @@ public class GlDefaultDrawer implements GLEventListener, org.heiankyoview2.core.
 		//System.out.println(scale + "," + trans.getViewScale());
 		
 		// 行列をプッシュ
-		gl.glPushMatrix();
+		gl2.glPushMatrix();
 		
 		// いったん原点方向に物体を動かす
-		gl.glTranslated(centerX, centerY, centerZ);
+		gl2.glTranslated(centerX, centerY, centerZ);
 		
 		// マウスの移動量に応じて回転
-		gl.glRotated(angleX, 1.0, 0.0, 0.0);
-		gl.glRotated(angleY, 0.0, 1.0, 0.0); 
+		gl2.glRotated(angleX, 1.0, 0.0, 0.0);
+		gl2.glRotated(angleY, 0.0, 1.0, 0.0); 
 
 		// マウスの移動量に応じて拡大縮小
-		gl.glScaled(scale, scale, 1.0);
+		gl2.glScaled(scale, scale, 1.0);
 		
 		// マウスの移動量に応じて移動
-		gl.glTranslated((shiftX * 50.0), (shiftY * 50.0), 0.0);
+		gl2.glTranslated((shiftX * 50.0), (shiftY * 50.0), 0.0);
 		
 		// 物体をもとの位置に戻す
-		gl.glTranslated(-centerX, -centerY, -centerZ);
+		gl2.glTranslated(-centerX, -centerY, -centerZ);
 		
 		// 変換行列とビューポートの値を保存する
-		gl.glGetIntegerv(GL.GL_VIEWPORT, viewport);
-		gl.glGetDoublev(GL.GL_MODELVIEW_MATRIX, modelview);
-		gl.glGetDoublev(GL.GL_PROJECTION_MATRIX, projection);
+		gl2.glGetIntegerv(GL.GL_VIEWPORT, viewport);
+		gl2.glGetDoublev(GL2.GL_MODELVIEW_MATRIX, modelview);
+		gl2.glGetDoublev(GL2.GL_PROJECTION_MATRIX, projection);
 
 		// 枠を描画
-		gl.glDisable(GL.GL_LIGHTING);
+		gl2.glDisable(GL2.GL_LIGHTING);
 		Branch branch = tree.getRootBranch();
 		drawBorders(branch);
 		
@@ -309,17 +315,17 @@ public class GlDefaultDrawer implements GLEventListener, org.heiankyoview2.core.
 		//gl.glEnable(GL.GL_LIGHTING);
 		//gl.glEnable(GL.GL_LIGHT0);
 		//gl.glLightfv(GL.GL_LIGHT0, GL.GL_AMBIENT_AND_DIFFUSE, lightcolor, 0);
-		if(paintType == 1) snp1.paintNodes(null, gl, trans.getViewScale());
-		if(paintType == 2) snp2.paintNodes(null, gl, trans.getViewScale());
+		if(paintType == 1) snp1.paintNodes(null, gl2, trans.getViewScale());
+		if(paintType == 2) snp2.paintNodes(null, gl2, trans.getViewScale());
 		
 		// 文字を描画
-		gl.glDisable(GL.GL_LIGHTING);
-		gl.glDisable(GL.GL_DEPTH_TEST);
+		gl2.glDisable(GL2.GL_LIGHTING);
+		gl2.glDisable(GL2.GL_DEPTH_TEST);
 		writeAnnotation(branch);
-		gl.glEnable(GL.GL_DEPTH_TEST);
+		gl2.glEnable(GL2.GL_DEPTH_TEST);
 		
 		// 行列をポップ
-		gl.glPopMatrix();
+		gl2.glPopMatrix();
 		
 	}
 
@@ -349,13 +355,13 @@ public class GlDefaultDrawer implements GLEventListener, org.heiankyoview2.core.
 		double z = parentNode.getZ();
 			
 		// 枠を描く
-		gl.glColor3d(0.5, 0.5, 0.5);
-		gl.glBegin(GL.GL_LINE_LOOP);
-		gl.glVertex3d(xmin, ymin, z);
-		gl.glVertex3d(xmax, ymin, z);
-		gl.glVertex3d(xmax, ymax, z);
-		gl.glVertex3d(xmin, ymax, z);
-		gl.glEnd();
+		gl2.glColor3d(0.5, 0.5, 0.5);
+		gl2.glBegin(GL2.GL_LINE_LOOP);
+		gl2.glVertex3d(xmin, ymin, z);
+		gl2.glVertex3d(xmax, ymin, z);
+		gl2.glVertex3d(xmax, ymax, z);
+		gl2.glVertex3d(xmin, ymax, z);
+		gl2.glEnd();
 		
 		// LOD適用時には、一定以上の深さの枠は表示しない
 		if(paintType == 2 && isLod == true) {
@@ -420,10 +426,10 @@ public class GlDefaultDrawer implements GLEventListener, org.heiankyoview2.core.
 		double z = parentNode.getZ();
 		
 		// 枠との内外判定
-		glu.gluProject(xmax, ymax, z, modelview, projection, viewport, p1);
-		glu.gluProject(xmax, ymin, z, modelview, projection, viewport, p2);
-		glu.gluProject(xmin, ymin, z, modelview, projection, viewport, p3);
-		glu.gluProject(xmin, ymax, z, modelview, projection, viewport, p4);
+		glu2.gluProject(xmax, ymax, z, modelview, projection, viewport, p1);
+		glu2.gluProject(xmax, ymin, z, modelview, projection, viewport, p2);
+		glu2.gluProject(xmin, ymin, z, modelview, projection, viewport, p3);
+		glu2.gluProject(xmin, ymax, z, modelview, projection, viewport, p4);
 		flag = du.isInside(px, py, p1, p2, p3, p4);
 		if (flag == true) {
 			pickedNode = parentNode;
@@ -471,10 +477,10 @@ public class GlDefaultDrawer implements GLEventListener, org.heiankyoview2.core.
 			zmax += (height * trans.getTreeSize() * 0.02);
 			
 			// 1個目の長方形との内外判定
-			glu.gluProject(xmax, ymax, zmax, modelview, projection, viewport, p1);
-			glu.gluProject(xmax, ymin, zmax, modelview, projection, viewport, p2);
-			glu.gluProject(xmin, ymin, zmax, modelview, projection, viewport, p3);
-			glu.gluProject(xmin, ymax, zmax, modelview, projection, viewport, p4);
+			glu2.gluProject(xmax, ymax, zmax, modelview, projection, viewport, p1);
+			glu2.gluProject(xmax, ymin, zmax, modelview, projection, viewport, p2);
+			glu2.gluProject(xmin, ymin, zmax, modelview, projection, viewport, p3);
+			glu2.gluProject(xmin, ymax, zmax, modelview, projection, viewport, p4);
 			flag = du.isInside(px, py, p1, p2, p3, p4);
 			
 			/*
@@ -493,10 +499,10 @@ public class GlDefaultDrawer implements GLEventListener, org.heiankyoview2.core.
 			}
 				
 			// 2個目の長方形との内外判定
-			glu.gluProject(xmax, ymax, zmin, modelview, projection, viewport, p1);
-			glu.gluProject(xmax, ymin, zmin, modelview, projection, viewport, p2);
-			glu.gluProject(xmin, ymin, zmin, modelview, projection, viewport, p3);
-			glu.gluProject(xmin, ymax, zmin, modelview, projection, viewport, p4);
+			glu2.gluProject(xmax, ymax, zmin, modelview, projection, viewport, p1);
+			glu2.gluProject(xmax, ymin, zmin, modelview, projection, viewport, p2);
+			glu2.gluProject(xmin, ymin, zmin, modelview, projection, viewport, p3);
+			glu2.gluProject(xmin, ymax, zmin, modelview, projection, viewport, p4);
 			flag = du.isInside(px, py, p1, p2, p3, p4);
 			if (flag == true) {
 				double zave = (p1.get(2) + p2.get(2) + p3.get(2) + p4.get(2)) * 0.25;
@@ -507,10 +513,10 @@ public class GlDefaultDrawer implements GLEventListener, org.heiankyoview2.core.
 
 
 			// 3個目の長方形との内外判定
-			glu.gluProject(xmax, ymax, zmax, modelview, projection, viewport, p1);
-			glu.gluProject(xmax, ymax, zmin, modelview, projection, viewport, p2);
-			glu.gluProject(xmin, ymax, zmin, modelview, projection, viewport, p3);
-			glu.gluProject(xmin, ymax, zmax, modelview, projection, viewport, p4);
+			glu2.gluProject(xmax, ymax, zmax, modelview, projection, viewport, p1);
+			glu2.gluProject(xmax, ymax, zmin, modelview, projection, viewport, p2);
+			glu2.gluProject(xmin, ymax, zmin, modelview, projection, viewport, p3);
+			glu2.gluProject(xmin, ymax, zmax, modelview, projection, viewport, p4);
 			flag = du.isInside(px, py, p1, p2, p3, p4);
 			if (flag == true) {
 				double zave = (p1.get(2) + p2.get(2) + p3.get(2) + p4.get(2)) * 0.25;
@@ -520,10 +526,10 @@ public class GlDefaultDrawer implements GLEventListener, org.heiankyoview2.core.
 			}
 			
 			// 4個目の長方形との内外判定
-			glu.gluProject(xmax, ymin, zmax, modelview, projection, viewport, p1);
-			glu.gluProject(xmax, ymin, zmin, modelview, projection, viewport, p2);
-			glu.gluProject(xmin, ymin, zmin, modelview, projection, viewport, p3);
-			glu.gluProject(xmin, ymin, zmax, modelview, projection, viewport, p4);
+			glu2.gluProject(xmax, ymin, zmax, modelview, projection, viewport, p1);
+			glu2.gluProject(xmax, ymin, zmin, modelview, projection, viewport, p2);
+			glu2.gluProject(xmin, ymin, zmin, modelview, projection, viewport, p3);
+			glu2.gluProject(xmin, ymin, zmax, modelview, projection, viewport, p4);
 			flag = du.isInside(px, py, p1, p2, p3, p4);
 			if (flag == true) {
 				double zave = (p1.get(2) + p2.get(2) + p3.get(2) + p4.get(2)) * 0.25;
@@ -533,10 +539,10 @@ public class GlDefaultDrawer implements GLEventListener, org.heiankyoview2.core.
 			}
 			
 			// 5個目の長方形との内外判定
-			glu.gluProject(xmax, ymin, zmax, modelview, projection, viewport, p1);
-			glu.gluProject(xmax, ymin, zmin, modelview, projection, viewport, p2);
-			glu.gluProject(xmax, ymax, zmin, modelview, projection, viewport, p3);
-			glu.gluProject(xmax, ymax, zmax, modelview, projection, viewport, p4);
+			glu2.gluProject(xmax, ymin, zmax, modelview, projection, viewport, p1);
+			glu2.gluProject(xmax, ymin, zmin, modelview, projection, viewport, p2);
+			glu2.gluProject(xmax, ymax, zmin, modelview, projection, viewport, p3);
+			glu2.gluProject(xmax, ymax, zmax, modelview, projection, viewport, p4);
 			flag = du.isInside(px, py, p1, p2, p3, p4);
 			if (flag == true) {
 				double zave = (p1.get(2) + p2.get(2) + p3.get(2) + p4.get(2)) * 0.25;
@@ -546,10 +552,10 @@ public class GlDefaultDrawer implements GLEventListener, org.heiankyoview2.core.
 			}
 			
 			// 6個目の長方形との内外判定
-			glu.gluProject(xmin, ymin, zmax, modelview, projection, viewport, p1);
-			glu.gluProject(xmin, ymin, zmin, modelview, projection, viewport, p2);
-			glu.gluProject(xmin, ymax, zmin, modelview, projection, viewport, p3);
-			glu.gluProject(xmin, ymax, zmax, modelview, projection, viewport, p4);
+			glu2.gluProject(xmin, ymin, zmax, modelview, projection, viewport, p1);
+			glu2.gluProject(xmin, ymin, zmin, modelview, projection, viewport, p2);
+			glu2.gluProject(xmin, ymax, zmin, modelview, projection, viewport, p3);
+			glu2.gluProject(xmin, ymax, zmax, modelview, projection, viewport, p4);
 			flag = du.isInside(px, py, p1, p2, p3, p4);
 			if (flag == true) {
 				double zave = (p1.get(2) + p2.get(2) + p3.get(2) + p4.get(2)) * 0.25;
@@ -583,7 +589,7 @@ public class GlDefaultDrawer implements GLEventListener, org.heiankyoview2.core.
 		String word = tg.getNodeAttributeName(pickedNode, tg.getNameType());
 		if(word == null || word.length() <= 0)
 			return;
-        gl.glColor3d(1.0, 0.0, 1.0);
+        gl2.glColor3d(1.0, 0.0, 1.0);
 		writeOneString(p1, word);
 
 	}
@@ -595,7 +601,13 @@ public class GlDefaultDrawer implements GLEventListener, org.heiankyoview2.core.
 	 * @param color_id カラーテーブルID
 	 */
 	void writeOneString(DoubleBuffer pos, String word) {
-		gl.glRasterPos3d(pos.get(0), pos.get(1), pos.get(2));
+		gl2.glRasterPos3d(pos.get(0), pos.get(1), pos.get(2));
 		glut.glutBitmapString(GLUT.BITMAP_HELVETICA_18, word);
+	}
+	
+	@Override
+	public void dispose(GLAutoDrawable arg0) {
+		// TODO Auto-generated method stub
+		
 	}
 }

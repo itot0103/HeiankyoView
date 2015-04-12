@@ -10,7 +10,7 @@ import java.util.EventListener;
 
 import javax.imageio.ImageIO;
 import javax.media.opengl.GLAutoDrawable;
-import javax.media.opengl.GLCanvas;
+import javax.media.opengl.awt.GLCanvas;
 import javax.swing.JPanel;
 
 import org.heiankyoview2.core.tree.Branch;

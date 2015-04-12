@@ -492,8 +492,8 @@ public class CatDrawer implements GLEventListener, org.heiankyoview2.core.gldraw
 		}
 		
 		// テクスチャ座標値の設定
-		texture.enable();
-        texture.bind();
+		texture.enable(gl2);
+        texture.bind(gl2);
 		gl2.glBegin(GL2.GL_QUADS);
 		gl2.glTexCoord2d(0.0, 1.0);
 		gl2.glVertex3d(xmin, ymin, z);
@@ -504,7 +504,7 @@ public class CatDrawer implements GLEventListener, org.heiankyoview2.core.gldraw
 		gl2.glTexCoord2d(0.0, 0.0);
 		gl2.glVertex3d(xmin, ymax, z);
 		gl2.glEnd();
-		texture.disable();
+		texture.disable(gl2);
 		
 		// テクスチャ画像データの登録の終了
 		gl.glDisable(GL.GL_TEXTURE_2D);
