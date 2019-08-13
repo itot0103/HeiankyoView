@@ -23,8 +23,8 @@ public class DefaultCanvas extends JPanel implements Canvas {
 
 	/* var */
 	Transformer trans;
-	//DefaultDrawer drawer;
-	NodeLinkDrawer drawer;
+	DefaultDrawer drawer;
+	//NodeLinkDrawer drawer;
 	GLCanvas glc;
 	BufferedImage image = null;
 	
@@ -38,10 +38,10 @@ public class DefaultCanvas extends JPanel implements Canvas {
 
 	/**
 	 * Constructor
-	 * @param width ‰æ–Ê‚Ì•
-	 * @param height ‰æ–Ê‚Ì‚‚³
-	 * @param foregroundColor ‰æ–Ê‚Ì‘O–ÊF
-	 * @param backgroundColor ‰æ–Ê‚Ì”wŒiF
+	 * @param width ç”»é¢ã®å¹…
+	 * @param height ç”»é¢ã®é«˜ã•
+	 * @param foregroundColor ç”»é¢ã®å‰é¢è‰²
+	 * @param backgroundColor ç”»é¢ã®èƒŒæ™¯è‰²
 	 */
 	public DefaultCanvas(
 		int width,
@@ -56,8 +56,8 @@ public class DefaultCanvas extends JPanel implements Canvas {
 		dragMode = 1;
 		
 		glc = new GLCanvas();
-		//drawer = new DefaultDrawer(width, height, glc);
-		drawer = new NodeLinkDrawer(width, height, glc);
+		drawer = new DefaultDrawer(width, height, glc);
+		//drawer = new NodeLinkDrawer(width, height, glc);
 		glc.addGLEventListener(drawer);
 		trans = new Transformer();
 		trans.viewReset();
@@ -66,8 +66,8 @@ public class DefaultCanvas extends JPanel implements Canvas {
 
 	/**
 	 * Constructor
-	 * @param width ‰æ–Ê‚Ì•
-	 * @param height ‰æ–Ê‚Ì‚‚³
+	 * @param width ç”»é¢ã®å¹…
+	 * @param height ç”»é¢ã®é«˜ã•
 	 */
 	public DefaultCanvas(int width, int height) {
 		this(width, height, Color.white, Color.black);
@@ -85,7 +85,7 @@ public class DefaultCanvas extends JPanel implements Canvas {
 	}
 
 	/**
-	 * Drawer ‚ğƒZƒbƒg‚·‚é
+	 * Drawer ã‚’ã‚»ãƒƒãƒˆã™ã‚‹
 	 * @param d Drawer
 	 */
 	/*
@@ -95,7 +95,7 @@ public class DefaultCanvas extends JPanel implements Canvas {
 	*/
 	
 	/**
-	 * Transformer ‚ğƒZƒbƒg‚·‚é
+	 * Transformer ã‚’ã‚»ãƒƒãƒˆã™ã‚‹
 	 * @param t Transformer
 	 */
 	public void setTransformer(Transformer t) {
@@ -103,7 +103,7 @@ public class DefaultCanvas extends JPanel implements Canvas {
 	}
 
 	/**
-	 * Tree‚ğƒZƒbƒg‚·‚é
+	 * Treeã‚’ã‚»ãƒƒãƒˆã™ã‚‹
 	 * @param tree Tree
 	 */
 	public void setTree(Tree tree) {
@@ -117,7 +117,7 @@ public class DefaultCanvas extends JPanel implements Canvas {
 
 	
 	/**
-	 * Tree‚ğƒQƒbƒg‚·‚é
+	 * Treeã‚’ã‚²ãƒƒãƒˆã™ã‚‹
 	 * @return
 	 */
 	public Tree getTree() {
@@ -125,7 +125,7 @@ public class DefaultCanvas extends JPanel implements Canvas {
 	}
 	
 	/**
-	 * Ä•`‰æ
+	 * å†æç”»
 	 */
 	public void display() {
 		GLAutoDrawable glAD = drawer.getGLAutoDrawable();
@@ -144,7 +144,7 @@ public class DefaultCanvas extends JPanel implements Canvas {
 	
 	
 	/**
-	 * ‰æ‘œƒtƒ@ƒCƒ‹‚Éo—Í‚·‚é
+	 * ç”»åƒãƒ•ã‚¡ã‚¤ãƒ«ã«å‡ºåŠ›ã™ã‚‹
 	 */
 	public void saveImageFile(File file) {
 
@@ -164,9 +164,9 @@ public class DefaultCanvas extends JPanel implements Canvas {
 	}
 	
 	/**
-	 * ‘O–ÊF‚Æ”wŒiF‚ğƒZƒbƒg‚·‚é
-	 * @param foregroundColor ‘O–ÊF
-	 * @param backgroundColor ”wŒiF
+	 * å‰é¢è‰²ã¨èƒŒæ™¯è‰²ã‚’ã‚»ãƒƒãƒˆã™ã‚‹
+	 * @param foregroundColor å‰é¢è‰²
+	 * @param backgroundColor èƒŒæ™¯è‰²
 	 */
 	public void setColors(Color foregroundColor, Color backgroundColor) {
 		setForeground(foregroundColor);
@@ -175,7 +175,7 @@ public class DefaultCanvas extends JPanel implements Canvas {
 
 
 	/**
-	 * ƒ}ƒEƒXƒ{ƒ^ƒ“‚ª‰Ÿ‚³‚ê‚½ƒ‚[ƒh‚ğİ’è‚·‚é
+	 * ãƒã‚¦ã‚¹ãƒœã‚¿ãƒ³ãŒæŠ¼ã•ã‚ŒãŸãƒ¢ãƒ¼ãƒ‰ã‚’è¨­å®šã™ã‚‹
 	 */
 	public void mousePressed() {
 		isMousePressed = true;
@@ -184,7 +184,7 @@ public class DefaultCanvas extends JPanel implements Canvas {
 	}
 
 	/**
-	 * ƒ}ƒEƒXƒ{ƒ^ƒ“‚ª—£‚³‚ê‚½ƒ‚[ƒh‚ğİ’è‚·‚é
+	 * ãƒã‚¦ã‚¹ãƒœã‚¿ãƒ³ãŒé›¢ã•ã‚ŒãŸãƒ¢ãƒ¼ãƒ‰ã‚’è¨­å®šã™ã‚‹
 	 */
 	public void mouseReleased() {
 		isMousePressed = false;
@@ -192,11 +192,11 @@ public class DefaultCanvas extends JPanel implements Canvas {
 	}
 
 	/**
-	 * ƒ}ƒEƒX‚ªƒhƒ‰ƒbƒO‚³‚ê‚½ƒ‚[ƒh‚ğİ’è‚·‚é
-	 * @param xStart ’¼‘O‚ÌXÀ•W’l
-	 * @param xNow Œ»İ‚ÌXÀ•W’l
-	 * @param yStart ’¼‘O‚ÌYÀ•W’l
-	 * @param yNow Œ»İ‚ÌYÀ•W’l
+	 * ãƒã‚¦ã‚¹ãŒãƒ‰ãƒ©ãƒƒã‚°ã•ã‚ŒãŸãƒ¢ãƒ¼ãƒ‰ã‚’è¨­å®šã™ã‚‹
+	 * @param xStart ç›´å‰ã®Xåº§æ¨™å€¤
+	 * @param xNow ç¾åœ¨ã®Xåº§æ¨™å€¤
+	 * @param yStart ç›´å‰ã®Yåº§æ¨™å€¤
+	 * @param yNow ç¾åœ¨ã®Yåº§æ¨™å€¤
 	 */
 	public void drag(int xStart, int xNow, int yStart, int yNow) {
 		int x = xNow - xStart;
@@ -207,8 +207,8 @@ public class DefaultCanvas extends JPanel implements Canvas {
 
 
 	/**
-	 * ü‚Ì‘¾‚³‚ğƒZƒbƒg‚·‚é
-	 * @param linewidth ü‚Ì‘¾‚³i‰æ‘f”j
+	 * ç·šã®å¤ªã•ã‚’ã‚»ãƒƒãƒˆã™ã‚‹
+	 * @param linewidth ç·šã®å¤ªã•ï¼ˆç”»ç´ æ•°ï¼‰
 	 */
 	public void setLinewidth(double linewidth) {
 		this.linewidth = linewidth;
@@ -217,10 +217,10 @@ public class DefaultCanvas extends JPanel implements Canvas {
 
 
 	/**
-	 * ”wŒiF‚ğr,g,b‚Ì3’l‚Åİ’è‚·‚é
-	 * @param r Ôi0`1j
-	 * @param g —Îi0`1j
-	 * @param b Âi0`1j
+	 * èƒŒæ™¯è‰²ã‚’r,g,bã®3å€¤ã§è¨­å®šã™ã‚‹
+	 * @param r èµ¤ï¼ˆ0ï½1ï¼‰
+	 * @param g ç·‘ï¼ˆ0ï½1ï¼‰
+	 * @param b é’ï¼ˆ0ï½1ï¼‰
 	 */
 	
 	public void setBackground(double r, double g, double b) {
@@ -235,7 +235,7 @@ public class DefaultCanvas extends JPanel implements Canvas {
 	
 	
 	/**
-	 * ƒ}ƒEƒXƒhƒ‰ƒbƒO‚Ìƒ‚[ƒh‚ğİ’è‚·‚é
+	 * ãƒã‚¦ã‚¹ãƒ‰ãƒ©ãƒƒã‚°ã®ãƒ¢ãƒ¼ãƒ‰ã‚’è¨­å®šã™ã‚‹
 	 * @param dragMode (1:ZOOM  2:SHIFT  3:ROTATE)
 	 */
 	public void setDragMode(int newMode) {
@@ -243,7 +243,7 @@ public class DefaultCanvas extends JPanel implements Canvas {
 	}
 
 	/**
-	 * ƒ}ƒEƒXƒhƒ‰ƒbƒO‚Ìƒ‚[ƒh‚ğ“¾‚é
+	 * ãƒã‚¦ã‚¹ãƒ‰ãƒ©ãƒƒã‚°ã®ãƒ¢ãƒ¼ãƒ‰ã‚’å¾—ã‚‹
 	 * @return dragMode (1:ZOOM  2:SHIFT  3:ROTATE)
 	 */
 	public int getDragMode() {
@@ -252,7 +252,7 @@ public class DefaultCanvas extends JPanel implements Canvas {
 	
 	
 	/**
-	 * ƒ}ƒEƒXƒ{ƒ^ƒ“‚ª‰Ÿ‚³‚ê‚½ƒ‚[ƒh‚ğİ’è‚·‚é
+	 * ãƒã‚¦ã‚¹ãƒœã‚¿ãƒ³ãŒæŠ¼ã•ã‚ŒãŸãƒ¢ãƒ¼ãƒ‰ã‚’è¨­å®šã™ã‚‹
 	 */
 	public void mousePressed(int x, int y) {
 		isMousePressed = true;
@@ -261,39 +261,39 @@ public class DefaultCanvas extends JPanel implements Canvas {
 	}
 	
 	/**
-	 * ‰æ–Ê•\¦‚ÌŠg‘åk¬E‰ñ“]E•½sˆÚ“®‚ÌŠeó‘Ô‚ğƒŠƒZƒbƒg‚·‚é
+	 * ç”»é¢è¡¨ç¤ºã®æ‹¡å¤§ç¸®å°ãƒ»å›è»¢ãƒ»å¹³è¡Œç§»å‹•ã®å„çŠ¶æ…‹ã‚’ãƒªã‚»ãƒƒãƒˆã™ã‚‹
 	 */
 	public void viewReset() {
 		trans.viewReset();
 	}
 
 	/**
-	 * ‰æ–Êã‚Ì“Á’è•¨‘Ì‚ğƒsƒbƒN‚·‚é
-	 * @param px ƒsƒbƒN‚µ‚½•¨‘Ì‚Ì‰æ–Êã‚ÌXÀ•W’l
-	 * @param py ƒsƒbƒN‚µ‚½•¨‘Ì‚Ì‰æ–Êã‚ÌYÀ•W’l
+	 * ç”»é¢ä¸Šã®ç‰¹å®šç‰©ä½“ã‚’ãƒ”ãƒƒã‚¯ã™ã‚‹
+	 * @param px ãƒ”ãƒƒã‚¯ã—ãŸç‰©ä½“ã®ç”»é¢ä¸Šã®Xåº§æ¨™å€¤
+	 * @param py ãƒ”ãƒƒã‚¯ã—ãŸç‰©ä½“ã®ç”»é¢ä¸Šã®Yåº§æ¨™å€¤
 	 */
 	public void pickObjects(int px, int py) {
 		drawer.pickObjects(px, py);
 	}
 	
 	/**
-	 * ƒsƒbƒN‚³‚ê‚½ƒm[ƒh‚ğ“Á’è‚·‚é
-	 * @return ƒsƒbƒN‚³‚ê‚½Node
+	 * ãƒ”ãƒƒã‚¯ã•ã‚ŒãŸãƒãƒ¼ãƒ‰ã‚’ç‰¹å®šã™ã‚‹
+	 * @return ãƒ”ãƒƒã‚¯ã•ã‚ŒãŸNode
 	 */
 	public Node getPickedNode() {
 		return drawer.getPickedNode();
 	}
 
 	/**
-	 * ƒAƒmƒe[ƒVƒ‡ƒ“•\¦‚ÌON/OFF§Œä
-	 * @param flag •\¦‚·‚é‚È‚çtrue, •\¦‚µ‚È‚¢‚È‚çfalse
+	 * ã‚¢ãƒãƒ†ãƒ¼ã‚·ãƒ§ãƒ³è¡¨ç¤ºã®ON/OFFåˆ¶å¾¡
+	 * @param flag è¡¨ç¤ºã™ã‚‹ãªã‚‰true, è¡¨ç¤ºã—ãªã„ãªã‚‰false
 	 */
 	public void setAnnotationSwitch(boolean flag) {
 		
 	}
 	
 	/**
-	 * FŒvZƒNƒ‰ƒX‚ğİ’è‚·‚é
+	 * è‰²è¨ˆç®—ã‚¯ãƒ©ã‚¹ã‚’è¨­å®šã™ã‚‹
 	 */
 	public void setColorCalculator(ColorCalculator cc) {
 		drawer.setColorCalculator(cc);
@@ -301,7 +301,7 @@ public class DefaultCanvas extends JPanel implements Canvas {
 	
 	
 	/**
-	 * ƒ}ƒEƒXƒJ[ƒ\ƒ‹‚ÌƒCƒxƒ“ƒg‚ğŒŸ’m‚·‚éİ’è‚ğs‚¤
+	 * ãƒã‚¦ã‚¹ã‚«ãƒ¼ã‚½ãƒ«ã®ã‚¤ãƒ™ãƒ³ãƒˆã‚’æ¤œçŸ¥ã™ã‚‹è¨­å®šã‚’è¡Œã†
 	 * @param eventListener EventListner
 	 */
 	public void addCursorListener(EventListener eventListener) {
